@@ -1,0 +1,3 @@
+<span ng-if="<?php echo $takenTimeAttributes?>" title="<?php if (isset($titleTakenTime)) : ?><?php echo $titleTakenTime; unset($titleTakenTime);?><?php else : ?><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Latência de informações')?><?php endif; ?>" class="d-none d-xl-inline badge me-1 float-end bg-light text-muted p-1 fs11 fw-light border">
+    {{<?php echo $takenTimeAttributes?>}} s.
+</span>
