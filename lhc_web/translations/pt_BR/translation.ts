@@ -3168,11 +3168,11 @@
     </message>
     <message>
       <source>Abandoned chats</source>
-      <translation type="unfinished"/>
+      <translation>Atendimentos abandonados</translation>
     </message>
     <message>
       <source>Dropped chat</source>
-      <translation type="unfinished"/>
+      <translation>Atendimentos encerrados inesperadamente</translation>
     </message>
     <message>
       <source>Nick</source>
@@ -3212,7 +3212,7 @@
     </message>
     <message>
       <source>Advanced search</source>
-      <translation type="unfinished"/>
+      <translation>Busca avançada</translation>
     </message>
     <message>
       <source>Select hour</source>
@@ -3240,15 +3240,15 @@
     </message>
     <message>
       <source>Not Voted</source>
-      <translation>Não votado</translation>
+      <translation>Sem avaliação</translation>
     </message>
     <message>
       <source>Up Voted</source>
-      <translation>Votou positivo</translation>
+      <translation>Avaliação positiva</translation>
     </message>
     <message>
       <source>Down vote</source>
-      <translation>Voto negativo</translation>
+      <translation>Avaliação negativa</translation>
     </message>
     <message>
       <source>Chat status</source>
@@ -3296,7 +3296,7 @@
     </message>
     <message>
       <source>Bot</source>
-      <translation>Bot</translation>
+      <translation>Robô</translation>
     </message>
     <message>
       <source>Channel</source>
@@ -3340,43 +3340,43 @@
     </message>
     <message>
       <source>Has unread messages</source>
-      <translation>Possui mensagens não lidas</translation>
+      <translation>Atendimentos com mensagens não lidas</translation>
     </message>
     <message>
       <source>Unanswered chat</source>
-      <translation>Bate-papo não respondido</translation>
+      <translation>Atendimentos sem resposta</translation>
     </message>
     <message>
       <source>Anonymised</source>
-      <translation>Anonimizado</translation>
+      <translation>Atendimentos anônimos</translation>
     </message>
     <message>
       <source>Chats without an operator</source>
-      <translation>Conversas sem Operador</translation>
+      <translation>Atendimentos sem analista</translation>
     </message>
     <message>
       <source>Chats with an operator</source>
-      <translation>Conversar com um Operador.</translation>
+      <translation>Atendimentos com analista</translation>
     </message>
     <message>
       <source>Chats which had a bot</source>
-      <translation>Bate-papos com bot</translation>
+      <translation>Atendimentos automatizados</translation>
     </message>
     <message>
       <source>Chats which did not had a bot</source>
-      <translation>Bate-papos que não tinham bot</translation>
+      <translation>Atendimentos não automatizados</translation>
     </message>
     <message>
       <source>Proactive chat</source>
-      <translation type="unfinished"/>
+      <translation>Atendimento proativo</translation>
     </message>
     <message>
       <source>Not automatic invitation</source>
-      <translation type="unfinished"/>
+      <translation>Sem convite automatizado</translation>
     </message>
     <message>
       <source>Transfer happened</source>
-      <translation type="unfinished"/>
+      <translation>Atendimentos transferidos</translation>
     </message>
     <message>
       <source>Print</source>
@@ -3400,7 +3400,7 @@
     </message>
     <message>
       <source>Reset</source>
-      <translation type="unfinished"/>
+      <translation>Redefinir</translation>
     </message>
     <message>
       <source>Choose department group</source>
@@ -3408,7 +3408,7 @@
     </message>
     <message>
       <source>Choose status</source>
-      <translation type="unfinished"/>
+      <translation>Selecionar status</translation>
     </message>
     <message>
       <source>Pending chats</source>
@@ -3420,7 +3420,7 @@
     </message>
     <message>
       <source>Bot chats</source>
-      <translation>Chats automatizados</translation>
+      <translation>Atendimentos automatizados</translation>
     </message>
     <message>
       <source>Closed chats</source>
@@ -3776,7 +3776,7 @@
     </message>
     <message>
       <source>Abandoned chat</source>
-      <translation type="unfinished"/>
+      <translation>Atendimento abandonado</translation>
     </message>
     <message>
       <source>User Agent</source>
@@ -5126,7 +5126,7 @@
     </message>
     <message>
       <source>There are no online operators at the moment, please leave your message</source>
-      <translation>Não há operadores on-line no momento. Por gentileza, deixe a sua mensagem</translation>
+      <translation>Não há analistas disponíveis no momento. Por gentileza, deixe um recado</translation>
     </message>
     <message>
       <source>Me</source>
@@ -6434,7 +6434,7 @@
     </message>
     <message>
       <source>Bot</source>
-      <translation type="unfinished"/>
+      <translation>Robô</translation>
     </message>
     <message>
       <source>Proactive chat</source>
@@ -6778,7 +6778,7 @@
     </message>
     <message>
       <source>Hold removed!</source>
-      <translation>Mantenha removido!</translation>
+      <translation>Atendimento retornado para ativo</translation>
     </message>
     <message>
       <source>has accepted the chat!</source>
@@ -6794,19 +6794,19 @@
     </message>
     <message>
       <source>Visitor has already left a chat. Hold can not be applied.</source>
-      <translation type="unfinished"/>
+      <translation>Visitante indisponível</translation>
     </message>
     <message>
       <source>Visitor hold removed!</source>
-      <translation type="unfinished"/>
+      <translation>Você não está mais aguardando o visitante. Mensagens automáticas reabilitadas</translation>
     </message>
     <message>
       <source>Visitor hold added!</source>
-      <translation type="unfinished"/>
+      <translation>Você está aguardando mensagens do visitante</translation>
     </message>
     <message>
       <source>Hold added!</source>
-      <translation type="unfinished"/>
+      <translation>Atendimento colocado em espera</translation>
     </message>
     <message>
       <source>Form data not valid</source>
@@ -7976,7 +7976,7 @@
     </message>
     <message>
       <source>Choose what widgets you want to see</source>
-      <translation>Escolher quais widgets você deseja ver</translation>
+      <translation>Personalizar interface</translation>
     </message>
     <message>
       <source>Widgets</source>
@@ -7988,7 +7988,7 @@
     </message>
     <message>
       <source>Column number</source>
-      <translation>Número da coluna</translation>
+      <translation>Quantidade de colunas</translation>
     </message>
     <message>
       <source>Choose for what icons we should show notification.</source>
@@ -8044,7 +8044,7 @@
     </message>
     <message>
       <source>Online operators</source>
-      <translation>Atendentes online</translation>
+      <translation>Analistas online</translation>
     </message>
     <message>
       <source>Active chats</source>
@@ -8060,11 +8060,11 @@
     </message>
     <message>
       <source>Pending chats</source>
-      <translation>Bate-papos pendentes</translation>
+      <translation>Chats pendentes</translation>
     </message>
     <message>
       <source>Transfered chats</source>
-      <translation>Bate-papos transferidos</translation>
+      <translation>Atendimentos transferidos</translation>
     </message>
     <message>
       <source>Ongoing trigger alerts</source>
@@ -8072,7 +8072,7 @@
     </message>
     <message>
       <source>Group chats</source>
-      <translation>Chats de Grupo</translation>
+      <translation>Grupos</translation>
     </message>
     <message>
       <source>Unread chats</source>
@@ -8084,7 +8084,7 @@
     </message>
     <message>
       <source>My active and pending chats</source>
-      <translation>Meus bate-papo ativos e pendentes</translation>
+      <translation>Meus atendimentos ativos e pendentes</translation>
     </message>
     <message>
       <source>Bot chats</source>
@@ -8191,7 +8191,7 @@
     </message>
     <message>
       <source>Chat started at</source>
-      <translation type="unfinished"/>
+      <translation>Solicitado</translation>
     </message>
     <message>
       <source>Receive or send indicator and time since it happened</source>
@@ -9205,7 +9205,7 @@
     </message>
     <message>
       <source>Open chats</source>
-      <translation type="unfinished"/>
+      <translation>Abas de atendimento</translation>
     </message>
     <message>
       <source>Tabs/List in left column</source>
@@ -9242,11 +9242,11 @@
     </message>
     <message>
       <source>A support staff member has closed this chat</source>
-      <translation>Um membro da equipe de suporte encerrou este bate-papo</translation>
+      <translation>Atendimento encerrado por nossa equipe.</translation>
     </message>
     <message>
       <source>A support staff member has joined this chat</source>
-      <translation>Um membro da equipe se juntou a este bate-papo</translation>
+      <translation>Um membro da equipe se juntou a este atendimento</translation>
     </message>
     <message>
       <source>At this moment there are no logged in support staff members, but you can leave your messages</source>
@@ -9258,7 +9258,7 @@
     </message>
     <message>
       <source>You have been transferred. Please wait for operator to join a chat...</source>
-      <translation>Você foi transferido. Aguarde o operador se juntar ao bate-papo...</translation>
+      <translation>Você foi transferido. Aguarde o analista se juntar ao atendimento...</translation>
     </message>
     <message>
       <source>You are number</source>
@@ -9440,7 +9440,7 @@
     <name>chat/syncuser</name>
     <message>
       <source>Support staff member has closed this chat</source>
-      <translation>O Membro da equipe fechou este bate-papo</translation>
+      <translation>Atendimento encerrado.</translation>
     </message>
     <message>
       <source>Read more</source>
@@ -10334,7 +10334,7 @@
     </message>
     <message>
       <source>Unanswered chat</source>
-      <translation>Bate-papo não respondido</translation>
+      <translation>Atendimento sem resposta</translation>
     </message>
     <message>
       <source>Department</source>
@@ -11582,7 +11582,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>Bot</source>
-      <translation>Bot</translation>
+      <translation>Robô</translation>
     </message>
     <message>
       <source>Closed</source>
@@ -12796,7 +12796,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>Bot</source>
-      <translation>Bot</translation>
+      <translation>Robô</translation>
     </message>
     <message>
       <source>Track this event</source>
@@ -16367,7 +16367,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>If this e-mail exists we have send password remind link. Click the link in the email and You will be able to set a new password.</source>
-      <translation type="unfinished"/>
+      <translation>Se esse e-mail estiver cadastrado, enviaremos um link para redefinição de senha. Ao clicar no link no e-mail, você poderá configurar uma nova senha.</translation>
     </message>
   </context>
   <context>
@@ -16861,7 +16861,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>Bot</source>
-      <translation>Bot</translation>
+      <translation>Robô</translation>
     </message>
     <message>
       <source>Trigger</source>
@@ -17860,7 +17860,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>Bot</source>
-      <translation type="unfinished"/>
+      <translation>Robô</translation>
     </message>
     <message>
       <source>Chat actions</source>
@@ -18132,7 +18132,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>Bot</source>
-      <translation type="unfinished"/>
+      <translation>Robô</translation>
     </message>
     <message>
       <source>added subject</source>

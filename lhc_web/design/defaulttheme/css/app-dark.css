@@ -45,8 +45,22 @@
     --lhc-sidebar-li-border-bottom: #2e2e2e;
     --lhc-sidebar-wrapper-br: #63676b;
     --accent-color: #c4da53;
+    --hover-accent: #a4b745;
 
     --font-family: "Inter";
+}
+
+.btn-secondary {
+    --bs-btn-color: black !important;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    transition: 0.3s;
+}
+
+.col-form-label {
+    color: white !important;
 }
 
 body {
@@ -74,10 +88,6 @@ div.message-admin div.msg-body {
 
 .msg-date {
     color: #e7e7e7 !important;
-}
-
-.user-online-row td {
-    background-color: #1e1e1e !important;
 }
 
 .bg-warning {
@@ -190,17 +200,29 @@ a {
 }
 
 .btn-light {
-    --bs-btn-color: #ababab;
-    --bs-btn-active-color: #fff;
-    --bs-btn-hover-color: #fff;
+    --bs-btn-color: #ababab !important;
+    --bs-btn-active-color: #fff !important;
+    --bs-btn-hover-color: #fff !important;
+    transition: 0.3s;
+}
+
+.btn-light {
+	background-color: #3e3e3e !important;
+	border-color: #2e2e2e !important;
+}
+
+.btn-light:active {
+    background-color: #3e3e3e !important;
+    transition: 0.3s;
+    border-color: transparent !important;
 }
 
 .btn-block-department .btn-light:not(:disabled):not(.disabled).active,
 .btn-block-department.show>.btn-light.dropdown-toggle,
 .form-control.btn-light,
 .btn-block-department .btn-light {
-    background-color: #495057;
-    border: 1px solid #343a40;
+    background-color: #2e2e2e;
+    border: 1px solid transparent;
 }
 
 .dashboard-panels .form-control.btn-light,
@@ -212,8 +234,8 @@ a {
 .card-dashboard .btn-block-department .btn-light:not(:disabled):not(.disabled).active,
 .card-dashboard .btn-block-department.show>.btn-light.dropdown-toggle,
 .card-dashboard .btn-block-department .btn-light {
-    background-color: #393f44;
-    border: 1px solid #343a40;
+    background-color: #2e2e2e;
+    border: 1px solid transparent;
 }
 
 .btn-block-department label:hover {
@@ -319,7 +341,12 @@ div.message-row-typing div.msg-body {
 }
 
 .user-online-row td {
-    background-color: #314a2d;
+    transition: 0.3s;
+    background-color: #314a2d !important;
+}
+
+.user-online-row:hover td {
+    transition: 0.3s;
 }
 
 @media (max-width: 1200px) {

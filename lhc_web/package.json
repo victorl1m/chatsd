@@ -44,7 +44,8 @@
     "style-loader": "~1.2.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "webpack-cli": "^5.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -57,6 +58,7 @@
     "babel-loader": "^8.2.3",
     "babel-plugin-module-resolver": "^5.0.0",
     "end-of-stream": "^1.4.1",
+    "html-react-parser": "^4.0.0",
     "i18next": "^22.5.1",
     "i18next-xhr-backend": "^3.2.2",
     "react-i18next": "^12.3.1",

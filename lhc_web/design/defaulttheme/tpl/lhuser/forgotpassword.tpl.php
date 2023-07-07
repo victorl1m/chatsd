@@ -1,20 +1,20 @@
-<h1><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/forgotpassword','Password reminder');?></h1>
+<h1 class="login-title">Esqueci minha senha</h1>
 
 <?php if (isset($errors)) : ?>
 		<?php include(erLhcoreClassDesign::designtpl('lhkernel/validation_error.tpl.php'));?>
 <?php endif; ?>
 
-<form method="post" action="<?php echo erLhcoreClassDesign::baseurl('user/forgotpassword')?>">
+<form style="width: 100%;" method="post" action="<?php echo erLhcoreClassDesign::baseurl('user/forgotpassword')?>">
 
-<div class="form-group">
-    <label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/forgotpassword','E-mail')?>:</label>
-    <input type="text" class="form-control form-control-sm" name="Email" value="" />
+<div class="form-floating mb-3 mt-3">
+    <input id="email" type="text" autofocus="autofocus" class="startchat-input form-control form-control-sm" name="Email" aria-required="true" aria-label="Informe seu e-mail" />
+    <label for="email">E-mail</label>
 </div>
 
 <?php include(erLhcoreClassDesign::designtpl('lhkernel/csfr_token.tpl.php'));?>
 
 <?php include(erLhcoreClassDesign::designtpl('lhkernel/recaptcha.tpl.php'));?>
 
-<input type="submit" class="btn btn-primary btn-sm" value="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/forgotpassword','Restore password')?>" name="Forgotpassword" />
+<input type="submit" class="btn-forgot" value="Lembrete de senha" name="Forgotpassword" />
 
 </form>

@@ -61,21 +61,26 @@ $UserData = $currentUser->getUserData(true);
             ?>
             <!-- online status if has perm -->
             <?php if ($currentUser->hasAccessTo('lhchat', 'use') && $currentUser->hasAccessTo('lhuser', 'changeonlinestatus')): ?>
-                <a href="#" class="nav-link">
-                    <i style="color: var(--accent-color) !important; margin-bottom: 0.5rem;" id="online-offline-user" class="material-icons2 ng-cloak" ng-click="lhc.changeOnline()" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/user_settings', 'Change my status to online/offline'); ?>">
+                <a href="#">
+                    <i style="color: var(--accent-color) !important; margin: 0; margin-bottom: 6px !important;" id="online-offline-user" class="material-icons2 ng-cloak" ng-click="lhc.changeOnline()" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/user_settings', 'Change my status to online/offline'); ?>">
                         {{lhc.hideOnline == true ? 'flash_off' : 'flash_on'}}
                     </i>
                 </a>
             <?php endif; ?>
             <!-- left and right side actions container -->
             <div class="profile-actions">
-                <a href="#" class="nav-link" style="color: var(--accent-color) !important;" onclick="lhinst.disableNewChatSoundAdmin($(this));event.stopPropagation()" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/user_settings','Enable/Disable sound about new pending chats'); ?>">
-                    <i class="material-icons"><?php $soundNewChatEnabled == 0 ? print 'volume_off' : print 'volume_up'?></i>
+                <a href="#" style="color: var(--accent-color) !important; margin: 0" onclick="lhinst.disableNewChatSoundAdmin($(this));event.stopPropagation()" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/user_settings','Enable/Disable sound about new pending chats'); ?>">
+                    <i style="margin: 0 !important;" class="material-icons"><?php $soundNewChatEnabled == 0 ? print 'volume_off' : print 'volume_up'?></i>
                 </a>
                 <!-- profile img -->
                 <!-- make a dropdown when click img -->
-                <a href="#" class="nav-link" onclick="profileDropdown()">
-                    <img class="profile-img" src="<?php echo $UserData->photo_path ?>" alt="" width="64" />
+                <a href="#" onclick="profileDropdown()">
+                    <img class="profile-img" src="<?php if(empty($UserData->photo_path)) {
+                        echo $UserData->photo_path;
+                    } else {
+                        echo erLhcoreClassDesign::design('images/icons/avatar.png');
+                    } ?>" alt="" width="64" />
+                    <!-- <?php echo htmlspecialchars($UserData->photo_path) ?> -->
                 </a>
                 <!-- dropdown -->
                 <ul class="profile-dropdown">
@@ -200,7 +205,7 @@ $UserData = $currentUser->getUserData(true);
 
                 <!-- logout -->
                 <a class="csfr-required accent-text" href="<?php echo erLhcoreClassDesign::baseurl('user/logout') ?>" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout', 'Logout'); ?>">
-                    <i class="material-icons">exit_to_app</i>
+                    <i style="margin: 0 !important;" class="material-icons">exit_to_app</i>
                 </a>
             </div>
             <!-- auto_uppercase -->

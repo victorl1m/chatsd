@@ -3353,7 +3353,7 @@
     </message>
     <message>
       <source>Advanced search</source>
-      <translation type="unfinished"/>
+      <translation>Busca avançada</translation>
     </message>
     <message>
       <source>Wait time</source>
@@ -3573,7 +3573,7 @@
     </message>
     <message>
       <source>Select subject</source>
-      <translation type="unfinished"/>
+      <translation>Selecionar assunto</translation>
     </message>
     <message>
       <source>Choose proactive invitation</source>
@@ -7772,15 +7772,15 @@
     </message>
     <message>
       <source>Visitor hold removed!</source>
-      <translation type="unfinished"/>
+      <translation>Suas respostas automáticas estão ativas</translation>
     </message>
     <message>
       <source>Visitor hold added!</source>
-      <translation type="unfinished"/>
+      <translation>Suas respostas automáticas estão em espera</translation>
     </message>
     <message>
       <source>Hold added!</source>
-      <translation type="unfinished"/>
+      <translation>O atendimento está em espera</translation>
     </message>
     <message>
       <source>Form data not valid</source>

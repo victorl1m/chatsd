@@ -1,1666 +1,39 @@
-Jun 14 19:27:26 [Warning] [default] [default] Unexpected error, the message was : stat(): stat failed for ./cache/translations/pt_BR/chat/copyautoresponder-.cache in /var/www/html/chathml/lhc_web/ezcomponents/Base/src/file.php on line 133
-Jun 19 11:53:03 [Warning] [default] [default] Unexpected error, the message was : stat(): stat failed for ./cache/translations/pt_BR/chat/translation-.cache in /var/www/html/chathml/lhc_web/ezcomponents/Base/src/file.php on line 133
-Jun 19 18:11:02 [Warning] [default] [default] Unexpected error, the message was : include_once(modules/lhcron/util/clear_cache[A.php): failed to open stream: No such file or directory in /var/www/html/chathml/lhc_web/cron.php on line 167
-Jun 19 18:11:03 [Warning] [default] [default] Unexpected error, the message was : include_once(): Failed opening 'modules/lhcron/util/clear_cache[A.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /var/www/html/chathml/lhc_web/cron.php on line 167
-Jun 23 17:05:51 [Warning] [default] [default] Unexpected error, the message was : stat(): stat failed for ./cache/translations/pt_BR/chat/translation-.cache in /var/www/html/chathml/lhc_web/ezcomponents/Base/src/file.php on line 133
-Jun 26 11:05:15 [Warning] [default] [default] ParseError Object
+Jul 5 13:40:14 [Warning] [default] [default] Error Object
 (
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
+    [message:protected] => Call to undefined function curl_init()
+    [string:Error:private] => Error: Call to undefined function curl_init() in /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php:395
 Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(545): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 545
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:16 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:19 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:20 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:22 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:24 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:27 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:28 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:32 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:32 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:36 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:38 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:40 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:44 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/73a413751c0ed635e7e3d02c6eac1771.php:9
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(545): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/65faca3c20d12b7a515f70267d9c5ea6.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/73a413751c0ed635e7e3d02c6eac1771.php
-    [line:protected] => 9
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 545
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/65faca3c20d12b7a515f70267d9c5ea6.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/65faca3c20d12b7a515f70267d9c5ea6.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:45 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:51 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:05:55 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:06:00 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 11:06:04 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ':'
-    [string:Error:private] => ParseError: syntax error, unexpected ':' in /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php:1
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(209): erLhcoreClassTemplate->fetchExecute()
-#1 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php(2): erLhcoreClassTemplate->fetch()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/28604551e8737cf9e4f8b69986310be5.php
-    [line:protected] => 1
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 209
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1cbce217732d9b9bd88cd054178256a9.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 15:29:35 [Warning] [default] [default] ezcPersistentQueryException Object
-(
-    [originalMessage] => A query failed internally in Persistent Object: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION livechatdb.JSON_EXTRACT does not exist Query: 'SELECT `lh_canned_msg`.`id`, `lh_canned_msg`.`title`, `lh_canned_msg`.`unique_id`, `lh_canned_msg`.`explain`, `lh_canned_msg`.`msg`, `lh_canned_msg`.`html_snippet`, `lh_canned_msg`.`fallback_msg`, `lh_canned_msg`.`languages`, `lh_canned_msg`.`additional_data`, `lh_canned_msg`.`days_activity`, `lh_canned_msg`.`position`, `lh_canned_msg`.`delay`, `lh_canned_msg`.`department_id`, `lh_canned_msg`.`user_id`, `lh_canned_msg`.`auto_send`, `lh_canned_msg`.`attr_int_1`, `lh_canned_msg`.`attr_int_2`, `lh_canned_msg`.`attr_int_3`, `lh_canned_msg`.`updated_at`, `lh_canned_msg`.`created_at`, `lh_canned_msg`.`disabled`, `lh_canned_msg`.`active_from`, `lh_canned_msg`.`active_to`, `lh_canned_msg`.`repetitiveness`, `lh_canned_msg`.`delete_on_exp` FROM `lh_canned_msg` WHERE ( ( `lh_canned_msg`.`department_id` = :ezcValue1 AND `lh_canned_msg`.`user_id` = :ezcValue2 ) OR ( `lh_canned_msg`.`department_id` = :ezcValue3 AND `lh_canned_msg`.`user_id` = :ezcValue4 ) OR `lh_canned_msg`.`user_id` = :ezcValue5 OR id IN (SELECT canned_id FROM lh_canned_msg_dep WHERE dep_id = 2) ) AND `lh_canned_msg`.`disabled` = 0 AND (
-                repetitiveness = 0 OR 
-                (repetitiveness = 1 AND days_activity != '' AND JSON_EXTRACT(days_activity,'$.mod.start') <= 1529 AND JSON_EXTRACT(days_activity,'$.mod.end') >= 1529 ) OR
-                (repetitiveness = 2 AND active_from <= 1687804175 AND (active_to = 0 OR active_to >= 1687804175)) OR
-                (repetitiveness = 3 AND FROM_UNIXTIME(active_from,'%m%d%H%i') <= 06261529 AND FROM_UNIXTIME(active_to,'%m%d%H%i') >= 06261529)
-            ) ORDER BY position ASC, title ASC LIMIT 50 OFFSET 0'
-    [message:protected] => A query failed internally in Persistent Object: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION livechatdb.JSON_EXTRACT does not exist Query: 'SELECT `lh_canned_msg`.`id`, `lh_canned_msg`.`title`, `lh_canned_msg`.`unique_id`, `lh_canned_msg`.`explain`, `lh_canned_msg`.`msg`, `lh_canned_msg`.`html_snippet`, `lh_canned_msg`.`fallback_msg`, `lh_canned_msg`.`languages`, `lh_canned_msg`.`additional_data`, `lh_canned_msg`.`days_activity`, `lh_canned_msg`.`position`, `lh_canned_msg`.`delay`, `lh_canned_msg`.`department_id`, `lh_canned_msg`.`user_id`, `lh_canned_msg`.`auto_send`, `lh_canned_msg`.`attr_int_1`, `lh_canned_msg`.`attr_int_2`, `lh_canned_msg`.`attr_int_3`, `lh_canned_msg`.`updated_at`, `lh_canned_msg`.`created_at`, `lh_canned_msg`.`disabled`, `lh_canned_msg`.`active_from`, `lh_canned_msg`.`active_to`, `lh_canned_msg`.`repetitiveness`, `lh_canned_msg`.`delete_on_exp` FROM `lh_canned_msg` WHERE ( ( `lh_canned_msg`.`department_id` = :ezcValue1 AND `lh_canned_msg`.`user_id` = :ezcValue2 ) OR ( `lh_canned_msg`.`department_id` = :ezcValue3 AND `lh_canned_msg`.`user_id` = :ezcValue4 ) OR `lh_canned_msg`.`user_id` = :ezcValue5 OR id IN (SELECT canned_id FROM lh_canned_msg_dep WHERE dep_id = 2) ) AND `lh_canned_msg`.`disabled` = 0 AND (
-                repetitiveness = 0 OR 
-                (repetitiveness = 1 AND days_activity != '' AND JSON_EXTRACT(days_activity,'$.mod.start') &lt;= 1529 AND JSON_EXTRACT(days_activity,'$.mod.end') &gt;= 1529 ) OR
-                (repetitiveness = 2 AND active_from &lt;= 1687804175 AND (active_to = 0 OR active_to &gt;= 1687804175)) OR
-                (repetitiveness = 3 AND FROM_UNIXTIME(active_from,'%m%d%H%i') &lt;= 06261529 AND FROM_UNIXTIME(active_to,'%m%d%H%i') &gt;= 06261529)
-            ) ORDER BY position ASC, title ASC LIMIT 50 OFFSET 0'
-    [string:Exception:private] => ezcPersistentQueryException: A query failed internally in Persistent Object: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION livechatdb.JSON_EXTRACT does not exist Query: 'SELECT `lh_canned_msg`.`id`, `lh_canned_msg`.`title`, `lh_canned_msg`.`unique_id`, `lh_canned_msg`.`explain`, `lh_canned_msg`.`msg`, `lh_canned_msg`.`html_snippet`, `lh_canned_msg`.`fallback_msg`, `lh_canned_msg`.`languages`, `lh_canned_msg`.`additional_data`, `lh_canned_msg`.`days_activity`, `lh_canned_msg`.`position`, `lh_canned_msg`.`delay`, `lh_canned_msg`.`department_id`, `lh_canned_msg`.`user_id`, `lh_canned_msg`.`auto_send`, `lh_canned_msg`.`attr_int_1`, `lh_canned_msg`.`attr_int_2`, `lh_canned_msg`.`attr_int_3`, `lh_canned_msg`.`updated_at`, `lh_canned_msg`.`created_at`, `lh_canned_msg`.`disabled`, `lh_canned_msg`.`active_from`, `lh_canned_msg`.`active_to`, `lh_canned_msg`.`repetitiveness`, `lh_canned_msg`.`delete_on_exp` FROM `lh_canned_msg` WHERE ( ( `lh_canned_msg`.`department_id` = :ezcValue1 AND `lh_canned_msg`.`user_id` = :ezcValue2 ) OR ( `lh_canned_msg`.`department_id` = :ezcValue3 AND `lh_canned_msg`.`user_id` = :ezcValue4 ) OR `lh_canned_msg`.`user_id` = :ezcValue5 OR id IN (SELECT canned_id FROM lh_canned_msg_dep WHERE dep_id = 2) ) AND `lh_canned_msg`.`disabled` = 0 AND (
-                repetitiveness = 0 OR 
-                (repetitiveness = 1 AND days_activity != '' AND JSON_EXTRACT(days_activity,'$.mod.start') &lt;= 1529 AND JSON_EXTRACT(days_activity,'$.mod.end') &gt;= 1529 ) OR
-                (repetitiveness = 2 AND active_from &lt;= 1687804175 AND (active_to = 0 OR active_to &gt;= 1687804175)) OR
-                (repetitiveness = 3 AND FROM_UNIXTIME(active_from,'%m%d%H%i') &lt;= 06261529 AND FROM_UNIXTIME(active_to,'%m%d%H%i') &gt;= 06261529)
-            ) ORDER BY position ASC, title ASC LIMIT 50 OFFSET 0' in /var/www/html/chathml/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php:833
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(269): ezcPersistentSession->performQuery()
-#1 /var/www/html/chathml/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(194): ezcPersistentLoadHandler->find()
-#2 /var/www/html/chathml/lhc_web/lib/models/lhchat/erlhcoreclassmodelcannedmsg.php(349): ezcPersistentSession->find()
-#3 /var/www/html/chathml/lhc_web/cache/compiledtemplates/3fcaeac114c2dce53ffcf468ce5d16ea.php(1): erLhcoreClassModelCannedMsg::getCannedMessages()
-#4 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(572): include('/var/www/html/c...')
-#5 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(545): erLhcoreClassTemplate->fetchExecute()
-#6 /var/www/html/chathml/lhc_web/cache/compiledtemplates/1652b216ec1bb0a8b8b916558de00cd5.php(2): erLhcoreClassTemplate->fetch()
-#7 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#8 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#9 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#10 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
-    [line:protected] => 833
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
-                    [line] => 269
-                    [function] => performQuery
-                    [class] => ezcPersistentSession
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
-                    [line] => 194
-                    [function] => find
-                    [class] => ezcPersistentLoadHandler
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/models/lhchat/erlhcoreclassmodelcannedmsg.php
-                    [line] => 349
-                    [function] => find
-                    [class] => ezcPersistentSession
-                    [type] => ->
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/3fcaeac114c2dce53ffcf468ce5d16ea.php
-                    [line] => 1
-                    [function] => getCannedMessages
-                    [class] => erLhcoreClassModelCannedMsg
-                    [type] => ::
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 572
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/3fcaeac114c2dce53ffcf468ce5d16ea.php
-                        )
-
-                    [function] => include
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 545
-                    [function] => fetchExecute
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1652b216ec1bb0a8b8b916558de00cd5.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [7] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/1652b216ec1bb0a8b8b916558de00cd5.php
-                        )
-
-                    [function] => include
-                )
-
-            [8] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [9] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-
-Jun 26 16:06:16 [Warning] [default] [default] TypeError Object
-(
-    [message:protected] => Argument 1 passed to ezcTranslation::__construct() must be of the type array, int given, called in /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation_manager.php on line 151
-    [string:Error:private] => TypeError: Argument 1 passed to ezcTranslation::__construct() must be of the type array, int given, called in /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation_manager.php on line 151 and defined in /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation.php:43
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation_manager.php(151): ezcTranslation->__construct()
-#1 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhtranslation.php(79): ezcTranslationManager->getContext()
-#2 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(256): erTranslationClassLhTranslation->getTranslation()
-#3 /var/www/html/chathml/lhc_web/cache/compiledtemplates/8ee19fdd889ea22df23797d2e17be730.php(2): erLhcoreClassTemplate->fetch()
-#4 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#5 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#6 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#7 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation.php
-    [line:protected] => 43
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation_manager.php
-                    [line] => 151
-                    [function] => __construct
-                    [class] => ezcTranslation
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhtranslation.php
-                    [line] => 79
-                    [function] => getContext
-                    [class] => ezcTranslationManager
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 256
-                    [function] => getTranslation
-                    [class] => erTranslationClassLhTranslation
-                    [type] => ->
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/8ee19fdd889ea22df23797d2e17be730.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/8ee19fdd889ea22df23797d2e17be730.php
-                        )
-
-                    [function] => include
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 26 16:10:56 [Warning] [default] [default] ParseError Object
-(
-    [message:protected] => syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE)
-    [string:Error:private] => ParseError: syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /var/www/html/chathml/lhc_web/cache/translations/pt_BR/chat/lists/search_panel-.cache:1995
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/ezcomponents/Cache/src/storage/file.php(302): ezcCacheStorageFileArray->fetchData()
-#1 /var/www/html/chathml/lhc_web/ezcomponents/TranslationCacheTiein/src/backends/cache_backend.php(140): ezcCacheStorageFile->restore()
-#2 /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation_manager.php(145): ezcTranslationCacheBackend->getContext()
-#3 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhtranslation.php(79): ezcTranslationManager->getContext()
-#4 /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php(256): erTranslationClassLhTranslation->getTranslation()
-#5 /var/www/html/chathml/lhc_web/cache/compiledtemplates/8ee19fdd889ea22df23797d2e17be730.php(2): erLhcoreClassTemplate->fetch()
-#6 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#7 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#8 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#9 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/cache/translations/pt_BR/chat/lists/search_panel-.cache
-    [line:protected] => 1995
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/ezcomponents/Cache/src/storage/file.php
-                    [line] => 302
-                    [function] => fetchData
-                    [class] => ezcCacheStorageFileArray
-                    [type] => ->
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/ezcomponents/TranslationCacheTiein/src/backends/cache_backend.php
-                    [line] => 140
-                    [function] => restore
-                    [class] => ezcCacheStorageFile
-                    [type] => ->
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/ezcomponents/Translation/src/translation_manager.php
-                    [line] => 145
-                    [function] => getContext
-                    [class] => ezcTranslationCacheBackend
-                    [type] => ->
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhtranslation.php
-                    [line] => 79
-                    [function] => getContext
-                    [class] => ezcTranslationManager
-                    [type] => ->
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhtpl/tpl.php
-                    [line] => 256
-                    [function] => getTranslation
-                    [class] => erTranslationClassLhTranslation
-                    [type] => ->
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/8ee19fdd889ea22df23797d2e17be730.php
-                    [line] => 2
-                    [function] => fetch
-                    [class] => erLhcoreClassTemplate
-                    [type] => ->
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/8ee19fdd889ea22df23797d2e17be730.php
-                        )
-
-                    [function] => include
-                )
-
-            [7] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-            [8] => Array
-                (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jun 28 09:46:31 [Warning] [default] [default] ezcQueryVariableParameterException Object
-(
-    [originalMessage] => The method 'where' expected at least 1 parameter but only one was provided.
-    [message:protected] => The method 'where' expected at least 1 parameter but only one was provided.
-    [string:Exception:private] => ezcQueryVariableParameterException: The method 'where' expected at least 1 parameter but only one was provided. in /var/www/html/chathml/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php:142
-Stack trace:
-#0 /var/www/html/chathml/lhc_web/cache/compiledtemplates/d22797a7cc13cc543f78193b5ac18e71.php(2): ezcQueryUpdate->where()
-#1 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#3 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#0 /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php(13): erLhcoreClassModelChatOnlineUser::executeRequest('https://raw.git...')
+#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
 #4 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php
-    [line:protected] => 142
-    [trace:Exception:private] => Array
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php
+    [line:protected] => 395
+    [trace:Error:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/d22797a7cc13cc543f78193b5ac18e71.php
-                    [line] => 2
-                    [function] => where
-                    [class] => ezcQueryUpdate
-                    [type] => ->
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
+                    [line] => 13
+                    [function] => executeRequest
+                    [class] => erLhcoreClassModelChatOnlineUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => https://raw.githubusercontent.com/LiveHelperChat/livehelperchat/master/lhc_web/doc/update_db/structure.json
+                        )
+
                 )
 
             [1] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 108
                     [args] => Array
                         (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/d22797a7cc13cc543f78193b5ac18e71.php
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
                         )
 
                     [function] => include
@@ -1668,59 +41,70 @@ Stack trace:
 
             [2] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 658
                     [function] => runModule
                     [class] => erLhcoreClassModule
                     [type] => ::
+                    [args] => Array
+                        (
+                        )
+
                 )
 
             [3] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
                     [function] => moduleInit
                     [class] => erLhcoreClassModule
                     [type] => ::
+                    [args] => Array
+                        (
+                        )
+
                 )
 
         )
 
-    [previous:Exception:private] => 
+    [previous:Error:private] => 
 )
-
-Jun 28 09:46:41 [Warning] [default] [default] ezcQueryVariableParameterException Object
+Jul 5 13:49:15 [Warning] [default] [default] Error Object
 (
-    [originalMessage] => The method 'where' expected at least 1 parameter but only one was provided.
-    [message:protected] => The method 'where' expected at least 1 parameter but only one was provided.
-    [string:Exception:private] => ezcQueryVariableParameterException: The method 'where' expected at least 1 parameter but only one was provided. in /var/www/html/chathml/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php:142
+    [message:protected] => Call to undefined function curl_init()
+    [string:Error:private] => Error: Call to undefined function curl_init() in /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php:395
 Stack trace:
-#0 /var/www/html/chathml/lhc_web/cache/compiledtemplates/d22797a7cc13cc543f78193b5ac18e71.php(2): ezcQueryUpdate->where()
-#1 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#2 /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#3 /var/www/html/chathml/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#0 /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php(13): erLhcoreClassModelChatOnlineUser::executeRequest('https://raw.git...')
+#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
 #4 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chathml/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php
-    [line:protected] => 142
-    [trace:Exception:private] => Array
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php
+    [line:protected] => 395
+    [trace:Error:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/d22797a7cc13cc543f78193b5ac18e71.php
-                    [line] => 2
-                    [function] => where
-                    [class] => ezcQueryUpdate
-                    [type] => ->
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
+                    [line] => 13
+                    [function] => executeRequest
+                    [class] => erLhcoreClassModelChatOnlineUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => https://raw.githubusercontent.com/LiveHelperChat/livehelperchat/master/lhc_web/doc/update_db/structure.json
+                        )
+
                 )
 
             [1] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 108
                     [args] => Array
                         (
-                            [0] => /var/www/html/chathml/lhc_web/cache/compiledtemplates/d22797a7cc13cc543f78193b5ac18e71.php
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
                         )
 
                     [function] => include
@@ -1728,24 +112,849 @@ Stack trace:
 
             [2] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/lib/core/lhcore/lhmodule.php
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 658
                     [function] => runModule
                     [class] => erLhcoreClassModule
                     [type] => ::
+                    [args] => Array
+                        (
+                        )
+
                 )
 
             [3] => Array
                 (
-                    [file] => /var/www/html/chathml/lhc_web/index.php
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
                     [function] => moduleInit
                     [class] => erLhcoreClassModule
                     [type] => ::
+                    [args] => Array
+                        (
+                        )
+
                 )
 
         )
 
-    [previous:Exception:private] => 
+    [previous:Error:private] => 
 )
+Jul 5 14:06:03 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Call to undefined function curl_init()
+    [string:Error:private] => Error: Call to undefined function curl_init() in /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php:395
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php(13): erLhcoreClassModelChatOnlineUser::executeRequest('https://raw.git...')
+#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#4 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php
+    [line:protected] => 395
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
+                    [line] => 13
+                    [function] => executeRequest
+                    [class] => erLhcoreClassModelChatOnlineUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => https://raw.githubusercontent.com/LiveHelperChat/livehelperchat/master/lhc_web/doc/update_db/structure.json
+                        )
 
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
+                        )
+
+                    [function] => include
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 5 14:39:49 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'ZipArchive' not found
+    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(2053): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpxz...')
+#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(457): erLhcoreClassChatStatistic::exportDepartmentStatistic(Array)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
+    [line:protected] => 227
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
+                    [line] => 2053
+                    [function] => save
+                    [class] => PHPExcel_Writer_Excel2007
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => /tmp/phpxltmpxzAvaJ
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                    [line] => 457
+                    [function] => exportDepartmentStatistic
+                    [class] => erLhcoreClassChatStatistic
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [day_stats] => Array
+                                        (
+                                        )
+
+                                    [hour_stats] => Array
+                                        (
+                                        )
+
+                                    [global_stats] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 5 14:39:50 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'ZipArchive' not found
+    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(2053): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmp31...')
+#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(457): erLhcoreClassChatStatistic::exportDepartmentStatistic(Array)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
+    [line:protected] => 227
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
+                    [line] => 2053
+                    [function] => save
+                    [class] => PHPExcel_Writer_Excel2007
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => /tmp/phpxltmp31isxf
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                    [line] => 457
+                    [function] => exportDepartmentStatistic
+                    [class] => erLhcoreClassChatStatistic
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [day_stats] => Array
+                                        (
+                                        )
+
+                                    [hour_stats] => Array
+                                        (
+                                        )
+
+                                    [global_stats] => Array
+                                        (
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 5 14:41:11 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'ZipArchive' not found
+    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpbc...')
+#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
+    [line:protected] => 227
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
+                    [line] => 1554
+                    [function] => save
+                    [class] => PHPExcel_Writer_Excel2007
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => /tmp/phpxltmpbccgky
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                    [line] => 383
+                    [function] => exportAgentStatistic
+                    [class] => erLhcoreClassChatStatistic
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 30
+                            [1] => Array
+                                (
+                                    [filtergte] => Array
+                                        (
+                                            [time] => 1672531200
+                                        )
+
+                                    [filterlte] => Array
+                                        (
+                                            [time] => 1690761600
+                                        )
+
+                                    [filterin] => Array
+                                        (
+                                            [id] => Array
+                                                (
+                                                    [0] => 52
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 5 14:41:13 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'ZipArchive' not found
+    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpea...')
+#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
+    [line:protected] => 227
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
+                    [line] => 1554
+                    [function] => save
+                    [class] => PHPExcel_Writer_Excel2007
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => /tmp/phpxltmpea8him
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                    [line] => 383
+                    [function] => exportAgentStatistic
+                    [class] => erLhcoreClassChatStatistic
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 30
+                            [1] => Array
+                                (
+                                    [filtergte] => Array
+                                        (
+                                            [time] => 1672531200
+                                        )
+
+                                    [filterlte] => Array
+                                        (
+                                            [time] => 1690761600
+                                        )
+
+                                    [filterin] => Array
+                                        (
+                                            [id] => Array
+                                                (
+                                                    [0] => 52
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 5 14:41:18 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'ZipArchive' not found
+    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpKF...')
+#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
+    [line:protected] => 227
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
+                    [line] => 1554
+                    [function] => save
+                    [class] => PHPExcel_Writer_Excel2007
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => /tmp/phpxltmpKFMXAq
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                    [line] => 383
+                    [function] => exportAgentStatistic
+                    [class] => erLhcoreClassChatStatistic
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 30
+                            [1] => Array
+                                (
+                                    [filtergte] => Array
+                                        (
+                                            [time] => 1672531200
+                                        )
+
+                                    [filterlte] => Array
+                                        (
+                                            [time] => 1690761600
+                                        )
+
+                                    [filterin] => Array
+                                        (
+                                            [id] => Array
+                                                (
+                                                    [0] => 52
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 5 14:42:41 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'ZipArchive' not found
+    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpYo...')
+#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
+    [line:protected] => 227
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
+                    [line] => 1554
+                    [function] => save
+                    [class] => PHPExcel_Writer_Excel2007
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => /tmp/phpxltmpYo0yzL
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                    [line] => 383
+                    [function] => exportAgentStatistic
+                    [class] => erLhcoreClassChatStatistic
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 30
+                            [1] => Array
+                                (
+                                    [filtergte] => Array
+                                        (
+                                            [time] => 1688515200
+                                        )
+
+                                    [filterlte] => Array
+                                        (
+                                            [time] => 1688568099
+                                        )
+
+                                    [filterin] => Array
+                                        (
+                                            [id] => Array
+                                                (
+                                                    [0] => 52
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 5 14:42:42 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Class 'ZipArchive' not found
+    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpXm...')
+#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
+    [line:protected] => 227
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
+                    [line] => 1554
+                    [function] => save
+                    [class] => PHPExcel_Writer_Excel2007
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => /tmp/phpxltmpXmm6cz
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                    [line] => 383
+                    [function] => exportAgentStatistic
+                    [class] => erLhcoreClassChatStatistic
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 30
+                            [1] => Array
+                                (
+                                    [filtergte] => Array
+                                        (
+                                            [time] => 1688515200
+                                        )
+
+                                    [filterlte] => Array
+                                        (
+                                            [time] => 1688568099
+                                        )
+
+                                    [filterin] => Array
+                                        (
+                                            [id] => Array
+                                                (
+                                                    [0] => 52
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)

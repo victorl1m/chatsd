@@ -670,7 +670,7 @@ class erLhcoreClassUserValidator
             } else {
                 $userData->removeFile();
                 $userData->filename = $file["data"]["filename"];
-                $userData->filepath = $dir . $file["data"]["filename"] . '/';
+                $userData->filepath = $dir . '/';
                 $response = erLhcoreClassChatEventDispatcher::getInstance()->dispatch('user.edit.photo_resize_150', array('mime_type' => $file["data"]['mime_type'], 'user' => $userData));
                 if ($response === false) {
                     if ($file["data"]['mime_type'] != 'image/svg+xml') {

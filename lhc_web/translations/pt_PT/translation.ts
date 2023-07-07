@@ -5125,7 +5125,7 @@
     </message>
     <message>
       <source>There are no online operators at the moment, please leave your message</source>
-      <translation>Não há operadores online no momento. Por favor, deixe a sua mensagem.</translation>
+      <translation>Não há analistas disponíveis no momento. Por favor, deixe a sua mensagem.</translation>
     </message>
     <message>
       <source>Me</source>

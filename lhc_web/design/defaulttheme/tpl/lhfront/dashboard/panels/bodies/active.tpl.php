@@ -12,7 +12,7 @@
 			</th>
             <?php $additionalChatColumnOptions = ['enable_sort' => true, 'sort_field' => 'active_chats_sort'];?>
             <?php include(erLhcoreClassDesign::designtpl('lhchat/lists/additional_column_header.tpl.php'));?>
-			<th width="20%">
+			<th width="30%">
     			<a ng-click="lhc.toggleWidgetSort('active_chats_sort','lmt_dsc','lmt_asc',true)">
     			 <i ng-class="{'text-muted' : (lhc.toggleWidgetData['active_chats_sort'] != 'lmt_asc' && lhc.toggleWidgetData['active_chats_sort'] != 'lmt_dsc')}" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Sort by last message time')?>" class="material-icons">{{lhc.toggleWidgetData['active_chats_sort'] == 'lmt_dsc' || lhc.toggleWidgetData['active_chats_sort'] != 'lmt_asc' ? 'trending_up' : 'trending_down'}}</i>
     			</a>

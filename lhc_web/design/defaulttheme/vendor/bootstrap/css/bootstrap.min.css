@@ -129,6 +129,7 @@
     --bs-breakpoint-xl: 1200px;
     --bs-breakpoint-xxl: 1400px;
     --accent-color: #c4da53;
+    --hover-accent: #a4b745;
 }
 
 [data-bs-theme=dark] {
@@ -182,6 +183,7 @@
 
     --font-family: "Inter";
     --accent-color: #c4da53;
+    --hover-accent: #a4b745;
 }
 
 
@@ -2430,12 +2432,6 @@ progress {
     font-family: var(--font-family);
 }
 
-@media (prefers-reduced-motion:reduce) {
-    .form-control {
-        transition: none
-    }
-}
-
 .form-control[type=file] {
     overflow: hidden
 }
@@ -3010,12 +3006,6 @@ textarea.form-control-lg {
     transition: opacity .1s ease-in-out, transform .1s ease-in-out;
 }
 
-@media (prefers-reduced-motion:reduce) {
-    .form-floating>label {
-        transition: none
-    }
-}
-
 .form-floating>.form-control,
 .form-floating>.form-control-plaintext {
     padding: 1rem .75rem;
@@ -3520,20 +3510,21 @@ fieldset:disabled .btn {
 }
 
 .btn-secondary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #6c757d;
-    --bs-btn-border-color: #6c757d;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #5c636a;
-    --bs-btn-hover-border-color: #565e64;
+    --bs-btn-color: black;
+    --bs-btn-bg: var(--accent-color);
+    --bs-btn-border-color: var(--accent-color);
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: var(--hover-accent);
+    --bs-btn-hover-border-color: var(--hover-accent);
     --bs-btn-focus-shadow-rgb: 130, 138, 145;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #565e64;
-    --bs-btn-active-border-color: #51585e;
+    --bs-btn-active-bg: var(--hover-accent);
+    --bs-btn-active-border-color: var(--hover-accent);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #6c757d;
-    --bs-btn-disabled-border-color: #6c757d
+    --bs-btn-disabled-bg: #787d6c;
+    --bs-btn-disabled-border-color: #6c757d;
+    font-weight: 500;
 }
 
 .btn-success {
@@ -4654,7 +4645,7 @@ fieldset:disabled .btn {
     left: 9rem;
     position: absolute;
     top: 20.25rem;
-    z-index: 1;
+    z-index: 100;
     margin-bottom: 0px;
     transition: all 0.5s ease-in-out;
 }
@@ -4766,6 +4757,15 @@ fieldset:disabled .btn {
     padding-bottom: 6px;
     border-bottom: 1px solid #3e3e3e;
     text-decoration: none;
+    transition: 0.3s;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.dropdown-profile-btn:hover {
+    background-color: #3e3e3e;
+    transition: 0.3s;
+    border-radius: 15px;
 }
 
 .profile-btn {
@@ -9324,14 +9324,20 @@ input[type=number] {
 
 .btn-bot {
     background-color: transparent !important;
-    color: var(--accent-color) !important;
+    color: #c4da53 !important;
     transition: 0.3s !important;
+    border-color: #c4da53;
 }
 
 .btn-bot:hover {
-    background-color: var(--accent-color) !important;
+    background-color: #c4da53 !important;
     color: black !important;
     transition: 0.3s !important;
+    border-color: #c4da53;
+}
+
+.btn-bot:active {
+    border-color: #c4da53;
 }
 
 .big-unavailable {
@@ -9377,7 +9383,7 @@ input[type=number] {
 }
 
 .status-chat-color {
-    color: var(--accent-color) !important;
+    color: #c4da53 !important;
 }
 
 .startchat-hover {
@@ -9395,6 +9401,8 @@ input[type=number] {
     height: 60px;
     width: 100% !important;
     max-height: 60px;
+    background: transparent;
+    color: white;
 }
 
 .op-name-widget {
@@ -9402,7 +9410,7 @@ input[type=number] {
 }
 
 .op-job-title {
-    color: var(--accent-color);
+    color: #c4da53;
 }
 
 .accent-text {
@@ -9423,7 +9431,6 @@ input[type=number] {
     border: 0px solid transparent;
     outline: none;
     background-color: #c4da53;
-    ;
     border-radius: 10px;
     height: 60px;
     font-weight: bold;
@@ -9450,7 +9457,18 @@ input[type=number] {
 }
 
 .unavailable-text {
-    color: var(--accent-color);
+    color: #c4da53;
+}
+
+.btn-forgot {
+    width: 100%;
+    border: 0px solid transparent;
+    outline: none;
+    background-color: #c4da53;
+    border-radius: 10px;
+    height: 60px;
+    font-weight: bold;
+    margin-top: 1rem;
 }
 
 .img-bg {
@@ -10475,6 +10493,10 @@ input[type=number] {
 .rounded-top-pill {
     border-top-left-radius: var(--bs-border-radius-pill) !important;
     border-top-right-radius: var(--bs-border-radius-pill) !important
+}
+
+.op-img {
+    border-radius: 50px !important;
 }
 
 .rounded-end {

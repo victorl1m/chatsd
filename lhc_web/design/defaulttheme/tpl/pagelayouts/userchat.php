@@ -55,7 +55,7 @@ const nameInput = document.getElementById("name");
 
 nameInput.addEventListener("input", function(event) {
   const inputValue = event.target.value;
-  const sanitizedValue = inputValue.replace(/[^a-zA-Z\s]/gi, "");
+  const sanitizedValue = inputValue.replace(/[^a-zA-Z\sà-úÀ-Ú]/gi, "");
   event.target.value = sanitizedValue;
 });
 
@@ -64,7 +64,7 @@ const emailInput = document.getElementById("email");
 emailInput.addEventListener("input", function(event) {
   const inputValue = event.target.value;
   const domain = inputValue.split("@")[1];
-  const allowedDomains = ["callink.com.br", "ilinksolutions.com.br"];
+  const allowedDomains = ["callink.com.br"];
   
   if (!allowedDomains.includes(domain)) {
     event.target.setCustomValidity("E-mail não autorizado");

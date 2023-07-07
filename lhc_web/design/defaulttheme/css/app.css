@@ -48,6 +48,9 @@ a {
 	border-color: #e7e7e7;
 }
 
+.text-muted {
+	color: white;
+}
 
 .visitor-ipaddr {
 	color: black;
@@ -106,8 +109,22 @@ a {
 	--lhc-sidebar-li-border-bottom: #e7e7e7;
 	--lhc-sidebar-wrapper-br: #e7e7e7;
 	--accent-color: red;
+	--hover-accent: rgb(200, 0, 0);
 
 	--font-family: "Inter";
+}
+
+.btn-secondary {
+	--bs-btn-color: white !important;
+	transition: 0.3s;
+}
+
+.btn-secondary:hover {
+	transition: 0.3s;
+}
+
+.col-form-label {
+    color: black !important;
 }
 
 .btn-group-xs>.btn,
@@ -891,10 +908,10 @@ div.message-row.operator-changes .usr-tit {
 
 .message-row.system-response.operator-changes .usr-tit {
 	display: inline-block !important;
-	background-color: #CCC;
+	background-color: transparent;
 	padding-left: 3px !important;
 	padding-right: 3px !important;
-	color: #fff !important;
+	color: #c4da53 !important;
 }
 
 div.message-row-in {
@@ -2709,9 +2726,21 @@ html {
 }
 
 .btn-light {
-	--bs-btn-color: #ababab;
-	--bs-btn-active-color: #fff;
-	--bs-btn-hover-color: #fff;
+    --bs-btn-color: #595c5f;
+    --bs-btn-active-color: #595c5f;
+    --bs-btn-hover-color: #fff;
+    transition: 0.3s;
+}
+
+.btn-light {
+	background-color: white !important;
+	border-color: #dee2e6 !important;
+}
+
+.btn-light:active {
+    background-color: #fafafa !important;
+    transition: 0.3s;
+    border-color: transparent !important;
 }
 
 .btn-block-department .btn-light:not(:disabled):not(.disabled).active,
@@ -2845,7 +2874,12 @@ div.message-row-typing div.msg-body {
 }
 
 .user-online-row td {
-	background-color: #314a2d;
+	transition: 0.3s;
+	background-color: #96e28a !important;
+}
+
+.user-online-row:hover td {
+	transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
