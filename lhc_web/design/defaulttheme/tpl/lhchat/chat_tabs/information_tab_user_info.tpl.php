@@ -40,6 +40,7 @@ function identificarOperacao($enderecoIP) {
 
         // GRUPOS VPN
         'GSVPN' => array('172.24.1.1', '172.24.2.253'),
+        'GSVPNGERAL' => array('172.27.100.1', '172.27.101.255'),
         'GSVPNCORE' => array('172.24.3.1', '172.21.15.238'),
         'NETWORK' => array('172.24.4.1', '172.24.4.30'),
         'GSVPNSDN2' => array('172.24.3.1', '172.24.3.100'),
@@ -122,7 +123,8 @@ function identificarOperacao($enderecoIP) {
         <button onclick="return lhc.revealModal({'title' : '<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/adminchat','Modify chat')?>', 'iframe':true,'height':350,'mparams':{'backdrop':false},'url':WWW_DIR_JAVASCRIPT +'chat/modifychat/<?php echo $chat->id?>/(pos)/'+$('#chat-tab-li-<?php echo $chat->id?>').index()})" title="Alterar dados do atendimento" class="chat-action">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path class="accent-svg" d="M15.891 3.048a3.578 3.578 0 115.061 5.06l-.892.893L15 3.94l.891-.892zM13.94 5.001L3.94 15a3.106 3.106 0 00-.825 1.476L2.02 21.078a.75.75 0 00.904.903l4.601-1.096a3.106 3.106 0 001.477-.825l1.151-1.151a6.5 6.5 0 017.754-7.755L19 10.06l-5.061-5.06zm-.662 8.975a2 2 0 01-1.441 2.497l-.584.144a5.727 5.727 0 00.006 1.807l.54.13a2 2 0 011.45 2.51l-.187.632c.44.386.94.699 1.485.922l.493-.52a2 2 0 012.899.001l.499.525a5.277 5.277 0 001.482-.913l-.198-.686a2 2 0 011.442-2.496l.583-.144a5.73 5.73 0 00-.006-1.808l-.54-.13a2 2 0 01-1.449-2.51l.186-.63a5.282 5.282 0 00-1.484-.923l-.493.519a2 2 0 01-2.9 0l-.498-.525c-.544.22-1.044.53-1.483.912l.198.687zm3.222 5.025c-.8 0-1.45-.672-1.45-1.5 0-.829.65-1.5 1.45-1.5.8 0 1.45.671 1.45 1.5 0 .828-.65 1.5-1.45 1.5z"/></svg>
         </button>
-        <button class="chat-action">
+        <button onclick="window.open('<?php echo erLhcoreClassDesign::baseurl('chat/printchatadmin')?>/<?php echo $chat->id?>')"
+        class="chat-action">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path class="accent-svg" d="M18 17.5v1.25A2.25 2.25 0 0115.75 21h-7.5A2.25 2.25 0 016 18.75v-1.251l-1.75.001A2.25 2.25 0 012 15.25V9.254a3.25 3.25 0 013.25-3.25l.749-.001L6 5.25A2.25 2.25 0 018.25 3h7.502a2.25 2.25 0 012.25 2.25v.753h.75a3.254 3.254 0 013.252 3.25l.003 5.997a2.249 2.249 0 01-2.248 2.25H18zm-2.25-4h-7.5a.75.75 0 00-.75.75v4.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4.5a.75.75 0 00-.75-.75zm.002-9H8.25a.75.75 0 00-.75.75l-.001.753h9.003V5.25a.75.75 0 00-.75-.75z"/></svg>
         </button>
         <button onclick="lhinst.closeActiveChatDialog(<?php echo $chat->id?>,$('#tabs'),true)" title="Encerrar atendimento" class="chat-action">

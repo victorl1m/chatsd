@@ -33,7 +33,7 @@
         			    
         			    <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/configuresmtp.tpl.php'));?>
 
-                        <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/administrategeoconfig.tpl.php'));?>
+                        <!-- <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/administrategeoconfig.tpl.php'));?> -->
 
                         <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/syncandsoundesetting.tpl.php'));?>
 
@@ -51,7 +51,7 @@
         			</ul>
 
                     <?php if ($currentUser->hasAccessTo('lhabstract','use') && $currentUser->hasAccessTo('lhsystem','auditlog')) : ?>
-                            <h4>Audit</h4>
+                            <h4>Auditoria</h4>
                             <ul>
                                 <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/audit_log.tpl.php'));?>
                             </ul>

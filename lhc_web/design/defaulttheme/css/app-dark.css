@@ -112,6 +112,33 @@ div.message-admin div.msg-body {
     color: white;
 }
 
+.copy-text:hover {
+    background-color: #2e2e2e !important;
+    padding: 6px;
+    border-radius: 25px;
+    transition: 0.3s
+}
+
+
+.profile-dropdown.active {
+	background-color: #2e2e2e !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.dropdown-profile-btn {
+	color: white !important;
+	border-bottom: 1px solid #3e3e3e;
+}
+
+.dropdown-profile-btn:hover {
+    background-color: #3e3e3e;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
 .chat-action:hover {
     background-color: var(--accent-color);
     transition: 0.3s

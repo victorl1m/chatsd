@@ -20,13 +20,17 @@ $UserData = $currentUser->getUserData(true);
                 <?php if ($currentUser->hasAccessTo('lhabstract', 'use')): ?>
                 <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/sidemenu/settings/settings.tpl.php')); ?>
                 <?php endif; ?>
-
+                
+                <?php if ($currentUser->hasAccessTo('lhstatistic', 'viewstatistic')): ?>
+                <li class="nav-item"><a class="nav-link sidemenu-center" href="<?php echo erLhcoreClassDesign::baseurl('/statistic/statistic') ?>"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path class="accent-svg" d="M19 13.5c0-.68.273-1.298.715-1.75H13A1.75 1.75 0 0111.25 10V2.005A9.5 9.5 0 0011 20.988V19.5a2.5 2.5 0 014-2v-1a2.5 2.5 0 014-2v-1zM12.75 2.083v7.919c0 .138.112.25.25.25h7.919a9.505 9.505 0 00-8.169-8.169zm8.75 9.919a1.5 1.5 0 00-1.5 1.5v8a1.5 1.5 0 003 0v-8a1.5 1.5 0 00-1.5-1.5zm-8 6a1.5 1.5 0 00-1.5 1.5v2a1.5 1.5 0 003 0v-2a1.5 1.5 0 00-1.5-1.5zm2.5-1.5a1.5 1.5 0 113 0v5a1.5 1.5 0 01-3 0v-5z"/></svg>Estatísticas</a></li>
+                <?php endif; ?>
 
                 <?php if ($currentUser->hasAccessTo('lhabstract', 'use')): ?>
                     <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu_modules_container.tpl.php.tpl.php')); ?>
                 <?php endif; ?>
                 
                 <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/sidemenu/menu_item_multiinclude.tpl.php')); ?>
+
             </ul>
         </div>
     </div>

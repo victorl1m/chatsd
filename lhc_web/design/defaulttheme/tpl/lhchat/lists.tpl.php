@@ -1,71 +1,3 @@
-<?php
-function identificarOperacao($enderecoIP) {
-    $intervalos = array(
-        // PAGSEGURO
-        'PagSeguro Televendas' => array('172.21.254.1', '172.21.255.254'),
-        'PagSeguro Receptivo' => array('172.21.8.1', '172.21.9.254'),
-        'PagSeguro Supervisão' => array('172.21.12.1', '172.21.12.126'),
-        'PagSeguro Staff' => array('172.21.14.129', '172.21.14.158'),
-        'PagSeguro Televendas' => array('172.21.10.1', '172.21.11.254'),
-        'PagSeguro Wi-Fi' => array('172.21.15.225', '172.21.15.238'),
-
-        // CIELO
-        'Cielo Ativo' => array('172.27.60.1', '172.27.61.254'),
-        'Cielo Receptivo' => array('172.27.60.1', '172.27.61.254'),
-        'Cielo' => array('172.27.60.1', '172.27.61.254'),
-
-        // MERCADO PAGO
-        'Mercado Pago' => array('10.33.106.1', '10.33.107.254'),
-
-        // STAFF CLK
-        'Staff' => array('10.33.12.1', '10.33.13.254'),
-        'Staff Wi-Fi' => array('10.33.16.1', '10.33.23.254'),
-        'Staff Wi-Fi (Piso 5)' => array('10.33.24.1', '10.33.24.254'),
-
-        // STAFF SUPERVISÃO
-        'Staff Supervisão' => array('10.33.165.1', '10.33.165.254'),
-
-        // CLARO / NET
-        'Claro' => array('10.64.116.1', '10.64.117.254'),
-        'Claro MPLAY' => array('10.64.158.1', '10.64.158.254'),
-        'NET / Black VIP' => array('10.64.96.1', '10.64.99.254'),
-
-
-        // BRD
-        'Bradesco1' => array('10.36.4.1', '10.36.7.254'),
-        'Bradesco2' => array('10.36.22.1', '10.36.23.254'),
-        'Bradesco3' => array('10.36.8.1', '10.36.15.254'),
-        'Bradesco4' => array('10.36.48.1', '10.36.51.254'),
-        'Bradesco Wi-Fi' => array('10.36.26.1', '10.36.26.254'),
-
-        // GRUPOS VPN
-        'GSVPN' => array('172.24.1.1', '172.24.2.253'),
-        'GSVPNCORE' => array('172.24.3.1', '172.21.15.238'),
-        'NETWORK' => array('172.24.4.1', '172.24.4.30'),
-        'GSVPNSDN2' => array('172.24.3.1', '172.24.3.100'),
-    );
-
-    $enderecoIPNumerico = ip2long($enderecoIP);
-    foreach ($intervalos as $operacao => $intervalo) {
-        $inicio = ip2long($intervalo[0]);
-        $fim = ip2long($intervalo[1]);
-
-        if ($enderecoIPNumerico >= $inicio && $enderecoIPNumerico <= $fim) {
-            return $operacao;
-        }
-
-        if ($operacao == 'Bradesco1' || $operacao == 'Bradesco2' || $operacao == 'Bradesco3' || $operacao == 'Bradesco4') {
-            if ($enderecoIPNumerico >= $inicio && $enderecoIPNumerico <= $fim) {
-                return 'Bradesco';
-            }
-        }
-    }
-
-    return 'Externo';
-
-}
-?>
-
 <div role="tabpanel" id="tabs" ng-cloak>
         <!-- <ul class="nav nav-pills" role="tablist">
              <li role="presentation" class="active nav-item"><a class="nav-link" href="#chatlist" aria-controls="chatlist" role="tab" data-bs-toggle="tab" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/onlineusers','Chat list');?>"><i class="material-icons me-0">info_outline</i></a></li>
@@ -111,13 +43,6 @@ function identificarOperacao($enderecoIP) {
                               <?php endforeach; ?>
 
                               <span title="<?php echo $chat->id;?>" class="material-icons fs12 me-0<?php echo $chat->user_status_front == 2 ? ' icon-user-away' : ($chat->user_status_front == 0 ? ' icon-user-online' : ' icon-user-offline')?>" class="">&#xE3A6;</span>&nbsp;
-                            
-                                    <?php
-                                    $enderecoIP = $chat->ip;
-                                    $operacao = identificarOperacao($enderecoIP);
-                                    ?>
-                                    <img style="cursor: pointer;" width="16px" height="16px" title="<?php echo $operacao ?>" src="<?php echo erLhcoreClassDesign::design('images/operations');?>/<?php echo str_replace([' ', '/', '-'], '', str_replace('ã', 'a', $operacao)); ?>.png" alt="<?php echo str_replace([' ', '/', '-'], '', str_replace('ã', 'a', $operacao)); ?>" title="<?php echo str_replace([' ', '/', '-'], '', str_replace('ã', 'a', $operacao)); ?>" >
-                                    <!-- <?php echo str_replace([' ', '/', '-'], '', str_replace('ã', 'a', $operacao)); ?> -->
                         
                               <?php if ($chat->group_id != 1) : ?>
                               <a class="material-icons" id="preview-item-<?php echo $chat->id?>" data-list-navigate="true" onclick="lhc.previewChat(<?php echo $chat->id?>,this)">info_outline</a>

@@ -31,7 +31,7 @@
                     <th width="12%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Pending chats');?>" class="material-icons chat-pending">chat</i></th>
                     <th width="12%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Active chats');?>" class="material-icons chat-active">chat</i></th>
                     <th width="12%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Bot chats');?>" class="material-icons chat-active">android</i></th>
-                    <th width="21%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Load statistic');?>" class="material-icons text-info">donut_large</i></th>
+                    <!-- <th width="21%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Load statistic');?>" class="material-icons text-info">donut_large</i></th> -->
                 </tr>
                 </thead>
                 <tr ng-if="!lhc.departmentd_hide_dgroup" ng-repeat="depgroup in depgroups_stats.list track by depgroup.id">
@@ -53,7 +53,7 @@
 						<th width="12%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Pending chats');?>" class="material-icons chat-pending">chat</i></th>
 						<th width="12%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Active chats');?>" class="material-icons chat-active">chat</i></th>
 						<th width="12%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Bot chats');?>" class="material-icons chat-active">android</i></th>
-						<th width="21%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Load statistic');?>" class="material-icons text-info">donut_large</i></th>
+						<!-- <th width="21%"><i title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/syncadmininterface','Load statistic');?>" class="material-icons text-info">donut_large</i></th> -->
 					</tr>
 				</thead>
 				<tr ng-if="!lhc.departmentd_hide_dep" ng-repeat="department in departments_stats.list track by department.id">
@@ -63,13 +63,13 @@
 					<td><a class="d-block" href="<?php echo erLhcoreClassDesign::baseurl('chat/list')?>/(department_ids)/{{department.id}}/(chat_status_ids)/<?php echo erLhcoreClassModelChat::STATUS_PENDING_CHAT ?>">{{department.pending_chats_counter ? department.pending_chats_counter : 0}}</a></td>
                     <td><a class="d-block" href="<?php echo erLhcoreClassDesign::baseurl('chat/list')?>/(department_ids)/{{department.id}}/(chat_status_ids)/<?php echo erLhcoreClassModelChat::STATUS_ACTIVE_CHAT ?>" >{{department.active_chats_counter ? department.active_chats_counter : 0}}</a></td>
                     <td><a class="d-block" href="<?php echo erLhcoreClassDesign::baseurl('chat/list')?>/(department_ids)/{{department.id}}/(chat_status_ids)/<?php echo erLhcoreClassModelChat::STATUS_BOT_CHAT ?>">{{department.bot_chats_counter ? department.bot_chats_counter : 0}}</a></td>
-                    <td nowrap title="{{department.inactive_chats_cnt ? department.inactive_chats_cnt : '0'}} inactive chats.<?php echo "\n"?>{{department.inop_chats_cnt ? department.inop_chats_cnt : '0'}} inactive online operators chats.<?php echo "\n"?>{{department.acop_chats_cnt ? department.acop_chats_cnt : '0'}} active online operators chats.<?php echo "\n"?><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Hard');?> - {{department.max_load_h ? department.max_load_h : '0'}}, <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Soft');?> - {{department.max_load ? department.max_load : '0'}}.<?php echo "\n"?><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Hard limit - (active online operators chats - inactive online operators chats) (soft limit - active chats)');?>">
+                    <!-- <td nowrap title="{{department.inactive_chats_cnt ? department.inactive_chats_cnt : '0'}} inactive chats.<?php echo "\n"?>{{department.inop_chats_cnt ? department.inop_chats_cnt : '0'}} inactive online operators chats.<?php echo "\n"?>{{department.acop_chats_cnt ? department.acop_chats_cnt : '0'}} active online operators chats.<?php echo "\n"?><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Hard');?> - {{department.max_load_h ? department.max_load_h : '0'}}, <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Soft');?> - {{department.max_load ? department.max_load : '0'}}.<?php echo "\n"?><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Hard limit - (active online operators chats - inactive online operators chats) (soft limit - active chats)');?>">
 
                        <?php if ($currentUser->hasAccessTo('lhstatistic','statisticdep')) : ?><a href="#" ng-click="lhc.openModal('statistic/departmentstats/'+department.id)"><?php endif; ?>
                             <span ng-class="{'text-danger fw-bold': (department.max_load_h && department.max_load_h - (department.acop_chats_cnt - (department.inop_chats_cnt ? department.inop_chats_cnt : 0)) <= 3)}">{{department.max_load_h ? (department.max_load_h - (department.acop_chats_cnt - (department.inop_chats_cnt ? department.inop_chats_cnt : 0))) : 'n/a'}}</span>&nbsp;({{department.max_load ? (department.max_load - (department.active_chats_counter - (department.inactive_chats_cnt ? department.inactive_chats_cnt : 0))) : 'n/a'}})
                        <?php if ($currentUser->hasAccessTo('lhstatistic','statisticdep')) : ?></a><?php endif; ?>
 
-                    </td>
+                    </td> -->
 
 
 				</tr>

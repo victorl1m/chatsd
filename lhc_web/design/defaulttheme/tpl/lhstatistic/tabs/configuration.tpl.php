@@ -4,7 +4,7 @@
     <?php include(erLhcoreClassDesign::designtpl('lhkernel/alert_success.tpl.php'));?>
 <?php endif; ?>
 
-<h5>Default checked charts for &quot;Statistic&quot;</h5>
+<h5>Configurações padrões dos gráficos de &quot;Estatísticas&quot;</h5>
 <form action="" method="post">
 <div class="row">
     <div class="col-4"><label><input type="checkbox" name="chart_type[]" value="active" <?php if (in_array('active',$configuration['statistic'])) : ?>checked="checked"<?php endif;?> ><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Chat numbers by status')?></label></div>
@@ -26,6 +26,9 @@
     <div class="col-4"><label title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Usefull if you prefill usernames always')?>"><input type="checkbox" name="chart_type[]" value="nickgroupingdate" <?php if (in_array('nickgroupingdate',$configuration['statistic'])) : ?>checked="checked"<?php endif;?> ><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Unique group field records grouped by date')?></label></div>
     <div class="col-4"><label title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Usefull if you prefill usernames always')?>"><input type="checkbox" name="chart_type[]" value="nickgroupingdatenick" <?php if (in_array('nickgroupingdatenick',$configuration['statistic'])) : ?>checked="checked"<?php endif;?> ><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Chats number grouped by date and group field')?></label></div>
 </div>
+<br>
+<br>
+
 
 <h5><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Default checked charts for'); ?> &quot;<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Chats statistic'); ?>&quot;</h5>
 <div class="row">

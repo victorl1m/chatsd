@@ -3777,6 +3777,12 @@ fieldset:disabled .btn {
     float: right !important
 }
 
+.bot-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .float-none {
     float: none !important
 }

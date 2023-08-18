@@ -12,7 +12,7 @@
     (isset($paid_chat_params['allow_read']) && $paid_chat_params['allow_read'] == true)) : ?>
     <div id="messages" class="<?php if (isset($theme) && $theme !== false && isset($theme->bot_configuration_array['hide_visitor_profile']) && $theme->bot_configuration_array['hide_visitor_profile'] == 1) : ?>hide-visitor-profile <?php endif;?> <?php if (isset($theme) && $theme !== false && isset($theme->bot_configuration_array['bubble_style_profile']) && $theme->bot_configuration_array['bubble_style_profile'] == 1) : ?>bubble-messages <?php endif;?> <?php if (isset($fullheight) && $fullheight == true) : ?>fullheight<?php endif ?>">
         <div id="messagesBlockWrap">
-            <div class="msgBlock<?php if (isset($theme) && $theme !== false && $theme->hide_ts == 1) : ?> msg-hide-ts<?php endif?>" style="width: 1150px; height: 600px; max-height:600px;" id="messagesBlock"><?php
+            <div class="msgBlock<?php if (isset($theme) && $theme !== false && $theme->hide_ts == 1) : ?> msg-hide-ts<?php endif?> chatvisitor-container" id="messagesBlock"><?php
             $lastMessageID = 0;
             $lastOperatorChanged = false;
             $lastOperatorId = false;

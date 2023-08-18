@@ -1348,6 +1348,7 @@ if (tabs.length > 0 && lhinst.disableremember == false) {
 lhinst.removeSynchroChat(chat.id);
 lhinst.startChatBackground(chat.id, tabs, LiveHelperChatFactory.truncate((chat.nick || 'Visitor'), 10));
 _that.channel.postMessage({ 'action': 'startbackground_chat', 'args': { 'nick': LiveHelperChatFactory.truncate((chat.nick || 'Visitor'), 10), 'chat_id': parseInt(chat.id) } });
+notificationDataAccept.push(chat.id);
 }
 if (lhinst.disableremember == false) {
 notificationDataAccept.push(chat.id);

@@ -1233,6 +1233,7 @@ try {
 												lhinst.startChatBackground(chat.id, tabs, LiveHelperChatFactory.truncate((chat.nick || 'Visitor'), 10));
 												// We auto open only auto assigned chats
 												_that.channel.postMessage({ 'action': 'startbackground_chat', 'args': { 'nick': LiveHelperChatFactory.truncate((chat.nick || 'Visitor'), 10), 'chat_id': parseInt(chat.id) } });
+												notificationDataAccept.push(chat.id);
 											}
 
 											if (lhinst.disableremember == false) {

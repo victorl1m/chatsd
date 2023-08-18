@@ -136,28 +136,29 @@ const DashboardChatTabs = props => {
         return chatIds;
     }
 
-    const loadChatTabIntro = (chatIds) => {
-        axios.get(WWW_DIR_JAVASCRIPT + "front/tabs/(id)/" + (typeof chatIds !== 'undefined' ? chatIds.join('/') : getChatIds().join('/'))).then(result => {
-
-            result.data.map((chat, index) => {
-
-                // If nodeJS extension is enabled check chat live status
-                // As on page reload react app can be yet not started and we might not receive event
-                // at that moment react app starts
-                var nodeJSStatus = document.getElementById('node-js-indicator-' + chat.id);
-                if (nodeJSStatus !== null) {
-                    chat.live_status = nodeJSStatus.textContent == 'wifi';
-                }
-
+    function loadChatTabIntro(chatIds) {
+        axios.get(WWW_DIR_JAVASCRIPT + "front/tabs/(id)/" + (typeof chatIds !== 'undefined' ? chatIds.join('/') : getChatIds().join('/')))
+          .then(result => {
+            // Make sure result.data is an array before using map
+            if (Array.isArray(result.data)) {
+              result.data.map((chat, index) => {
+                // Your map logic here
                 dispatch({
-                    type: 'update_chat',
-                    id: chat.id,
-                    value: chat
-                })
-
-            })
-        });
-    }
+                  type: 'update_chat',
+                  id: chat.id,
+                  value: chat
+                });
+              });
+            } else {
+              // Handle the case when the data is not an array
+              console.error("API response data is not an array:", result.data);
+            }
+          })
+          .catch(error => {
+            // Handle error from the API request
+            console.error("Error fetching data from API:", error);
+          });
+      }
 
     if (!document.getElementById('tabs')) {
         useInterval(() => {
@@ -427,6 +428,7 @@ const DashboardChatTabs = props => {
 
     return (
         <React.Fragment>
+
             {(!state.chats || state.chats.length == 0) && <div className="text-center text-muted p-2"><span className="material-icons">chat</span>{t('chat_tabs.open_chats')}</div>}
             {state.chats.map((chat, index) => (
 

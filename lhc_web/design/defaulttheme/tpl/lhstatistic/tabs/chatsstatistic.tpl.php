@@ -48,7 +48,7 @@
 	</div>
 	</div>
 
-	<div class="col-md-2">
+	<!-- <div class="col-md-2">
         <div class="form-group">
             <label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Department');?></label>
             <?php echo erLhcoreClassRenderHelper::renderMultiDropdown( array (
@@ -62,9 +62,9 @@
                 'list_function'  => 'erLhcoreClassModelDepartament::getList'
             )); ?>
         </div>
-    </div>
+    </div> -->
 
-    <div class="col-md-2">
+    <!-- <div class="col-md-2">
         <div class="form-group">
             <label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Department group');?></label>
             <?php echo erLhcoreClassRenderHelper::renderMultiDropdown( array (
@@ -77,9 +77,9 @@
                 'list_function'  => 'erLhcoreClassModelDepartamentGroup::getList'
             )); ?>
         </div>
-    </div>
+    </div> -->
 
-    <div class="col-md-2">
+    <!-- <div class="col-md-2">
         <div class="form-group">
             <label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Invitation');?></label>
             <?php echo erLhcoreClassRenderHelper::renderMultiDropdown( array (
@@ -92,7 +92,7 @@
                 'list_function'  => 'erLhAbstractModelProactiveChatInvitation::getList'
             )); ?>
         </div>
-    </div>
+    </div> -->
 
     <div class="col-md-2">
         <div class="form-group">
@@ -114,12 +114,23 @@
 		<label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Date range from');?></label>
 			<div class="row">
 				<div class="col-md-12">
-					<input type="text" class="form-control form-control-sm" name="timefrom" id="id_timefrom" placeholder="E.g <?php echo date('Y-m-d',time()-7*24*3600)?>" value="<?php echo htmlspecialchars($input->timefrom)?>" />
+					<input type="text" class="form-control form-control-sm" name="timefrom" id="id_timefrom" placeholder="Ex. <?php echo date('d-m-Y',time()-7*24*3600)?>" value="<?php echo htmlspecialchars($input->timefrom)?>" />
 				</div>							
 			</div>
 		</div>
 	</div>
-	
+    
+    <div class="col-md-2">
+      <div class="form-group">
+        <label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Date range to');?></label>
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" class="form-control form-control-sm" name="timeto" id="id_timeto" placeholder="Ex. <?php echo date('d-m-Y')?>" value="<?php echo htmlspecialchars($input->timeto)?>" />
+                </div>							
+            </div>
+        </div>
+    </div>
+
 	<div class="col-md-3">
 	    <div class="form-group">
 		<label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Hour and minute from');?></label>
@@ -149,17 +160,6 @@
                 </select>
             </div>
 		</div>
-		</div>
-	</div>
-	
-	<div class="col-md-2">
-	  <div class="form-group">
-		<label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Date range to');?></label>
-			<div class="row">
-				<div class="col-md-12">
-					<input type="text" class="form-control form-control-sm" name="timeto" id="id_timeto" placeholder="E.g <?php echo date('Y-m-d')?>" value="<?php echo htmlspecialchars($input->timeto)?>" />
-				</div>							
-			</div>
 		</div>
 	</div>
 
@@ -259,17 +259,17 @@
             <div class="row">
                 <div class="col-6">
                     <select class="form-control form-control-sm" name="wait_time_from">
-                        <option>More than</option>
-                        <option value="0" <?php $input->wait_time_from === 0 ? print 'selected="selected"' : ''?>>0 seconds</option>
-                        <option value="1" <?php $input->wait_time_from === 1 ? print 'selected="selected"' : ''?>>1 seconds</option>
-                        <option value="5" <?php $input->wait_time_from === 5 ? print 'selected="selected"' : ''?>>5 seconds</option>
-                        <option value="10" <?php $input->wait_time_from === 10 ? print 'selected="selected"' : ''?>>10 seconds</option>
-                        <option value="20" <?php $input->wait_time_from === 20 ? print 'selected="selected"' : ''?>>20 seconds</option>
-                        <option value="30" <?php $input->wait_time_from === 30 ? print 'selected="selected"' : ''?>>30 seconds</option>
-                        <option value="40" <?php $input->wait_time_from === 40 ? print 'selected="selected"' : ''?>>40 seconds</option>
-                        <option value="50" <?php $input->wait_time_from === 50 ? print 'selected="selected"' : ''?>>50 seconds</option>
-                        <option value="60" <?php $input->wait_time_from === 60 ? print 'selected="selected"' : ''?>>60 seconds</option>
-                        <option value="90" <?php $input->wait_time_from === 90 ? print 'selected="selected"' : ''?>>90 seconds</option>
+                        <option>Maior que</option>
+                        <option value="0" <?php $input->wait_time_from === 0 ? print 'selected="selected"' : ''?>>0 segundos</option>
+                        <option value="1" <?php $input->wait_time_from === 1 ? print 'selected="selected"' : ''?>>1 segundo</option>
+                        <option value="5" <?php $input->wait_time_from === 5 ? print 'selected="selected"' : ''?>>5 segundos</option>
+                        <option value="10" <?php $input->wait_time_from === 10 ? print 'selected="selected"' : ''?>>10 segundos</option>
+                        <option value="20" <?php $input->wait_time_from === 20 ? print 'selected="selected"' : ''?>>20 segundos</option>
+                        <option value="30" <?php $input->wait_time_from === 30 ? print 'selected="selected"' : ''?>>30 segundos</option>
+                        <option value="40" <?php $input->wait_time_from === 40 ? print 'selected="selected"' : ''?>>40 segundos</option>
+                        <option value="50" <?php $input->wait_time_from === 50 ? print 'selected="selected"' : ''?>>50 segundos</option>
+                        <option value="60" <?php $input->wait_time_from === 60 ? print 'selected="selected"' : ''?>>60 segundos</option>
+                        <option value="90" <?php $input->wait_time_from === 90 ? print 'selected="selected"' : ''?>>90 segundos</option>
 
                         <?php for ($i = 2; $i < 5; $i++) : ?>
                             <option value="<?php echo $i*60?>" <?php $input->wait_time_from === $i*60 ? print 'selected="selected"' : ''?>><?php echo  $i?> m.</option>
@@ -282,17 +282,17 @@
                 </div>
                 <div class="col-6">
                     <select class="form-control form-control-sm" name="wait_time_till">
-                        <option>Less than</option>
-                        <option value="0" <?php $input->wait_time_till === 0 ? print 'selected="selected"' : ''?>>0 seconds</option>
-                        <option value="1" <?php $input->wait_time_till === 1 ? print 'selected="selected"' : ''?>>1 seconds</option>
-                        <option value="5" <?php $input->wait_time_till === 5 ? print 'selected="selected"' : ''?>>5 seconds</option>
-                        <option value="10" <?php $input->wait_time_till === 10 ? print 'selected="selected"' : ''?>>10 seconds</option>
-                        <option value="20" <?php $input->wait_time_till === 20 ? print 'selected="selected"' : ''?>>20 seconds</option>
-                        <option value="30" <?php $input->wait_time_till === 30 ? print 'selected="selected"' : ''?>>30 seconds</option>
-                        <option value="40" <?php $input->wait_time_till === 40 ? print 'selected="selected"' : ''?>>40 seconds</option>
-                        <option value="50" <?php $input->wait_time_till === 50 ? print 'selected="selected"' : ''?>>50 seconds</option>
-                        <option value="60" <?php $input->wait_time_till === 60 ? print 'selected="selected"' : ''?>>60 seconds</option>
-                        <option value="90" <?php $input->wait_time_till === 90 ? print 'selected="selected"' : ''?>>90 seconds</option>
+                        <option>Menor que<1/option>
+                        <option value="0" <?php $input->wait_time_till === 0 ? print 'selected="selected"' : ''?>>0 segundos</option>
+                        <option value="1" <?php $input->wait_time_till === 1 ? print 'selected="selected"' : ''?>>1 segundo</option>
+                        <option value="5" <?php $input->wait_time_till === 5 ? print 'selected="selected"' : ''?>>5 segundos</option>
+                        <option value="10" <?php $input->wait_time_till === 10 ? print 'selected="selected"' : ''?>>10 segundos</option>
+                        <option value="20" <?php $input->wait_time_till === 20 ? print 'selected="selected"' : ''?>>20 segundos</option>
+                        <option value="30" <?php $input->wait_time_till === 30 ? print 'selected="selected"' : ''?>>30 segundos</option>
+                        <option value="40" <?php $input->wait_time_till === 40 ? print 'selected="selected"' : ''?>>40 segundos</option>
+                        <option value="50" <?php $input->wait_time_till === 50 ? print 'selected="selected"' : ''?>>50 segundos</option>
+                        <option value="60" <?php $input->wait_time_till === 60 ? print 'selected="selected"' : ''?>>60 segundos</option>
+                        <option value="90" <?php $input->wait_time_till === 90 ? print 'selected="selected"' : ''?>>90 segundos</option>
 
                         <?php for ($i = 2; $i < 5; $i++) : ?>
                             <option value="<?php echo $i*60?>" <?php $input->wait_time_till === $i*60 ? print 'selected="selected"' : ''?>><?php echo  $i?> m.</option>
@@ -307,7 +307,7 @@
         </div>
     </div>
 
-    <div class="col-md-1">
+    <!-- <div class="col-md-1">
         <div class="form-group">
             <label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Country');?></label>
             <?php echo erLhcoreClassRenderHelper::renderMultiDropdown( array (
@@ -320,9 +320,9 @@
                 'list_function'  => 'lhCountries::getCountries'
             )); ?>
         </div>
-    </div>
+    </div> -->
 
-    <div class="col-md-1">
+    <!-- <div class="col-md-1">
         <div class="form-group">
             <label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Region');?></label>
             <input type="text" list="regions" class="form-control form-control-sm" name="region" value="<?php echo htmlspecialchars($input->region)?>">
@@ -332,9 +332,15 @@
             <option value="<?php echo htmlspecialchars($stateName)?>">
                 <?php endforeach; ?>
         </datalist>
-    </div>
+    </div> -->
+                    
+<br>
+<br>
+<br>
+<br>
 
     <div class="col-md-12">
+        <h6 style="color: var(--accent-color); font-weight: bold;">Opções avançadas do filtro</h6>
         <div class="row">
             <div class="col-4"><label><input type="checkbox" name="exclude_offline" value="<?php echo erLhcoreClassModelChat::STATUS_SUB_OFFLINE_REQUEST ?>" <?php $input->exclude_offline == erLhcoreClassModelChat::STATUS_SUB_OFFLINE_REQUEST ? print 'checked="checked"' : ''?> > <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Exclude offline requests from charts')?></label></div>
             <div class="col-4"><label><input type="checkbox" name="online_offline" value="<?php echo erLhcoreClassModelChat::STATUS_SUB_OFFLINE_REQUEST ?>" <?php $input->online_offline == erLhcoreClassModelChat::STATUS_SUB_OFFLINE_REQUEST ? print 'checked="checked"' : ''?> > <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Show only offline requests')?></label></div>
@@ -352,9 +358,8 @@
     </div>
 
     <?php include(erLhcoreClassDesign::designtpl('lhstatistic/tabs/filter/statistic_chat_filter_multiinclude.tpl.php'));?>
-
-    <div class="col-md-12">
-        <h6><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','What charts to display')?></h6>
+    <div style="margin-top: 12px;" class="col-md-12">
+        <h6 style="color: var(--accent-color); font-weight: bold;"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','What charts to display')?></h6>
         <div class="row">
             <div class="col-4"><label><input type="checkbox" name="chart_type[]" value="total_chats" <?php if (in_array('total_chats',is_array($input->chart_type) ? $input->chart_type : array())) : ?>checked="checked"<?php endif;?> > <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Total chats')?></label></div>
             <div class="col-4"><label><input type="checkbox" name="chart_type[]" value="active" <?php if (in_array('active',is_array($input->chart_type) ? $input->chart_type : array())) : ?>checked="checked"<?php endif;?> > <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Chat numbers by status')?></label></div>
@@ -382,7 +387,7 @@
 	<script>
 	$(function() {
 		$('#id_timefrom,#id_timeto').fdatepicker({
-			format: 'yyyy-mm-dd'
+			format: 'dd-mm-yyyy'
 		});
         $('.btn-block-department').makeDropdown();
 	});
@@ -430,15 +435,17 @@
                         if (dataString !== '0')
                         {
                             ctx.fillStyle = chart.data.datasets.length > 1 ? 'rgb(255, 255, 255)' : 'rgb(0, 0, 0)';
-                            var fontSize = 11;
+                            var fontSize = 16;
                             var fontStyle = 'normal';
-                            var fontFamily = 'Arial';
+                            ctx.fillStyle = '#ffffff';
+                            var fontFamily = 'Inter';
                             ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
                             // Just naively convert to string for now
 
                             // Make sure alignment settings are correct
                             ctx.textAlign = 'center';
                             ctx.textBaseline = 'middle';
+                            ctx.fillStyle = '#ffffff';
 
                             var padding = 0;
 

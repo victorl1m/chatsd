@@ -1,58 +1,31 @@
-Jul 5 13:40:14 [Warning] [default] [default] Error Object
+Jul 24 18:59:50 [Warning] [default] [default] Error Object
 (
-    [message:protected] => Call to undefined function curl_init()
-    [string:Error:private] => Error: Call to undefined function curl_init() in /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php:395
+    [message:protected] => Call to undefined function is_countable()
+    [string:Error:private] => Error: Call to undefined function is_countable() in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php:555
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php(13): erLhcoreClassModelChatOnlineUser::executeRequest('https://raw.git...')
-#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#4 {main}
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(641): erLhcoreClassModule::getModule('chat')
+#1 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#2 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php
-    [line:protected] => 395
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+    [line:protected] => 555
     [trace:Error:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
-                    [line] => 13
-                    [function] => executeRequest
-                    [class] => erLhcoreClassModelChatOnlineUser
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 641
+                    [function] => getModule
+                    [class] => erLhcoreClassModule
                     [type] => ::
                     [args] => Array
                         (
-                            [0] => https://raw.githubusercontent.com/LiveHelperChat/livehelperchat/master/lhc_web/doc/update_db/structure.json
+                            [0] => chat
                         )
 
                 )
 
             [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
-                        )
-
-                    [function] => include
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
@@ -69,61 +42,34 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 5 13:49:15 [Warning] [default] [default] Error Object
+Jul 24 18:59:50 [Warning] [default] [default] Error Object
 (
-    [message:protected] => Call to undefined function curl_init()
-    [string:Error:private] => Error: Call to undefined function curl_init() in /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php:395
+    [message:protected] => Call to undefined function is_countable()
+    [string:Error:private] => Error: Call to undefined function is_countable() in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php:555
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php(13): erLhcoreClassModelChatOnlineUser::executeRequest('https://raw.git...')
-#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#4 {main}
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(641): erLhcoreClassModule::getModule('chat')
+#1 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#2 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php
-    [line:protected] => 395
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+    [line:protected] => 555
     [trace:Error:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
-                    [line] => 13
-                    [function] => executeRequest
-                    [class] => erLhcoreClassModelChatOnlineUser
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 641
+                    [function] => getModule
+                    [class] => erLhcoreClassModule
                     [type] => ::
                     [args] => Array
                         (
-                            [0] => https://raw.githubusercontent.com/LiveHelperChat/livehelperchat/master/lhc_web/doc/update_db/structure.json
+                            [0] => chat
                         )
 
                 )
 
             [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
-                        )
-
-                    [function] => include
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
@@ -140,61 +86,34 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 5 14:06:03 [Warning] [default] [default] Error Object
+Jul 24 18:59:51 [Warning] [default] [default] Error Object
 (
-    [message:protected] => Call to undefined function curl_init()
-    [string:Error:private] => Error: Call to undefined function curl_init() in /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php:395
+    [message:protected] => Call to undefined function is_countable()
+    [string:Error:private] => Error: Call to undefined function is_countable() in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php:555
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php(13): erLhcoreClassModelChatOnlineUser::executeRequest('https://raw.git...')
-#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#4 {main}
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(641): erLhcoreClassModule::getModule('chat')
+#1 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#2 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/models/lhchat/erlhcoreclassmodelchatonlineuser.php
-    [line:protected] => 395
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+    [line:protected] => 555
     [trace:Error:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
-                    [line] => 13
-                    [function] => executeRequest
-                    [class] => erLhcoreClassModelChatOnlineUser
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 641
+                    [function] => getModule
+                    [class] => erLhcoreClassModule
                     [type] => ::
                     [args] => Array
                         (
-                            [0] => https://raw.githubusercontent.com/LiveHelperChat/livehelperchat/master/lhc_web/doc/update_db/structure.json
+                            [0] => chat
                         )
 
                 )
 
             [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhsystem/update.php
-                        )
-
-                    [function] => include
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
@@ -211,179 +130,140 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 5 14:39:49 [Warning] [default] [default] Error Object
+Jul 24 18:59:52 [Warning] [default] [default] Error Object
 (
-    [message:protected] => Class 'ZipArchive' not found
-    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+    [message:protected] => Call to undefined function is_countable()
+    [string:Error:private] => Error: Call to undefined function is_countable() in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php:555
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(2053): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpxz...')
-#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(457): erLhcoreClassChatStatistic::exportDepartmentStatistic(Array)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(641): erLhcoreClassModule::getModule('chat')
+#1 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#2 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
-    [line:protected] => 227
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+    [line:protected] => 555
     [trace:Error:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
-                    [line] => 2053
-                    [function] => save
-                    [class] => PHPExcel_Writer_Excel2007
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 641
+                    [function] => getModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => chat
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 24 18:59:53 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Call to undefined function is_countable()
+    [string:Error:private] => Error: Call to undefined function is_countable() in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php:555
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(641): erLhcoreClassModule::getModule('chat')
+#1 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#2 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+    [line:protected] => 555
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 641
+                    [function] => getModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => chat
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
+Jul 24 16:16:02 [Warning] [default] [default] ezcQueryVariableParameterException Object
+(
+    [originalMessage] => The method 'where' expected at least 1 parameter but only one was provided.
+    [message:protected] => The method 'where' expected at least 1 parameter but only one was provided.
+    [string:Exception:private] => ezcQueryVariableParameterException: The method 'where' expected at least 1 parameter but only one was provided. in /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php:142
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/modules/lhuser/userlist.php(57): ezcQueryUpdate->where(Array)
+#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#4 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php
+    [line:protected] => 142
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhuser/userlist.php
+                    [line] => 57
+                    [function] => where
+                    [class] => ezcQueryUpdate
                     [type] => ->
-                    [args] => Array
-                        (
-                            [0] => /tmp/phpxltmpxzAvaJ
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                    [line] => 457
-                    [function] => exportDepartmentStatistic
-                    [class] => erLhcoreClassChatStatistic
-                    [type] => ::
                     [args] => Array
                         (
                             [0] => Array
                                 (
-                                    [day_stats] => Array
-                                        (
-                                        )
-
-                                    [hour_stats] => Array
-                                        (
-                                        )
-
-                                    [global_stats] => Array
-                                        (
-                                        )
-
                                 )
 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jul 5 14:39:50 [Warning] [default] [default] Error Object
-(
-    [message:protected] => Class 'ZipArchive' not found
-    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(2053): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmp31...')
-#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(457): erLhcoreClassChatStatistic::exportDepartmentStatistic(Array)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
-    [line:protected] => 227
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
-                    [line] => 2053
-                    [function] => save
-                    [class] => PHPExcel_Writer_Excel2007
-                    [type] => ->
-                    [args] => Array
-                        (
-                            [0] => /tmp/phpxltmp31isxf
                         )
 
                 )
 
             [1] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                    [line] => 457
-                    [function] => exportDepartmentStatistic
-                    [class] => erLhcoreClassChatStatistic
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => Array
-                                (
-                                    [day_stats] => Array
-                                        (
-                                        )
-
-                                    [hour_stats] => Array
-                                        (
-                                        )
-
-                                    [global_stats] => Array
-                                        (
-                                        )
-
-                                )
-
-                        )
-
-                )
-
-            [2] => Array
-                (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 108
                     [args] => Array
                         (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhuser/userlist.php
                         )
 
                     [function] => include
                 )
 
-            [3] => Array
+            [2] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 658
@@ -396,7 +276,7 @@ Stack trace:
 
                 )
 
-            [4] => Array
+            [3] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
@@ -411,93 +291,146 @@ Stack trace:
 
         )
 
-    [previous:Error:private] => 
+    [previous:Exception:private] => 
 )
-Jul 5 14:41:11 [Warning] [default] [default] Error Object
+
+Jul 24 19:25:32 [Warning] [default] [default] ezcPersistentObjectNotFoundException Object
 (
-    [message:protected] => Class 'ZipArchive' not found
-    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+    [originalMessage] => A query failed internally in Persistent Object: No object of class 'erLhcoreClassModelUser' with id '42'.
+    [message:protected] => A query failed internally in Persistent Object: No object of class 'erLhcoreClassModelUser' with id '42'.
+    [string:Exception:private] => ezcPersistentObjectNotFoundException: A query failed internally in Persistent Object: No object of class 'erLhcoreClassModelUser' with id '42'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php:154
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpbc...')
-#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(41): ezcPersistentLoadHandler->loadIntoObject(Object(erLhcoreClassModelUser), '42')
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load('erLhcoreClassMo...', '42')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load('erLhcoreClassMo...', '42')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
-    [line:protected] => 227
-    [trace:Error:private] => Array
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+    [line:protected] => 154
+    [trace:Exception:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
-                    [line] => 1554
-                    [function] => save
-                    [class] => PHPExcel_Writer_Excel2007
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 41
+                    [function] => loadIntoObject
+                    [class] => ezcPersistentLoadHandler
                     [type] => ->
                     [args] => Array
                         (
-                            [0] => /tmp/phpxltmpbccgky
+                            [0] => erLhcoreClassModelUser Object
+                                (
+                                    [accessArray:erLhcoreClassModelUser:private] => 
+                                    [id] => 
+                                    [username] => 
+                                    [password] => 
+                                    [email] => 
+                                    [name] => 
+                                    [filepath] => 
+                                    [filename] => 
+                                    [surname] => 
+                                    [job_title] => 
+                                    [departments_ids] => 
+                                    [skype] => 
+                                    [xmpp_username] => 
+                                    [disabled] => 0
+                                    [hide_online] => 0
+                                    [all_departments] => 0
+                                    [invisible_mode] => 0
+                                    [time_zone] => 
+                                    [rec_per_req] => 
+                                    [session_id] => 
+                                    [chat_nickname] => 
+                                    [operation_admin] => 
+                                    [inactive_mode] => 0
+                                    [max_active_chats] => 0
+                                    [auto_accept] => 0
+                                    [exclude_autoasign] => 0
+                                    [pswd_updated] => 0
+                                    [always_on] => 0
+                                    [avatar] => 
+                                    [cache_version] => 0
+                                    [llogin] => 0
+                                    [force_logout] => 0
+                                    [attr_int_1] => 0
+                                    [attr_int_2] => 0
+                                    [attr_int_3] => 0
+                                )
+
+                            [1] => 42
                         )
 
                 )
 
             [1] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                    [line] => 383
-                    [function] => exportAgentStatistic
-                    [class] => erLhcoreClassChatStatistic
-                    [type] => ::
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
                     [args] => Array
                         (
-                            [0] => 30
-                            [1] => Array
-                                (
-                                    [filtergte] => Array
-                                        (
-                                            [time] => 1672531200
-                                        )
-
-                                    [filterlte] => Array
-                                        (
-                                            [time] => 1690761600
-                                        )
-
-                                    [filterin] => Array
-                                        (
-                                            [id] => Array
-                                                (
-                                                    [0] => 52
-                                                )
-
-                                        )
-
-                                )
-
+                            [0] => erLhcoreClassModelUser
+                            [1] => 42
                         )
 
                 )
 
             [2] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
                     [args] => Array
                         (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
+                            [0] => erLhcoreClassModelUser
+                            [1] => 42
                         )
 
-                    [function] => include
                 )
 
             [3] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 1
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
                     [type] => ::
                     [args] => Array
                         (
@@ -505,7 +438,37 @@ Stack trace:
 
                 )
 
-            [4] => Array
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => user_language
+                            [1] => pt_BR
+                            [2] => 
+                            [3] => 1
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [8] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
@@ -520,428 +483,184 @@ Stack trace:
 
         )
 
-    [previous:Error:private] => 
+    [previous:Exception:private] => 
 )
-Jul 5 14:41:13 [Warning] [default] [default] Error Object
+
+Jul 24 19:28:01 [Warning] [default] [default] ezcPersistentObjectNotFoundException Object
 (
-    [message:protected] => Class 'ZipArchive' not found
-    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
+    [originalMessage] => A query failed internally in Persistent Object: No object of class 'erLhcoreClassModelUser' with id '42'.
+    [message:protected] => A query failed internally in Persistent Object: No object of class 'erLhcoreClassModelUser' with id '42'.
+    [string:Exception:private] => ezcPersistentObjectNotFoundException: A query failed internally in Persistent Object: No object of class 'erLhcoreClassModelUser' with id '42'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php:154
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpea...')
-#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(41): ezcPersistentLoadHandler->loadIntoObject(Object(erLhcoreClassModelUser), '42')
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load('erLhcoreClassMo...', '42')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load('erLhcoreClassMo...', '42')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
-    [line:protected] => 227
-    [trace:Error:private] => Array
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+    [line:protected] => 154
+    [trace:Exception:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
-                    [line] => 1554
-                    [function] => save
-                    [class] => PHPExcel_Writer_Excel2007
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 41
+                    [function] => loadIntoObject
+                    [class] => ezcPersistentLoadHandler
                     [type] => ->
                     [args] => Array
                         (
-                            [0] => /tmp/phpxltmpea8him
+                            [0] => erLhcoreClassModelUser Object
+                                (
+                                    [accessArray:erLhcoreClassModelUser:private] => 
+                                    [id] => 
+                                    [username] => 
+                                    [password] => 
+                                    [email] => 
+                                    [name] => 
+                                    [filepath] => 
+                                    [filename] => 
+                                    [surname] => 
+                                    [job_title] => 
+                                    [departments_ids] => 
+                                    [skype] => 
+                                    [xmpp_username] => 
+                                    [disabled] => 0
+                                    [hide_online] => 0
+                                    [all_departments] => 0
+                                    [invisible_mode] => 0
+                                    [time_zone] => 
+                                    [rec_per_req] => 
+                                    [session_id] => 
+                                    [chat_nickname] => 
+                                    [operation_admin] => 
+                                    [inactive_mode] => 0
+                                    [max_active_chats] => 0
+                                    [auto_accept] => 0
+                                    [exclude_autoasign] => 0
+                                    [pswd_updated] => 0
+                                    [always_on] => 0
+                                    [avatar] => 
+                                    [cache_version] => 0
+                                    [llogin] => 0
+                                    [force_logout] => 0
+                                    [attr_int_1] => 0
+                                    [attr_int_2] => 0
+                                    [attr_int_3] => 0
+                                )
+
+                            [1] => 42
                         )
 
                 )
 
             [1] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                    [line] => 383
-                    [function] => exportAgentStatistic
-                    [class] => erLhcoreClassChatStatistic
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 30
-                            [1] => Array
-                                (
-                                    [filtergte] => Array
-                                        (
-                                            [time] => 1672531200
-                                        )
-
-                                    [filterlte] => Array
-                                        (
-                                            [time] => 1690761600
-                                        )
-
-                                    [filterin] => Array
-                                        (
-                                            [id] => Array
-                                                (
-                                                    [0] => 52
-                                                )
-
-                                        )
-
-                                )
-
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jul 5 14:41:18 [Warning] [default] [default] Error Object
-(
-    [message:protected] => Class 'ZipArchive' not found
-    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpKF...')
-#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
-    [line:protected] => 227
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
-                    [line] => 1554
-                    [function] => save
-                    [class] => PHPExcel_Writer_Excel2007
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
                     [type] => ->
                     [args] => Array
                         (
-                            [0] => /tmp/phpxltmpKFMXAq
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                    [line] => 383
-                    [function] => exportAgentStatistic
-                    [class] => erLhcoreClassChatStatistic
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 30
-                            [1] => Array
-                                (
-                                    [filtergte] => Array
-                                        (
-                                            [time] => 1672531200
-                                        )
-
-                                    [filterlte] => Array
-                                        (
-                                            [time] => 1690761600
-                                        )
-
-                                    [filterin] => Array
-                                        (
-                                            [id] => Array
-                                                (
-                                                    [0] => 52
-                                                )
-
-                                        )
-
-                                )
-
+                            [0] => erLhcoreClassModelUser
+                            [1] => 42
                         )
 
                 )
 
             [2] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jul 5 14:42:41 [Warning] [default] [default] Error Object
-(
-    [message:protected] => Class 'ZipArchive' not found
-    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpYo...')
-#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
-    [line:protected] => 227
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
-                    [line] => 1554
-                    [function] => save
-                    [class] => PHPExcel_Writer_Excel2007
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
                     [type] => ->
                     [args] => Array
                         (
-                            [0] => /tmp/phpxltmpYo0yzL
+                            [0] => erLhcoreClassModelUser
+                            [1] => 42
                         )
 
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                    [line] => 383
-                    [function] => exportAgentStatistic
-                    [class] => erLhcoreClassChatStatistic
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 30
-                            [1] => Array
-                                (
-                                    [filtergte] => Array
-                                        (
-                                            [time] => 1688515200
-                                        )
-
-                                    [filterlte] => Array
-                                        (
-                                            [time] => 1688568099
-                                        )
-
-                                    [filterin] => Array
-                                        (
-                                            [id] => Array
-                                                (
-                                                    [0] => 52
-                                                )
-
-                                        )
-
-                                )
-
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                        )
-
-                    [function] => include
                 )
 
             [3] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jul 5 14:42:42 [Warning] [default] [default] Error Object
-(
-    [message:protected] => Class 'ZipArchive' not found
-    [string:Error:private] => Error: Class 'ZipArchive' not found in /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php:227
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php(1554): PHPExcel_Writer_Excel2007->save('/tmp/phpxltmpXm...')
-#1 /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php(383): erLhcoreClassChatStatistic::exportAgentStatistic(30, Array)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhform/PHPExcel/Writer/Excel2007.php
-    [line:protected] => 227
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhchat/lhchatstatistic.php
-                    [line] => 1554
-                    [function] => save
-                    [class] => PHPExcel_Writer_Excel2007
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
                     [type] => ->
                     [args] => Array
                         (
-                            [0] => /tmp/phpxltmpXmm6cz
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                    [line] => 383
-                    [function] => exportAgentStatistic
-                    [class] => erLhcoreClassChatStatistic
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 30
-                            [1] => Array
-                                (
-                                    [filtergte] => Array
-                                        (
-                                            [time] => 1688515200
-                                        )
-
-                                    [filterlte] => Array
-                                        (
-                                            [time] => 1688568099
-                                        )
-
-                                    [filterin] => Array
-                                        (
-                                            [id] => Array
-                                                (
-                                                    [0] => 52
-                                                )
-
-                                        )
-
-                                )
-
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [args] => Array
-                        (
-                            [0] => /var/www/html/chatsd/lhc_web/modules/lhstatistic/statistic.php
-                        )
-
-                    [function] => include
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
+                            [0] => 1
                         )
 
                 )
 
             [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => user_language
+                            [1] => pt_BR
+                            [2] => 
+                            [3] => 1
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [8] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
@@ -956,5 +675,6 @@ Stack trace:
 
         )
 
-    [previous:Error:private] => 
+    [previous:Exception:private] => 
 )
+

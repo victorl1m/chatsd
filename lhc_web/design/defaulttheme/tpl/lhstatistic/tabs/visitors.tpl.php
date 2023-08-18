@@ -167,13 +167,15 @@
                                 ctx.fillStyle = 'rgb(0, 0, 0)';
                                 var fontSize = 11;
                                 var fontStyle = 'normal';
-                                var fontFamily = 'Arial';
+                                ctx.fillStyle = '#ffffff';
+                                var fontFamily = 'Inter';
                                 ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
                                 // Just naively convert to string for now
 
                                 // Make sure alignment settings are correct
                                 ctx.textAlign = 'center';
                                 ctx.textBaseline = 'middle';
+                                ctx.fillStyle = '#ffffff';
                                 var padding = 5;
                                 var position = element.tooltipPosition();
                                 ctx.fillText(dataString, position.x, position.y - (fontSize / 2) - padding);

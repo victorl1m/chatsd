@@ -201,6 +201,7 @@
 <?php if (!empty($agentStatistic)) : ?>
 <table class="table statistic-table" cellpadding="0" cellspacing="0" width="100%">
 	<tr>
+        <?php echo '<pre>'; print_r($agentStatistic); echo '</pre>' ?>
 		<th><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Agent');?></th>
 		<th colspan="6"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/lists/search_panel','Chats');?></th>
 	</tr>

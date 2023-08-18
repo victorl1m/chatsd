@@ -932,7 +932,7 @@ progress {
 
 .col-4 {
     flex: 0 0 auto;
-    width: 33.33333333%
+    width: 33.33333333%;
 }
 
 .col-5 {
@@ -4637,7 +4637,6 @@ fieldset:disabled .btn {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    background-color: #2e2e2e;
     border-radius: 15px;
     padding: 0.5rem;
     width: 18rem;
@@ -4749,7 +4748,6 @@ fieldset:disabled .btn {
     border: 0 solid transparent;
     justify-content: space-between;
     outline: none;
-    color: white;
     font-size: 12px;
     font-weight: 500;
     width: 100%;
@@ -6629,7 +6627,8 @@ input[type=number] {
 .modal-body {
     position: relative;
     flex: 1 1 auto;
-    padding: var(--bs-modal-padding)
+    padding: var(--bs-modal-padding);
+    backdrop-filter: blur(25px);
 }
 
 .modal-footer {
@@ -9346,7 +9345,7 @@ input[type=number] {
     margin-top: 2rem;
 }
 
-.startchat-chatbox {
+.messagesBlockWrap {
     padding-left: 12px;
     padding-right: 12px;
     backdrop-filter: blur(24px);
@@ -9494,7 +9493,7 @@ input[type=number] {
     display: flex !important;
     align-items: center !important;
     flex-direction: row !important;
-    gap: 6px !important;
+    gap: 12px !important;
 }
 
 .side-between {
@@ -9649,13 +9648,6 @@ input[type=number] {
     justify-content: center;
     align-items: center;
     left: 65%;
-    transition: 0.3s
-}
-
-.copy-text:hover {
-    background-color: #2e2e2e;
-    padding: 6px;
-    border-radius: 25px;
     transition: 0.3s
 }
 

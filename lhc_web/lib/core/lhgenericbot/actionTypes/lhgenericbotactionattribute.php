@@ -34,7 +34,7 @@ class erLhcoreClassGenericBotActionAttribute {
             }
 
             if ($hasEvent && $softEvent === false) {
-                $action['content']['intro_message'] = 'Please complete previous process!';
+                $action['content']['intro_message'] = 'Estamos aqui para lhe auxiliar, por gentileza, responda à pergunta anterior de forma adequada. Agradecemos sua colaboração.';
             } else {
 
                 $actionEvent = $action['content'];
