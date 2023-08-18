@@ -139,8 +139,8 @@
     array (
       'eng' => 
       array (
-        'locale' => 'en_EN',
-        'content_language' => 'en',
+        'locale' => 'pt_BR',
+        'content_language' => 'pt',
         'dir_language' => 'ltr',
         'default_url' => 
         array (

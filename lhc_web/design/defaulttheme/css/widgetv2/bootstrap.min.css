@@ -3613,6 +3613,16 @@ fieldset:disabled .btn {
     transition: .2s ease-in-out transform
 }
 
+.truncate-visitor {
+    width: 150px !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
+    margin-right: 6px !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    text-align: center !important;
+}
+
 @media (prefers-reduced-motion:reduce) {
     .icon-link>.bi {
         transition: none

@@ -44,8 +44,8 @@
 
                               <span title="<?php echo $chat->id;?>" class="material-icons fs12 me-0<?php echo $chat->user_status_front == 2 ? ' icon-user-away' : ($chat->user_status_front == 0 ? ' icon-user-online' : ' icon-user-offline')?>" class="">&#xE3A6;</span>&nbsp;
                         
-                              <?php if ($chat->group_id != 1) : ?>
-                              <a class="material-icons" id="preview-item-<?php echo $chat->id?>" data-list-navigate="true" onclick="lhc.previewChat(<?php echo $chat->id?>,this)">info_outline</a>
+                              <?php if ($chat->status == erLhcoreClassModelChat::STATUS_CLOSED_CHAT) : ?>
+                                <a class="material-icons" id="preview-item-<?php echo $chat->id?>" data-list-navigate="true" onclick="lhc.previewChat(<?php echo $chat->id?>,this)">info_outline</a>
                                 <?php endif; ?>
                               
                               <a ng-non-bindable href="#!#Fchat-id-<?php echo $chat->id?>" class="action-image material-icons" data-title="<?php echo htmlspecialchars($chat->nick,ENT_QUOTES);?>" onclick="lhinst.startChatNewWindow('<?php echo $chat->id;?>',$(this).attr('data-title'))" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/pendingchats','Open in a new window');?>">open_in_new</a>
@@ -95,7 +95,9 @@
                             <td nowrap="nowrap">
                                 <?php include(erLhcoreClassDesign::designtpl('lhchat/lists_chats_parts/status_column.tpl.php'));?>
                             </td>
+                            <?php if (erLhcoreClassUser::instance()->hasAccessTo('lhchat','deleteglobalchat') || erLhcoreClassUser::instance()->hasAccessTo('lhchat','deletechat')) : ?>
                             <td><?php if ($chat->fbst == 1) : ?><i class="material-icons up-voted">thumb_up</i><?php elseif ($chat->fbst == 2) : ?><i class="material-icons down-voted">thumb_down<i><?php endif;?></td>
+                            <?php endif; ?>
                         </tr>
                         <?php endforeach; ?>
                     </table>

@@ -20,7 +20,7 @@
 
         <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/can_use_chat.tpl.php'));?>
     
-        <div class="row">
+        <div class="row main-div">
             <div id="middle-column-page" class="col-xl-12 pb-1">
 
                 <?php if (isset($Result['path'])) : ?>

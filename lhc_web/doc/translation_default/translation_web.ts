@@ -11775,7 +11775,7 @@
     </message>
     <message>
       <source>Ask for help</source>
-      <translation type="unfinished"/>
+      <translation>Solicitar apoio</translation>
     </message>
     <message>
       <source>Translate</source>

@@ -4469,7 +4469,7 @@
     </message>
     <message>
       <source>Auto assignment</source>
-      <translation>Auto encaminhar</translation>
+      <translation>Atribuição Automática</translation>
     </message>
     <message>
       <source>Product</source>
@@ -9254,7 +9254,7 @@
     </message>
     <message>
       <source>Pending a support staff member to join, you can write your questions, and as soon as a support staff member confirms this chat, he will get your messages</source>
-      <translation>Você está na fila de espera. Compartilhe suas dúvidas ou oportunidades que estão ocorrendo, e em logo um analista do Service Desk estará disponível para ajudá-lo(a).</translation>
+      <translation>Você está na fila de espera. Logo um analista do Service Desk estará disponível para ajudá-lo(a).</translation>
     </message>
     <message>
       <source>You have been transferred. Please wait for operator to join a chat...</source>
@@ -11317,19 +11317,19 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>Copy</source>
-      <translation type="unfinished"/>
+      <translation>Copiar</translation>
     </message>
     <message>
       <source>Copy all</source>
-      <translation type="unfinished"/>
+      <translation>Copiar tudo</translation>
     </message>
     <message>
       <source>Ask for help</source>
-      <translation type="unfinished"/>
+      <translation>Solicitar apoio</translation>
     </message>
     <message>
       <source>Translate</source>
-      <translation type="unfinished"/>
+      <translation>Traduzir</translation>
     </message>
     <message>
       <source>New</source>
@@ -11361,7 +11361,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>You went offline because of inactivity. Please close other chat windows if you have any</source>
-      <translation type="unfinished"/>
+      <translation>Você está offline por inatividade. Feche outras abas do chat, caso tenha.</translation>
     </message>
     <message>
       <source>in chat</source>

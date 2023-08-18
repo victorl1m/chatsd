@@ -23,7 +23,18 @@
     background-color: #2a2d31
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+.collapse-right,
+.collapse-right:focus,
+.collapse-right:visited,
+.collapse-right:hover {
+    background-color: #2e2e2e
+}
+
+.load-prev-btn {
+    background-color: #2e2e2e
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
 
 [data-bs-theme=dark] {
     --bs-light-rgb: 59, 66, 72;
@@ -70,8 +81,19 @@ body {
 }
 
 div.message-admin div.msg-body {
-    background-color: #3d4321 !important;
-    color: white !important;
+	margin-right: 0px;
+	background-color: #3d4321 !important;
+	padding: 6px 9px;
+	margin-top: 0px;
+	color: white;
+	/*border-top-left-radius:20px;
+	border-bottom-left-radius:20px;*/
+	border-radius: 20px;
+	margin-bottom: 3px;
+	display: inline-block;
+	text-align: left;
+	max-width: 85%;
+	position: relative;
 }
 
 .msgBlock-admin {
@@ -126,6 +148,10 @@ div.message-admin div.msg-body {
 
 .nav-link {
     color: white !important;
+}
+
+.nav-link.active {
+    transition: 0.3s;
 }
 
 .dropdown-profile-btn {
@@ -418,8 +444,11 @@ div.message-row-typing div.msg-body {
 }
 
 .small-truncate-nick {
-    width: 150px !important;
     white-space: nowrap !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
+}
+
+.truncate-visitor {
+    color: white;
 }

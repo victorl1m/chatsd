@@ -65,7 +65,7 @@ $UserData = $currentUser->getUserData(true);
             ?>
             <!-- online status if has perm -->
             <?php if ($currentUser->hasAccessTo('lhchat', 'use') && $currentUser->hasAccessTo('lhuser', 'changeonlinestatus')): ?>
-                <a href="#">
+                <a class="profile-action-btn" href="#">
                     <i style="color: var(--accent-color) !important; margin: 0; margin-bottom: 6px !important;" id="online-offline-user" class="material-icons2 ng-cloak" ng-click="lhc.changeOnline()" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/user_settings', 'Change my status to online/offline'); ?>">
                         {{lhc.hideOnline == true ? 'flash_off' : 'flash_on'}}
                     </i>
@@ -73,7 +73,7 @@ $UserData = $currentUser->getUserData(true);
             <?php endif; ?>
             <!-- left and right side actions container -->
             <div class="profile-actions">
-                <a href="#" style="color: var(--accent-color) !important; margin: 0" onclick="lhinst.disableNewChatSoundAdmin($(this));event.stopPropagation()" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/user_settings','Enable/Disable sound about new pending chats'); ?>">
+                <a class="profile-action-btn" href="#" style="color: var(--accent-color) !important; margin: 0" onclick="lhinst.disableNewChatSoundAdmin($(this));event.stopPropagation()" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/user_settings','Enable/Disable sound about new pending chats'); ?>">
                     <i style="margin: 0 !important;" class="material-icons"><?php $soundNewChatEnabled == 0 ? print 'volume_off' : print 'volume_up'?></i>
                 </a>
                 <!-- profile img -->
@@ -192,6 +192,11 @@ $UserData = $currentUser->getUserData(true);
 
                     function profileDropdown() {
                         document.querySelector('.profile-dropdown').classList.toggle('active');
+
+                        // when remove mouse, close profile-dropdown (remove active)
+                        document.querySelector('.profile-dropdown').addEventListener('mouseleave', function() {
+                            document.querySelector('.profile-dropdown').classList.remove('active');
+                        })
                     }
 
                     function statsModal() {
@@ -208,12 +213,12 @@ $UserData = $currentUser->getUserData(true);
                 </script>
 
                 <!-- logout -->
-                <a class="csfr-required accent-text" href="<?php echo erLhcoreClassDesign::baseurl('user/logout') ?>" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout', 'Logout'); ?>">
+                <a class="csfr-required accent-text profile-action-btn" href="<?php echo erLhcoreClassDesign::baseurl('user/logout') ?>" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout', 'Logout'); ?>">
                     <i style="margin: 0 !important;" class="material-icons">exit_to_app</i>
                 </a>
             </div>
             <!-- auto_uppercase -->
-            <a title="Maiúscula ao digitar mensagem" href="<?php echo erLhcoreClassDesign::baseurl('user/setsetting') ?>/auto_uppercase/<?php echo erLhcoreClassModelUserSetting::getSetting('auto_uppercase', 1) == 0 ? 1 : 0 ?>" class="csfr-required nav-link">
+            <a class="csfr-required profile-action-btn" title="Maiúscula ao digitar mensagem" href="<?php echo erLhcoreClassDesign::baseurl('user/setsetting') ?>/auto_uppercase/<?php echo erLhcoreClassModelUserSetting::getSetting('auto_uppercase', 1) == 0 ? 1 : 0 ?>" class="csfr-required nav-link">
                 <span class="material-icons2" style="color: var(--accent-color) !important;">
                     <?php erLhcoreClassModelUserSetting::getSetting('auto_uppercase', 1) ? print 'match_case' : print 'remove_done' ?>
                 </span>

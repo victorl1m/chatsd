@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
 
 :root,
 [data-bs-theme=light] {
@@ -4623,6 +4623,29 @@ fieldset:disabled .btn {
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+}
+
+.center-truncate {
+    display: flex;
+}
+
+.small-truncate-nick {
+    width: 120px !important;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.clock-time-dashboard {
+    margin-left: auto !important;
+    margin-right: 6px !important;
+}
+
+.main-div {
+    margin-left: 0px !important;
+}
+
+.chat-special-actions {
+    background-color: red !important;
 }
 
 .profile-dropdown {
@@ -9582,13 +9605,25 @@ input[type=number] {
 .visitor-img {
     border-radius: 50px;
     width: 150px;
-    height: 150px;
+    margin-left: 0.50rem;
+    margin-right: 0.50rem;
 }
 
-.visitor-name {
+.truncate-visitor {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 0.25rem;
+    width: 150px !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
+    margin-right: 6px !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    text-align: center;
+}
+
+.selector-startchat {
+    margin: 0px !important; 
 }
 
 .visitor-email {

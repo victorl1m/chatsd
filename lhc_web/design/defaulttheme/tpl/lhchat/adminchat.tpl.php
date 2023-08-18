@@ -5,17 +5,19 @@
 
         <span class="last-user-msg" title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/chat','Last visitor message time')?>"><i class="material-icons">access_time</i><span id="last-msg-chat-<?php echo $chat->id?>">...</span></span>
 
-		<a title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/chat','Show/Hide right column')?>" href="#" class="material-icons collapse-right" onclick="lhinst.processCollapse('<?php echo $chat->id;?>')">chevron_right</a>
 		<?php include(erLhcoreClassDesign::designtpl('lhchat/part/above_messages_block.tpl.php')); ?>
-
+        
 		<div class="message-block">
             <?php
                 $LastMessageID = 0;
                 $messages = erLhcoreClassChat::getChatMessages($chat->id, erLhcoreClassChat::$limitMessages);
                 $current_user_id = erLhcoreClassUser::instance()->getUserID();
-            ?>
+                ?>
 
-            <?php include(erLhcoreClassDesign::designtpl('lhchat/part/load_previous.tpl.php'));?>
+            <div class="chat-special-actions">
+                <a title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/chat','Show/Hide right column')?>" href="#" class="material-icons collapse-right" onclick="lhinst.processCollapse('<?php echo $chat->id;?>')">chevron_right</a>
+                <?php include(erLhcoreClassDesign::designtpl('lhchat/part/load_previous.tpl.php'));?>
+            </div>
 
 			<div class="msgBlock msgBlock-admin" id="messagesBlock-<?php echo $chat->id?>" onscroll="lhinst.onScrollAdmin(<?php echo $chat->id?>)">
 				<?php include(erLhcoreClassDesign::designtpl('lhchat/syncadmin.tpl.php'));?>

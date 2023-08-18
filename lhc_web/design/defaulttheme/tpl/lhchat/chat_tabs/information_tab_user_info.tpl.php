@@ -7,12 +7,13 @@ function identificarOperacao($enderecoIP) {
         'PagSeguro Supervisão' => array('172.21.12.1', '172.21.12.126'),
         'PagSeguro Staff' => array('172.21.14.129', '172.21.14.158'),
         'PagSeguro Televendas' => array('172.21.10.1', '172.21.11.254'),
+        'PagSeguro Treinamento' => array('172.21.14.1', '172.21.14.126'),
         'PagSeguro Wi-Fi' => array('172.21.15.225', '172.21.15.238'),
 
         // CIELO
         'Cielo Ativo' => array('172.27.60.1', '172.27.61.254'),
-        'Cielo Receptivo' => array('172.27.60.1', '172.27.61.254'),
-        'Cielo' => array('172.27.60.1', '172.27.61.254'),
+        'Cielo Receptivo' => array('172.27.62.1', '172.27.63.254'),
+        'Cielo' => array('10.33.156.1', '10.33.157.254'),
 
         // MERCADO PAGO
         'Mercado Pago' => array('10.33.106.1', '10.33.107.254'),
@@ -26,10 +27,22 @@ function identificarOperacao($enderecoIP) {
         'Staff Supervisão' => array('10.33.165.1', '10.33.165.254'),
 
         // CLARO / NET
-        'Claro' => array('10.64.116.1', '10.64.117.254'),
+        'Claro1' => array('10.64.116.1', '10.64.117.254'),
+        'Claro2' => array('10.33.168.0', '10.33.175.254'),
         'Claro MPLAY' => array('10.64.158.1', '10.64.158.254'),
         'NET / Black VIP' => array('10.64.96.1', '10.64.99.254'),
 
+        // SOFISA
+        'Sofisa' => array('10.33.142.1', '10.33.142.254'),
+
+        // SOCIAL BANK
+        'Social Bank' => array('10.33.106.1', '10.33.107.254'),
+
+        // PMU
+        'PMU' => array('10.33.140.1', '10.33.140.254'),
+
+        // CHIMA
+        'Chima' => array('10.33.148.1', '10.33.148.254'),
 
         // BRD
         'Bradesco1' => array('10.36.4.1', '10.36.7.254'),
@@ -60,6 +73,11 @@ function identificarOperacao($enderecoIP) {
                 return 'Bradesco';
             }
         }
+        if ($operacao == 'Claro1' || $operacao == 'Claro2') {
+            if ($enderecoIPNumerico >= $inicio && $enderecoIPNumerico <= $fim) {
+                return 'Claro';
+            }
+        }
     }
 
     return 'Externo';
@@ -80,12 +98,12 @@ function identificarOperacao($enderecoIP) {
                                     $operacao = identificarOperacao($enderecoIP);
                                     ?>
     <div class="positive-negative">
-        <i style="cursor: default" class="material-icons<?php if ($chat->fbst == 1) : ?> up-voted<?php endif;?> up-vote-action" role="button" data-id="1" onclick="lhinst.voteAction($(this))" ><?php if (isset($react) && $react === true) : ?>&#xf109;<?php else : ?>thumb_up<?php endif; ?></i>
+        <i style="cursor: default" class="material-icons2<?php if ($chat->fbst == 1) : ?> up-voted<?php endif;?> up-vote-action" role="button" data-id="1" onclick="lhinst.voteAction($(this))" ><?php if (isset($react) && $react === true) : ?>&#xf109;<?php else : ?>thumb_up<?php endif; ?></i>
         <img class="visitor-img" title="<?php echo $operacao ?>" src="<?php echo erLhcoreClassDesign::design('images/operations/profiles');?>/<?php echo str_replace([' ', '/', '-'], '', str_replace('ã', 'a', $operacao)); ?>.png" width="128">
-        <i style="cursor: default" class="material-icons<?php if ($chat->fbst == 2) : ?> down-voted<?php endif;?> down-vote-action" role="button" data-id="2" onclick="lhinst.voteAction($(this))"><?php if (isset($react) && $react === true) : ?>&#xf108;<?php else : ?>thumb_down<?php endif; ?></i>
+        <i style="cursor: default" class="material-icons2<?php if ($chat->fbst == 2) : ?> down-voted<?php endif;?> down-vote-action" role="button" data-id="2" onclick="lhinst.voteAction($(this))"><?php if (isset($react) && $react === true) : ?>&#xf108;<?php else : ?>thumb_down<?php endif; ?></i>
     </div>
     <div class="visitor-data">
-        <h1 class="visitor-name"><?php echo $chat->nick?></h1>
+        <h1 title="<?php echo $chat->nick?>" class="truncate-visitor"><?php echo $chat->nick?></h1>
         <a class="visitor-email" href="mailto:<?php echo $chat->email?>"><?php echo $chat->email?></a>
         <div class="ipaddr">
         <h1 class="visitor-ipaddr"><?php echo $chat->ip?></h1>
@@ -117,7 +135,7 @@ function identificarOperacao($enderecoIP) {
 
     
     <div class="action-line">
-        <button onclick="openTel('<?php echo $chat->phone?>')" title="Realizar chamada via 3CX" class="chat-action">
+        <button onclick="openTel('<?php echo $chat->phone?>')" title="<?php echo $chat->phone?>" class="chat-action">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path class="accent-svg" d="M17.715 15.952A2.205 2.205 0 0117.152 14h-10.9a2.249 2.249 0 00-2.248 2.25v.92c0 .571.178 1.129.51 1.595C6.056 20.928 8.58 22 12 22c.39 0 .767-.014 1.133-.041a2.252 2.252 0 01.353-2.16l.8-1.01a2.195 2.195 0 012.238-.77l.838.203c.52-.438.83-.975.948-1.645l-.595-.625zM12 2.004a5 5 0 110 10 5 5 0 010-10zm6.192 11.99l.476-1.204c.242-.615.92-.934 1.548-.729l.431.142c.724.237 1.326.806 1.35 1.568.1 3.111-2.476 7.583-5.213 9.055-.673.362-1.468.123-2.035-.391l-.337-.305a1.253 1.253 0 01-.142-1.706l.8-1.01c.29-.366.767-.53 1.22-.42l1.292.313c1.103-.73 1.694-1.756 1.774-3.079l-.917-.964a1.203 1.203 0 01-.247-1.27z"/></svg>
         </button>
         <button onclick="return lhc.revealModal({'title' : '<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/adminchat','Modify chat')?>', 'iframe':true,'height':350,'mparams':{'backdrop':false},'url':WWW_DIR_JAVASCRIPT +'chat/modifychat/<?php echo $chat->id?>/(pos)/'+$('#chat-tab-li-<?php echo $chat->id?>').index()})" title="Alterar dados do atendimento" class="chat-action">

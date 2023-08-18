@@ -97,8 +97,9 @@ a {
 }
 
 .orange-btn {
-	color: orange !important; 
+	background-color: orange !important;
 	border-color: orange !important;
+	color: black !important;
 }
 
 .orange-btn:hover {
@@ -370,7 +371,7 @@ a.link {
 }
 
 .row {
-	margin-left: -7.5px;
+	margin-left:-7.5px;
 	margin-right: -7.5px;
 }
 
@@ -398,12 +399,22 @@ a.link {
 		height: 98%;
 	}
 
-	.small-truncate-nick {
-		overflow: hidden;
-		display: block;
-		white-space: nowrap;
-		text-overflow: ellipsis;
-	}
+    .small-truncate-nick {
+        overflow: hidden;
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+.small-truncate-nick {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.truncate-visitor {
+	color: black;
 }
 
 [data-mobile=true] .chat-main-left-column.col-xl-8 .toolbar-chat,
@@ -1100,7 +1111,7 @@ div.message-row.operator-changes .msg-date-op {
 }
 
 div.message-row.response div.msg-body {
-	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 
 }
 
@@ -1310,11 +1321,15 @@ ul.user-settings-list li {
 .collapse-right:hover {
 	position: absolute;
 	right: 0px;
-	margin-top: -19px;
-	margin-right: 5px;
-	color: #6c757d;
+	margin-top: 30px;
+	margin-right: -0px !important;
+	color: var(--accent-color);
 	text-decoration: none;
 	font-size: 24px;
+	background-color: rgb(227, 227, 227);
+	width: 24px;
+	border-radius: 25px;
+	z-index: 9999;
 }
 
 .icon-close-chat {
@@ -1577,15 +1592,23 @@ input[type="file"] {
 
 #sidebar-wrapper {
 	width: 46px;
-	height: 100%;
 	position: absolute;
-	overflow: hidden;
+	height: 94.5%;
+	z-index: 1000;
 	transition: all 0.3s;
 	border-right:1px solid var(--lhc-sidebar-wrapper-br);
 }
 
 .chats-column {
 	margin-left: 46px;
+}
+
+#page-content-wrapper {
+	margin-left: 46px;
+}
+
+.sidebar-nav {
+	overflow: hidden;
 }
 
 #sidebar-wrapper:hover {
@@ -1612,6 +1635,14 @@ input[type="file"] {
 #sidebar-wrapper:hover .profile-img {
 	width: 64px;
 	transition: 0.3s;
+}
+
+.profile-action-btn {
+	display: none;
+}
+
+#sidebar-wrapper:hover .profile-action-btn {
+	display: block;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -1838,13 +1869,16 @@ input[type="file"] {
 .load-prev-btn {
 	position: absolute;
 	text-align: center;
-	margin-left: -1px;
 	font-weight: bold;
 	user-select: none;
 	right: 0;
 	z-index: 999;
 	margin-top: 5px;
-	color: #6c757d !important;
+	color: var(--accent-color) !important;
+	background-color: rgb(227, 227, 227);
+	width: 24px;
+	border-radius: 25px;
+	z-index: 9999;
 }
 
 .quick-replies {
@@ -2825,7 +2859,7 @@ html {
 	background-color: #2a2d31
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
 
 [data-bs-theme=dark] {
 	--bs-light-rgb: 59, 66, 72;
@@ -2843,7 +2877,7 @@ html {
 	--lhc-nav-underline-nav-link-active-border: #63676b;
 	--lhc-msg-body-response: #3c3c3e;
 	--lhc-sidebar-li-active-link-bg: rgb(196, 218, 83, 5%);
-	;
+
 	--lhc-sidebar-li-border-bottom: #2e2e2e;
 	--lhc-sidebar-wrapper-br: #63676b;
 
@@ -3034,12 +3068,12 @@ div.message-row-typing div.msg-body {
 		height: 98%;
 	}
 
-	.small-truncate-nick {
-		overflow: hidden;
-		display: block;
-		white-space: nowrap;
-		text-overflow: ellipsis;
-	}
+    .small-truncate-nick {
+        overflow: hidden;
+        display: block;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
 }
 
 .topmenu-div {
