@@ -1,0 +1,74 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor has left the chat!',
+     'translation' => 'Visitante saiu do atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'has left the chat!',
+     'translation' => 'saiu do atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'has closed the chat explicitly!',
+     'translation' => 'saiu do atendimento explicitamente.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'invite to chat',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Page unload.',
+     'translation' => 'Atendimento encerrado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor has closed the chat explicitly!',
+     'translation' => 'Visitante saiu do atendimento explicitamente.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

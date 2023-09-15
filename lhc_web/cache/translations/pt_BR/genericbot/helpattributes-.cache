@@ -1,0 +1,434 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Page where chat started',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Referer from where visitor come to site.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can have custom JS execution on click event. In combination with',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide content on click',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'you can have your own invitation workflow.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Some examples of JS',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Call page function where widget is embedded',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you are passing department make sure. This is highly recommended as chat might not be able to start if you have custom required fields by department.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You pass it for all options',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'All options have to be assigned to same start chat configuration',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You have chosen that department in department options.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Apply this configuration also to these departments',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'or',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'JSON based options.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Regular syntax. Depreciated.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sample how to use uploaded image from Design section',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Supported replaceable variables. They are taken from online visitor passed variables.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'visitor nick if we know it from previous chats',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'invisible by operator',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'visible by operator',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Samples how to change bubble background',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Tag structure examples',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'simple tag example',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If in embed code',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'suffix is appended invitation will be shown always independently was there any other invitation active or not.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Once you define a parent invitation. Present invitation is considered as child invitation.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Only main display attributes are taken as variation.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Parent invitation statistic window will show child invitation performance.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'These conditions you can check and control widget state. More attributes',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'here',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'allow to start only for visitors from United States',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'allow to start only for visitors from United States and Lithuania',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'allow to start only for visitors whois attribute is VIP',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department ID',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'are we online',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'To choose yesterday.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'As start day choose yesterday day',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hour and minute from',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Date range to',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'choose today and choose',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hour and minute to',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Date from and to are always inclusive.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

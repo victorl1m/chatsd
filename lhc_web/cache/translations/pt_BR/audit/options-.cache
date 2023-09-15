@@ -1,0 +1,94 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Audit Configuration',
+     'translation' => 'Configuração de auditoria',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'How many days keep log?',
+     'translation' => 'Quantos dias manter o registro de logs?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Log javascript errors',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Log applied blocks',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Log users changes',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Log failed files uploads',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'What objects changes log?',
+     'translation' => 'Quais objetos alteram o log?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Settings updated',
+     'translation' => 'Configurações atualizadas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Options',
+     'translation' => 'Opções',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

@@ -1,0 +1,84 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'has changed department to',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'from',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat department was changed to',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'has changed owner to',
+     'translation' => 'mudou de proprietário para',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat owner was changed to',
+     'translation' => 'O proprietário do bate-papo foi alterado para',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'has transferred chat to',
+     'translation' => 'transferiu o bate-papo para',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat was assigned to selected department',
+     'translation' => 'O atendimento foi atribuído ao departamento selecionado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat was assigned to selected user',
+     'translation' => 'O atendimento foi atribuído ao usuário selecionado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

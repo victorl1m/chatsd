@@ -1,0 +1,124 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Settings updated',
+     'translation' => 'Configurações atualizadas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Mail settings',
+     'translation' => 'Configurações de e-mail',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sender address',
+     'translation' => 'Remetente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default from e-mail address',
+     'translation' => 'E-mail de destinatário padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default from name',
+     'translation' => 'Nome de destinatário padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'SMTP enabled',
+     'translation' => 'SMTP ativado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Login',
+     'translation' => 'Login',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Password',
+     'translation' => 'Senha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Host',
+     'translation' => 'Endereço',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Port',
+     'translation' => 'Porta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Re-captcha settings',
+     'translation' => 'Configurações de Re-captcha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer configuration',
+     'translation' => 'Configuração de transferência',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

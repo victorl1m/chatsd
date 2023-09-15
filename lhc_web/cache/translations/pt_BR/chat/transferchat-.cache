@@ -1,0 +1,184 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'current',
+     'translation' => 'atual',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Member of these departments groups',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online',
+     'translation' => 'Atendimento aberto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline',
+     'translation' => 'Atendimento fechado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer to a user',
+     'translation' => 'Transferir para um usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer to a department',
+     'translation' => 'Transferir para um departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Change owner',
+     'translation' => 'Mudar dono',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Change department',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Logged in users',
+     'translation' => 'Usuários autenticados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer a chat to one of your departments users',
+     'translation' => 'Transferir um bate-papo para um dos usuários do seu departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Only logged and online operators',
+     'translation' => 'Apenas operadores logados e online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Only operators from same departments',
+     'translation' => 'Apenas operadores do mesmo departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer',
+     'translation' => 'Transferir',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Only departments which are online and explicitly assigned operator are online',
+     'translation' => 'Somente departamentos que estão online e com um operador estão online.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude hidden departments',
+     'translation' => 'Remover departamentos escondidos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude disabled departments',
+     'translation' => 'Remover departamentos desabilitados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You will still remain an owner of the chat.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer chat',
+     'translation' => 'Transferir bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

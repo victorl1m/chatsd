@@ -1,0 +1,304 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Updated!',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose what widgets you want to see',
+     'translation' => 'Personalizar interface',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widgets',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Alert icons',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Column number',
+     'translation' => 'Quantidade de colunas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose for what icons we should show notification.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose what icons you want to exclude from the list.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Settings updated',
+     'translation' => 'Configurações atualizadas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Send mass invitation message',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Filter chats by subject',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'On mobile I should receive notification only if chat is one of these states. If you do not choose, you will receive mobile notification in all cases.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notifications about bot chats',
+     'translation' => 'Notificações sobre bate-papos de bot',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'To receive browser notifications you have to enable them in your account Notifications settings.',
+     'translation' => 'Para receber notificações do navegador, você deve habilitar nas configurações de notificações da sua conta.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notify me about bot conversation after defined number of user interactions.',
+     'translation' => 'Notifique-me sobre a conversa do bot após um número definido de interações do usuário.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notify me if visitor writes more than defined number messages.',
+     'translation' => 'Notifique-me se o visitante escrever mais mensagens do que o número definido.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Report was saved',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'online status',
+     'translation' => 'Status Online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Search was saved',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online operators',
+     'translation' => 'Analistas online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active chats',
+     'translation' => 'Atendimentos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online visitors',
+     'translation' => 'Visitantes online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Departments stats',
+     'translation' => 'Status dos departamentos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pending chats',
+     'translation' => 'Chats pendentes',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfered chats',
+     'translation' => 'Atendimentos transferidos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Ongoing trigger alerts',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group chats',
+     'translation' => 'Grupos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Unread chats',
+     'translation' => 'Bate-papos não lidos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Closed chats',
+     'translation' => 'Bate-papos fechados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'My active and pending chats',
+     'translation' => 'Meus atendimentos ativos e pendentes',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot chats',
+     'translation' => 'Automatizado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

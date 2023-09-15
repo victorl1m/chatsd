@@ -1,0 +1,2314 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select event',
+     'translation' => 'Selecionar o evento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Object ID',
+     'translation' => 'ID do objeto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Category',
+     'translation' => 'Cateogria',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Source',
+     'translation' => 'Origem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude personal responses',
+     'translation' => 'Exclua respostas pessoais',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User ID',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Search',
+     'translation' => 'Pesquisar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department filter',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose department',
+     'translation' => 'Escolher departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enabled',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Save',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Quick actions',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'records will be updated.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Title',
+     'translation' => 'Título',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message',
+     'translation' => 'Mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Fallback message',
+     'translation' => 'Mensagem de falha - fallback',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department',
+     'translation' => 'Departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Subject',
+     'translation' => 'Assunto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'CSV',
+     'translation' => 'CSV',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Import',
+     'translation' => 'Importar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Date range from',
+     'translation' => 'Período de data',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hour and minute from',
+     'translation' => 'Hora e minuto de',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Date range to',
+     'translation' => 'Data final',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hour and minute to',
+     'translation' => 'Hora e minuto para',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Generate',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include content',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include survey',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include messages statistic',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include subject',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include additional chat variables as columns',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Export XLS',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Export CSV',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Export XLS/CSV',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Close selected',
+     'translation' => 'Fechar seleção',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Delete selected',
+     'translation' => 'Excluir selecionado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Abandoned chats',
+     'translation' => 'Atendimentos abandonados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Dropped chat',
+     'translation' => 'Atendimentos encerrados inesperadamente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Nick',
+     'translation' => 'Apelido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User group',
+     'translation' => 'Grupo de usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select group',
+     'translation' => 'Selecionar grupo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User',
+     'translation' => 'Usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select user',
+     'translation' => 'Selecionar usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat ID',
+     'translation' => 'Bate-papo ID',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'E-mail',
+     'translation' => 'E-mail',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Phone',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department group',
+     'translation' => 'Grupo de departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Advanced search',
+     'translation' => 'Busca avançada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select hour',
+     'translation' => 'Hora',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select minute',
+     'translation' => 'Minuto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select seconds',
+     'translation' => 'Segundo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Wait time',
+     'translation' => 'Tempo de espera',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Vote status',
+     'translation' => 'Avaliação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Any',
+     'translation' => 'Qualquer',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Not Voted',
+     'translation' => 'Sem avaliação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Up Voted',
+     'translation' => 'Avaliação positiva',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Down vote',
+     'translation' => 'Avaliação negativa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat status',
+     'translation' => 'Status do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Product',
+     'translation' => 'Produto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor ID',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat duration',
+     'translation' => 'Duração do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat duration from',
+     'translation' => 'Duração do bate-papo de',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'From',
+     'translation' => 'De',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat duration till',
+     'translation' => 'Duração do bate-papo até',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Till',
+     'translation' => 'Até',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Country',
+     'translation' => 'País',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Region',
+     'translation' => 'Região',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Proactive invitation',
+     'translation' => 'Convite proativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot',
+     'translation' => 'Robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Channel',
+     'translation' => 'Canal',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor status on chat close',
+     'translation' => 'Status do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  72 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  73 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Undetermined',
+     'translation' => 'Indeterminado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  74 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Has unread operator messages',
+     'translation' => 'Mensagens não-lidas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  75 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Yes',
+     'translation' => 'Sim',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  76 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'No',
+     'translation' => 'Não',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  77 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Theme',
+     'translation' => 'Tema',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  78 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'IP',
+     'translation' => 'IP',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  79 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Has unread messages',
+     'translation' => 'Atendimentos com mensagens não lidas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  80 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Unanswered chat',
+     'translation' => 'Atendimentos sem resposta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  81 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Anonymised',
+     'translation' => 'Atendimentos anônimos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  82 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats without an operator',
+     'translation' => 'Atendimentos sem analista',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  83 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats with an operator',
+     'translation' => 'Atendimentos com analista',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  84 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats which had a bot',
+     'translation' => 'Atendimentos automatizados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  85 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats which did not had a bot',
+     'translation' => 'Atendimentos não automatizados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  86 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Proactive chat',
+     'translation' => 'Atendimento proativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  87 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Not automatic invitation',
+     'translation' => 'Sem convite automatizado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  88 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer happened',
+     'translation' => 'Atendimentos transferidos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  89 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Print',
+     'translation' => 'Imprimir',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  90 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Export',
+     'translation' => 'Exportar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  91 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'chats',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  92 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Update view',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  93 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Save as view',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  94 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Reset',
+     'translation' => 'Redefinir',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  95 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose department group',
+     'translation' => 'Escolher grupo de departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  96 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose status',
+     'translation' => 'Selecionar status',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  97 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pending chats',
+     'translation' => 'Chats pendentes',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  98 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active chats',
+     'translation' => 'Atendimentos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  99 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot chats',
+     'translation' => 'Atendimentos automatizados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  100 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Closed chats',
+     'translation' => 'Atendimentos encerrados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  101 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chatbox chats',
+     'translation' => 'Caixa de bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  102 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operators chats',
+     'translation' => 'Analistas de atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  103 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select product',
+     'translation' => 'Selecionar produto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  104 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose country',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  105 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select subject',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  106 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose proactive invitation',
+     'translation' => 'Escolha convite proativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  107 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select bot',
+     'translation' => 'Selecionar robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  108 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose a channel',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  109 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose a theme',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  110 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select department',
+     'translation' => 'Selecionar departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  111 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Type to search',
+     'translation' => 'Digite para pesquisar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  112 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Apply this configuration also to these departments',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  113 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Search for a user.  First 50 users are shown.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  114 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Transfer to bot only if department is offline',
+     'translation' => 'Tranferir para o robô apenas se o departamento estiver offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  115 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot follows online hours. Department will be offline if there is no online operators or it is outside work hours.',
+     'translation' => 'O Bot segue o horário online. O departamento ficará offline se não houver operadores online ou fora do horário de trabalho.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  116 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable debug logging',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  117 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select translations',
+     'translation' => 'Selecionar traduções',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  118 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name',
+     'translation' => 'Nome',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  119 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hidden',
+     'translation' => 'Oculto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  120 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visible only if online',
+     'translation' => 'Ficar visível apenas se estiver online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  121 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disabled',
+     'translation' => 'Desativado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  122 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Survey',
+     'translation' => 'Pesquisa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  123 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select survey',
+     'translation' => 'Selecionar pesquisa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  124 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'File name',
+     'translation' => 'Nome do Arquivo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  125 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please choose',
+     'translation' => 'Por gentileza escolha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  126 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please click search first',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  127 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Update report',
+     'translation' => 'Atualizar relatório',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  128 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Save as report',
+     'translation' => 'Salvar como relatório',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  129 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Description of your report',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  130 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Put description for your own purposes.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  131 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Date filter templates',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  132 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Previous Day',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  133 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Previous Week',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  134 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Previous Month',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  135 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Current Day',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  136 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Current Week',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  137 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Current month',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  138 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show advanced',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  139 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Date range start value',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  140 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Last n days.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  141 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Last n weeks.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  142 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Last n months.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  143 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Start from Days/Weeks/Months ago',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  144 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Ends from Days/Weeks/Months ago',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  145 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'The higher number the higher in the report list it will appear',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  146 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Send report to',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  147 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Daily report',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  148 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Weekly report',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  149 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Monthly report',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  150 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active',
+     'translation' => 'Ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  151 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Day of the month',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  152 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Time',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  153 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Save as new',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  154 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Save report',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  155 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'My reports',
+     'translation' => 'Relatórios salvos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  156 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Make a copy',
+     'translation' => 'Fazer uma cópia',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  157 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Delete',
+     'translation' => 'Apagar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  158 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation',
+     'translation' => 'Convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  159 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group field',
+     'translation' => 'Tipo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  160 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group limit',
+     'translation' => 'Limite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  161 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group chart',
+     'translation' => 'Gráfico de grupo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  162 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'More than',
+     'translation' => 'Maior que',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  163 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'seconds',
+     'translation' => 'segundos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  164 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Less than',
+     'translation' => 'Menor que',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  165 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude offline requests from charts',
+     'translation' => 'Excluir solicitações offline dos gráficos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  166 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show only offline requests',
+     'translation' => 'Mostrar somente as requisições offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  167 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats which did not have a bot',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  168 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Has unread messages from visitor',
+     'translation' => 'Mensagens não-lidas do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  169 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Compare to past',
+     'translation' => 'Comparar com o passado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  170 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Select country',
+     'translation' => 'Selecionar país',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  171 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Agent',
+     'translation' => 'Atendente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  172 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats',
+     'translation' => 'Bate-papos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  173 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose subjects for stats',
+     'translation' => 'Escolher assunto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  174 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group by',
+     'translation' => 'Agrupado por',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  175 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Month',
+     'translation' => 'Mês',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  176 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Day',
+     'translation' => 'Dia',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  177 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Week',
+     'translation' => 'Semana',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  178 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Day of the week',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  179 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sunday',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  180 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Monday',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  181 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Tuesday',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  182 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Wednesday',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  183 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Thursday',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  184 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Friday',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  185 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Saturday',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  186 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Day interval to include from',
+     'translation' => 'Intervalo de dias para incluir de',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  187 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Day interval to include to',
+     'translation' => 'Intervalo de dias para incluir para',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  188 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Abandoned chat',
+     'translation' => 'Atendimento abandonado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  189 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User Agent',
+     'translation' => 'Agente de usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  190 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Device type',
+     'translation' => 'Tipo de dispositivo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  191 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator',
+     'translation' => 'Analista',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  192 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator who transferred a chat',
+     'translation' => 'Analista que transferiu o atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  193 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Date range from to',
+     'translation' => 'Intervalo de datas de para',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  194 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Average',
+     'translation' => 'Média',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  195 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Total number of chats',
+     'translation' => 'Número total de bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  196 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Number of chats while online',
+     'translation' => 'Número de bate-papos online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  197 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hours on chat (sum of chat duration)',
+     'translation' => 'Horas em bate-papo (soma do tempo total)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  198 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Time online (sum of time spend online)',
+     'translation' => 'Tempo online (soma de tempo gasto online)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  199 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'AVG number of chats per hour',
+     'translation' => 'Média de número de bate-papo por hora',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  200 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Average pick-up time',
+     'translation' => 'A duração média de recebimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  201 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Average chat length',
+     'translation' => 'Duração média de bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  202 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include hours (from, to)',
+     'translation' => 'Incluir horas (de, para)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  203 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group results by operator',
+     'translation' => 'Agrupar resultados por operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  204 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Minimum operator chats',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  205 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Optional',
+     'translation' => 'Opcional',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  206 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'XLS',
+     'translation' => 'XLS',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  207 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'XML',
+     'translation' => 'XML',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  208 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'JSON',
+     'translation' => 'JSON',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  209 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable operators',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  210 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Force logout',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  211 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Force change password',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  212 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Auto preload previous visitor chat messages',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  213 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Username',
+     'translation' => 'Nome do usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  214 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Nickname',
+     'translation' => 'Apelido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  215 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Surname',
+     'translation' => 'Sobrenome',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  216 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Account status',
+     'translation' => 'Status da Conta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  217 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active & Deactivated',
+     'translation' => 'Ativa & Desativada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  218 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Deactivated',
+     'translation' => 'Desativado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  219 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User language',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  220 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Login date range from',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  221 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Login date range to',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  222 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Go to my views',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  223 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include records from the past',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  224 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'The higher number the higher in the views list it will appear',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  225 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Passive, number of matching records will not be updated in the background.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  226 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Description of your view',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  227 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Save search',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  228 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  229 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Till now',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  230 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copy of',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

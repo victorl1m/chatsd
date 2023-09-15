@@ -1,0 +1,404 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Events tracking',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Events Tracking',
+     'translation' => 'Rastreamento de Eventos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'List of events tracking settings by department',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enable events tracking first!',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable Events Tracking',
+     'translation' => 'Habilitar Rastreamento de Eventos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Track all departments',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable tracking only for selected departments.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Javascript to execute on event. {{eventCategory}}, {{eventAction}}, {{eventLabel}}, {{eventInternal}} you can use as placeholders.',
+     'translation' => 'Javascript para executar no evento. {{eventCategory}}, {{eventAction}}, {{eventLabel}}, {{eventInternal}} você pode usar como placeholders.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose one of the possible templates',
+     'translation' => 'Escolha um dos templates possíveis',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Google Analytics',
+     'translation' => 'Google Analytics',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Javascript for static URL. Paste your GA or any other script here.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget',
+     'translation' => 'Widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat',
+     'translation' => 'Atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation',
+     'translation' => 'Convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help',
+     'translation' => 'Preciso de Ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot',
+     'translation' => 'Robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Track this event',
+     'translation' => 'Acompanhe este evento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Status was clicked',
+     'translation' => 'Status foi clicado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Category',
+     'translation' => 'Categoria',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Event action',
+     'translation' => 'Ação do evento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Event label',
+     'translation' => 'Etiqueta do evento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline message',
+     'translation' => 'Mensagem Offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you leave empty we will set automatically invitation name.',
+     'translation' => 'Se você deixar em branco, definiremos o nome do convite automaticamente.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation hide',
+     'translation' => 'Ocultar convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Cancel invitation',
+     'translation' => 'Cancelar convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Called if invitation was in full widget and widget was minimised or visitor clicked close icon in invitation tooltip',
+     'translation' => 'Chamada se o convite estava no widget completo e o widget foi minimizado ou o visitante clicou no ícone de fechar na dica de ferramenta do convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation clicked. Visitor clicked invitation tooltip. It is not triggered if it just clicks status icon while invitation tooltip is shown.',
+     'translation' => 'Convite clicado. Dica de ferramenta do convite clicada pelo visitante. Não é acionado se apenas clicar no ícone de status enquanto a dica de convite é exibida.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation was read. Means visitor opened widget with an invitation either by clicking invitation tooltip or status icon.',
+     'translation' => 'O convite foi lido. Significa que o visitante abriu o widget com um convite clicando na dica de ferramenta do convite ou no ícone de status.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help was shown',
+     'translation' => 'Precisa de ajuda foi exibido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help was hidden',
+     'translation' => 'Precisa de ajuda foi escondido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help was clicked',
+     'translation' => 'Precisa de ajuda foi clicado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help close icon was clicked',
+     'translation' => 'Preciso de ajuda, o ícone de fechamento foi clicado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot trigger was executed',
+     'translation' => 'O gatilho do bot foi executado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'We will set eventLabel to trigger name',
+     'translation' => 'Vamos definir eventLabel para o nome do acionador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please choose a department',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter a name',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Events tracking by department',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Edit event tracking',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New event tracking',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default settings',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

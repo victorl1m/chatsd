@@ -1,0 +1,724 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name',
+     'translation' => 'Nome',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Description',
+     'translation' => 'Descrição',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Host',
+     'translation' => 'Host',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable cache',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Clear cache',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'We will cache unique request and responses to speed up processing.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Add request',
+     'translation' => 'Adicionar Pedido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Delete',
+     'translation' => 'Apagar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name of the request',
+     'translation' => 'Nome da Solicitação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Method',
+     'translation' => 'Método',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sub URL',
+     'translation' => 'Sub URL',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Maximum execution time',
+     'translation' => 'Tempo máximo de execução',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Params',
+     'translation' => 'Parâmetros',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Authorization',
+     'translation' => 'Autorização',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Headers',
+     'translation' => 'Cabeçalhos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Body',
+     'translation' => 'Corpo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User parameters',
+     'translation' => 'Parâmetros de Usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Output parsing',
+     'translation' => 'Análise de saída',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Conditions',
+     'translation' => 'Condições',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can put visitor message as placeholder',
+     'translation' => 'Você pode colocar a mensagem do visitante como espaço reservado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Add param',
+     'translation' => 'Adicionar Parâmetros',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can always just define custom header if you do not find authorisation method here.',
+     'translation' => 'Você sempre pode definir o cabeçalho personalizado se não encontrar o método de autorização aqui.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Authorization method',
+     'translation' => 'Método de Autorização',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Skip',
+     'translation' => 'Pular',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'API Key Location',
+     'translation' => 'Localização da chave API',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header',
+     'translation' => 'Cabeçalho',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Query Params',
+     'translation' => 'Parâmetros de consulta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Only if these conditions are met we will send Rest API request. Usefull in webhook cases.',
+     'translation' => 'Somente se essas condições forem atendidas, enviaremos a solicitação da API Rest. Útil em casos de webhook.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Add condition',
+     'translation' => 'Adicionar condição',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Check for presence of variable',
+     'translation' => 'Verifique a presença de variável',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text like',
+     'translation' => 'Curtir Texto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text not like',
+     'translation' => 'Não Curtir o Texto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Contains',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Request Body',
+     'translation' => 'Corpo da Solicitação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'none',
+     'translation' => 'Nenhum',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'raw (Use this to send JSON Body)',
+     'translation' => 'raw (use para enviar JSON Body)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'form-data (Use this to send post parameters)',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'x-www-form-urlencoded (Use this to send post parameters encoded in URL)',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Check for word syntax if only one word is send.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Paste your request here (E.g JSON body). You can put visitor message as placeholder',
+     'translation' => 'Cole sua solicitação aqui (por exemplo, corpo JSON). Você pode colocar a mensagem do visitante como espaço reservado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sub URL for file',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you are sending file you can have a different body content',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can define additional parameters user can enter in bot trigger directly.',
+     'translation' => 'Você pode definir parâmetros adicionais que o usuário pode inserir no gatilho de bot diretamente.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Location',
+     'translation' => 'Localização',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Query',
+     'translation' => 'Consulta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Body Post Param',
+     'translation' => 'Postar corpo do pararãmetro',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Body Param',
+     'translation' => 'Corpo do Parâmetro',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name visible in trigger',
+     'translation' => 'Nome visível na trigger',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Location/Key',
+     'translation' => 'Localização/chave',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Either key which will be used for replacement',
+     'translation' => 'Qualquer chave que será usada para substituição',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can define response conditions to which you will be able to add corresponding triggers.',
+     'translation' => 'Você pode definir as condições de resposta às quais poderá adicionar gatilhos correspondentes.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Add combination',
+     'translation' => 'Adicionar Combinação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Expected output definition',
+     'translation' => 'Definição de saída esperada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Priority, output combinations with highers priority will be checked first.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Priority',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'HTTP status code E.g 200,301,500',
+     'translation' => 'Código de status HTTP, por exemplo, 200.301.500',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'HTTP status code 200,301',
+     'translation' => 'Código de status HTTP 200.301',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response Location 1. Available as {content_1} in messages.',
+     'translation' => 'Localização da resposta 1. Disponível como {content_1} nas mensagens.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'response:msg you can leave an empty if you want forward whole response.',
+     'translation' => 'resposta: msg você pode deixar um vazio se quiser encaminhar a resposta inteira.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response Location 2. Available as {content_2} in messages.',
+     'translation' => 'Local da resposta 2. Disponível como {content_2} nas mensagens.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response Location 3. Available as {content_3} in messages.',
+     'translation' => 'Local da resposta 3. Disponível como {content_3} nas mensagens.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response Location 4. Available as {content_4} in messages.',
+     'translation' => 'Local da resposta 4. Disponível como {content_4} nas mensagens.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response Location 5. Available as {content_5} in messages.',
+     'translation' => 'Local da resposta 5. Disponível como {content_5} nas mensagens.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response Location 6. Available as {content_6} in messages.',
+     'translation' => 'Local da resposta 6. Disponível como {content_6} nas mensagens.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Meta msg location. If you support Live Helper Chat JSON syntax you can set location of this response.',
+     'translation' => 'Localização da meta msg. Se você oferece suporte à sintaxe JSON do Live Helper Chat, pode definir o local dessa resposta.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom event',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'This event will be dispatched and extension can listen to it. E.g you want additionally log response data.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If required you can also have condition to check',
+     'translation' => 'Se necessário, você também pode ter condição de verificar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response Location. It will also fail if attribute is not found.',
+     'translation' => 'Local da resposta. Também falhará se o atributo não for encontrado.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Response comparison',
+     'translation' => 'Comparação de resposta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Comparison value',
+     'translation' => 'Comparação de Valores',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Value to compare',
+     'translation' => 'Valores para comparar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

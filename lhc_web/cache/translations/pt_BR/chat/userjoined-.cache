@@ -1,0 +1,24 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor has joined the chat!',
+     'translation' => 'Visitante ingressou ao atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor has joined the chat from popup chat window!',
+     'translation' => 'Visitante ingressou ao atendimento em janela popup!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

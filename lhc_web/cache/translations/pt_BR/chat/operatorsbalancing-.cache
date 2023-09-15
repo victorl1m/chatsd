@@ -1,0 +1,144 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active',
+     'translation' => 'Ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Maximum number of active chats user can have at a time, 0 - unlimited',
+     'translation' => 'Número máximo de bate-papos que um operador possa ter, 0 - ilimitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Maximum number of department active chats, 0 - unlimited',
+     'translation' => 'Número máximo de bate-papos ativos por departamento. 0 - ilimitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If this limit is reached, new chats will not be assigned to any operator.',
+     'translation' => 'Se esse limite for atingido, os novos bate-papos não serão atribuídos a nenhum operador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Automatically assign chat to another operator if operator did not accepted chat in seconds, 0 - disabled',
+     'translation' => 'Automaticamente encaminhar o bate-papo para outro operador se nenhum operador responder em segundos, 0 - desativado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Minimum delay between chat assignment to operator',
+     'translation' => 'Atraso mínimo entre a atribuição de bate-papo ao operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Delay in seconds before next chat can be assigned to operator.',
+     'translation' => 'Atraso em segundos antes do próximo bate-papo poder ser atribuído ao operador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude inactive chats',
+     'translation' => 'Excluir conversas inativas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pending and active chats which visitors has closed chats explicitly or visitors being redirected to survey will be excluded',
+     'translation' => 'Os bate-papos pendentes e ativos que os visitantes fecharam nos bate-papos explicitamente ou que os visitantes foram redirecionados para a pesquisa serão excluídos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Assign chat to lowest number of chats having operator',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Try to assign chats first to the same language speaking operators',
+     'translation' => 'Tente atribuir os bate-papos preferencialmente aos operadores que falam a mesma linguagem do usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Check for presence of variable',
+     'translation' => 'Verifique a presença da variável',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Resume auto assign if chat remains pending for n seconds',
+     'translation' => 'Retomar a atribuição automática se o bate-papo permanecer pendente por n segundos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide send e-mail button for operators in chat window',
+     'translation' => 'Ocultar botão enviar e-mail para operadores na janela de chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

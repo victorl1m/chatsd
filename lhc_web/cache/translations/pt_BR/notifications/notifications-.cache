@@ -1,0 +1,234 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notifications settings',
+     'translation' => 'Configurações de notificações',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'For more information see',
+     'translation' => 'Para mais informações, veja',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can generate your private and public key here',
+     'translation' => 'Você pode gerar sua chave privada e pública aqui',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Explains were taken from:',
+     'translation' => 'Explicações foram tiradas de:',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Download Service Worker',
+     'translation' => 'Baixar Service Worker',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'you will have to put this file in your domain root folder.',
+     'translation' => 'você precisará colocar esse arquivo na pasta raiz do domínio.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable notifications',
+     'translation' => 'Habilitar notificações',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'On desktop, a notification is only displayed for a short period of time. On Android, notifications are shown until the user interacts with it.',
+     'translation' => 'Na área de trabalho de um computador, uma notificação é exibida apenas por um curto período de tempo. No Android, as notificações são mostradas até o usuário interagir com ele.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'To get the same behaviour on desktop and mobile you can set the "require-interaction" option to true, which means the user must click or dismiss the notification.',
+     'translation' => 'Para obter o mesmo comportamento no computador e no celular, você pode definir a opção "exigir interação" como verdadeira, o que significa que o usuário deve clicar ou dispensar a notificação.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'When you use the tag option, the default behavior of a new notification replacing an existing one is that there is no sound, vibration and the screen is kept asleep.',
+     'translation' => 'Quando você usa a opção de tag, o comportamento padrão de uma nova notificação é substituir a existente. No novo modelo não há som, vibração e a tela é mantida em descanso.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'With `renotify: true` a new notification will play a sound, vibrate and wake up the users device. This means replacing notifications have the same behavior as a completely new notification.',
+     'translation' => 'Com `renotify: true`, uma nova notificação tocará um som, vibrará e ativará o dispositivo do usuário. Isso significa que a substituição das notificações tem o mesmo comportamento de uma configuração de notificação completamente nova.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Note',
+     'translation' => 'Nota',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'There is no visible affect on desktop, but on mobile, vibration and sound will be affected.',
+     'translation' => 'Não há efeito visível na área de trabalho do computador, mas no celular a vibração e som serão afetados.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Subject*',
+     'translation' => 'Assunto*',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You must provide a subject that is either a mailto: or a URL.',
+     'translation' => 'Você precisa fornecer um assunto que seja MailTo: ou uma URL.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'HTTP Host*',
+     'translation' => 'Servidor HTTP*',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default Icon',
+     'translation' => 'Ícone padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Badge Icon',
+     'translation' => 'Ícones de crachás',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notification badges are only being used on mobile, at least at the time of writing. It is used to replace the browser icon that is shown by default.',
+     'translation' => 'As badges de notificações estão sendo usados apenas no celular, pelo menos no momento da redação. É usado para substituir o ícone do navegador que é mostrado por padrão.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Vibrate',
+     'translation' => 'Vibrar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Public key*',
+     'translation' => 'Chave pública*',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Private key*',
+     'translation' => 'Chave privada*',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Private key is not shown after save',
+     'translation' => 'A chave privada não será exibida após salvar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

@@ -465,3 +465,181 @@ Stack trace:
 
     [previous:Exception:private] => 
 )
+Sep 15 09:02:50 [Warning] [default] [default] ezcBaseFileNotFoundException Object
+(
+    [originalMessage] => The directory file 'cache/cacheconfig' could not be found.
+    [message:protected] => The directory file 'cache/cacheconfig' could not be found.
+    [string:Exception:private] => ezcBaseFileNotFoundException: The directory file 'cache/cacheconfig' could not be found. in /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php:117
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php(233): ezcBaseFile::walkRecursive()
+#1 /var/www/html/chatsd/lhc_web/lib/core/lhconfig/lhcacheconfig.php(111): ezcBaseFile::findRecursive()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(138): erConfigClassLhCacheConfig->expireCache()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php
+    [line:protected] => 117
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php
+                    [line] => 233
+                    [function] => walkRecursive
+                    [class] => ezcBaseFile
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhconfig/lhcacheconfig.php
+                    [line] => 111
+                    [function] => findRecursive
+                    [class] => ezcBaseFile
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 138
+                    [function] => expireCache
+                    [class] => erConfigClassLhCacheConfig
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Sep 15 09:03:16 [Warning] [default] [default] {
+    "message": "The directory file 'cache\/cacheconfig' could not be found.",
+    "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+    "line": 117,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+            "line": 233,
+            "function": "walkRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php",
+            "line": 111,
+            "function": "findRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php",
+            "line": 6,
+            "function": "expireCache",
+            "class": "erConfigClassLhCacheConfig",
+            "type": "->"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/cron.php",
+            "line": 167,
+            "args": [
+                "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php"
+            ],
+            "function": "include_once"
+        }
+    ],
+    "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/cacheconfig' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(111): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
+}
+Sep 15 09:03:44 [Warning] [default] [default] {
+    "message": "The directory file 'cache\/compiledtemplates' could not be found.",
+    "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+    "line": 117,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+            "line": 233,
+            "function": "walkRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php",
+            "line": 119,
+            "function": "findRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php",
+            "line": 6,
+            "function": "expireCache",
+            "class": "erConfigClassLhCacheConfig",
+            "type": "->"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/cron.php",
+            "line": 167,
+            "args": [
+                "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php"
+            ],
+            "function": "include_once"
+        }
+    ],
+    "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/compiledtemplates' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(119): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
+}
+Sep 15 09:03:56 [Warning] [default] [default] {
+    "message": "The directory file 'cache\/compiledtemplates' could not be found.",
+    "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+    "line": 117,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+            "line": 233,
+            "function": "walkRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php",
+            "line": 119,
+            "function": "findRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php",
+            "line": 6,
+            "function": "expireCache",
+            "class": "erConfigClassLhCacheConfig",
+            "type": "->"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/cron.php",
+            "line": 167,
+            "args": [
+                "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php"
+            ],
+            "function": "include_once"
+        }
+    ],
+    "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/compiledtemplates' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(119): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
+}

@@ -1,0 +1,1194 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Absent',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Top right',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bottom left',
+     'translation' => 'Inferior esquerdo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bottom right corner of the screen',
+     'translation' => 'Canto direito do rodapé da página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bottom left corner of the screen',
+     'translation' => 'Canto esquerdo do rodapé da página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Middle right side of the screen',
+     'translation' => 'Canto centro-direito da página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Middle left side of the screen',
+     'translation' => 'Canto centro-esquerdo da página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Full height right',
+     'translation' => 'Altura total à direita',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Full height left',
+     'translation' => 'Altura total à esquerda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'no survey',
+     'translation' => 'nenhum questionário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'HTML code',
+     'translation' => 'Código HTML',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Popup width',
+     'translation' => 'Largura do popup',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Popup height, used only if iframe is used',
+     'translation' => 'Altura do popup, usado somente com iframe',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Identifier, this can be used as filter for pro active chat invitations and is use full having different messages for different domains. Only string without spaces or special characters.',
+     'translation' => 'Identificador, este pode ser utilizado como filtro para convites de bate-papo pró-ativo e é útil quando se tem mensagens diferentes para domínios diferentes. Informar apenas sequência de caracteres sem espaços ou caracteres especiais.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Leave empty if it is not important to you',
+     'translation' => 'Deixe vazio se não for importante para você',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offer timeout in days, after how many days show offers for the same visitor again, leave empty for session',
+     'translation' => 'Opções de tempo limite em dias, depois de quantos dias mostrar opções novamente para o mesmo visitante, deixe em branco para sessão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'For what domain you are generating embed code?',
+     'translation' => 'Para qual domínio você está gerando o código de incorporação?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'example.com',
+     'translation' => 'exemplo.com',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose prefered http mode',
+     'translation' => 'Escolha o modo http preferido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Based on site (default)',
+     'translation' => 'Com base no site (padrão)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose a language',
+     'translation' => 'Escolha um idioma',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chatbox messages content height',
+     'translation' => 'Altura do conteúdo das mensagens no Chatbox',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Theme',
+     'translation' => 'Tema',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default',
+     'translation' => 'Padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copy the code from the text area to the page where you want it to be rendered',
+     'translation' => 'Copie o código de área de texto para a página onde você quer que ele seja processado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag where you want the Live Helper Chatbox module to render.',
+     'translation' => 'Coloque esta tag onde você deseja que o bate-papo do Live Helper apareça.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag after the Live Helper Chatbox module tag.',
+     'translation' => 'Coloque esta tag depois da tag do módulo do bate-papo do Live Helper',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chatbox',
+     'translation' => 'Chatbox',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Position from the top, is only used if the Middle left or the Middle right side is chosen',
+     'translation' => 'Posição do topo, só é usado se o meio esquerdo ou o meio direito for escolhido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pixels',
+     'translation' => 'Pixels',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Percents',
+     'translation' => 'Percentuais',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Size',
+     'translation' => 'Tamanho',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Width',
+     'translation' => 'Largura',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Height',
+     'translation' => 'Altura',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Position',
+     'translation' => 'Posição',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable responsive layout for status widget.',
+     'translation' => 'Desativar layout responsivo para widget de status.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable minimize icon',
+     'translation' => 'Desativar ícone minimizar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show chatbox content instead of widget, users will be able only minimize, not close it.',
+     'translation' => 'Mostrar conteúdo chatbox em vez de widget, os usuários serão capazes apenas minimizar, e não fechá-lo.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show chatbox content minimized first time if content is shown.',
+     'translation' => 'Mostrar conteúdo chatbox minimizado primeira vez se o conteúdo é mostrado.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copy the code from the text area to the footer, before the closing &lt;/body&gt; tag',
+     'translation' => 'Copie o código da área abaixo e cole antes do fechamento da tag &lt;/body&gt;',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copy the code from the textarea to page where you want it to be rendered',
+     'translation' => 'Copie o código da área abaixo e cole onde você deseja que ele apareça',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag where you want the Live Helper FAQ module to render.',
+     'translation' => 'Coloque esta tag onde você desejar que o módulo FAQ apareça.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag after the Live Helper FAQ module tag.',
+     'translation' => 'Coloque esta tag depois da tag do módulo de FAQ do Live Helper',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Status text',
+     'translation' => 'Texto de status',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'FAQ',
+     'translation' => 'FAQ',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Position from the top, only used if the Middle left or the Middle right side is chosen',
+     'translation' => 'Posição de cima, apenas usado se o meio esquerdo ou do lado direito médio é escolhido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose what form you want to embed',
+     'translation' => 'Escolha qual formulário deseja incorporar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Identifier',
+     'translation' => 'Identificador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag where you want the Live Helper Questionary module to render.',
+     'translation' => 'Coloque esta tag onde você desejar que o módulo do questionário apareça.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag after the Live Helper Questionary module tag.',
+     'translation' => 'Coloque esta tag depois da tag do módulo do questionário.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Help us to grow',
+     'translation' => 'Ajude-nos a crescer',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Embed code',
+     'translation' => 'Código de incorporação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget embed code (new)',
+     'translation' => 'Código de incorporação do widget (novo)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget embed code (legacy)',
+     'translation' => 'Código de incorporação do widget (legado)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Page embed code (legacy)',
+     'translation' => 'Código de incorporação da página (legado)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget embed code',
+     'translation' => 'Código de incorporação do widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Page embed code',
+     'translation' => 'Código de incorporação na página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Set default speech recognition language',
+     'translation' => 'Definir o idioma de reconhecimento de voz padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Speech language',
+     'translation' => 'Falar no idioma',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Languages',
+     'translation' => 'Linguagens',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Dialects',
+     'translation' => 'Dialetos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator ID',
+     'translation' => 'ID do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'To what operator chat should be assigned automatically?',
+     'translation' => 'Para qual operador de bate-papo deve ser atribuído automaticamente?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'General',
+     'translation' => 'Geral',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Design',
+     'translation' => 'Design',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide status when offline',
+     'translation' => 'Ocultar status quando offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show a ‘leave a message form’ when there are no online operators',
+     'translation' => 'Exibir formulário de contato quando não existirem operadores ativos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department',
+     'translation' => 'Departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Any',
+     'translation' => 'Qualquer',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copy the code from the text area to the page where you want your status to appear',
+     'translation' => 'Copie o código da área de texto para a página onde você deseja que seu status apareça',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag where you want the Live Helper Plugin to render.',
+     'translation' => 'Coloque esta tag onde você desejar que o plugin do Live Helper Chat apareça.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag after the Live Helper Plugin tag.',
+     'translation' => 'Coloque esta tag depois da tag do plugin do Live Helper Chat.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  72 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show the page widget when a mouse is clicked',
+     'translation' => 'Exibir widget quando o mouse for clicado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  73 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable proactive invitations',
+     'translation' => 'Desabilitar convites proativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  74 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable online tracking (this overrides the system configuration)',
+     'translation' => 'Desabilitar rastreamento online (esta configuração sobrepõe a configuração padrão)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  75 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Cookie is valid only for domain where javascript embedded (excludes subdomains)',
+     'translation' => 'O cookie é válido somente para o domínio onde o javascript foi incorporado (exclui subdomínios)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  76 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Try to detect language automatically',
+     'translation' => 'Tente detectar a linguagem automaticamente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  77 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Survey at the end of chat',
+     'translation' => 'Questionário no final do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  78 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Product',
+     'translation' => 'Produto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  79 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Minimize action, applies only if status widget is at the bottom',
+     'translation' => 'Ação minimizar, só se aplica se o widget está na parte inferior',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  80 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Keep where it was',
+     'translation' => 'Manter onde estava',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  81 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Minimize to bottom of the screen',
+     'translation' => 'Minimizar para a parte inferior da tela',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  82 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Native placement - it will be shown where the html is embedded',
+     'translation' => 'Localização nativa - será mostrado onde o HTML é incorporado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  83 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invisible, only JS API will be included',
+     'translation' => 'Invisível, somente JS API será incluída',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  84 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Popup window width',
+     'translation' => 'Largura da janela do popup',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  85 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Popup window width in pixels',
+     'translation' => 'Largura da janela do popup em pixels',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  86 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Popup window height in pixels',
+     'translation' => 'Altura da janela do popup em pixels',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  87 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget width',
+     'translation' => 'Largura do widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  88 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget width in pixels',
+     'translation' => 'Largura do widget em pixels',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  89 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget height in pixels',
+     'translation' => 'Altura do widget em pixels',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  90 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Position from the top, only used if the middle left or the middle right side is chosen',
+     'translation' => 'Posição do topo, só é usado se o centro esquerdo ou o centro direito dos lados for escolhido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  91 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Percentage',
+     'translation' => 'Percentual',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  92 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Identifier – enter a unique identifier here. This is useful for separating messages and proactive chat invitations from different domains/web pages. Enter a string without special characters or spaces such as “homepage” or “website1”.',
+     'translation' => 'Identificador - informe um identificador único aqui. Isso é útil para separar mensagens e convites antecipados de bate-papo originados de diferentes domínios/sites. Informe uma palavra sem caracteres especiais ou espaços.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  93 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please do not enter protocol, only domain name is required',
+     'translation' => 'Por gentileza, não informe o protoloco, somente o nome do domínio é requerido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  94 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag where you want the Live Helper Status to render.',
+     'translation' => 'Coloque esta tag onde você desejar que o status do Live Helper Chat apareça.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  95 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Place this tag after the Live Helper status tag.',
+     'translation' => 'Coloque esta tag depois da tag de status do Live Helper Chat.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  96 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Static image',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  97 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'On each refresh start a new chat. Users will loose chat session browsing through pages! Usefull in embed mode.',
+     'translation' => 'Em cada atualização, inicie um novo chat. Os usuários perderão a sessão de chat ao navegar pelas páginas! Útil no modo de incorporação.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  98 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Check for operator invitation messages. If you are planning to send messages to online visitors manually you can check this.',
+     'translation' => 'Verifique as mensagens de convite do operador. Se você está planejando enviar mensagens para visitantes online manualmente, você pode verificar isso.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  99 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget embed/click mode',
+     'translation' => 'Modo de incorporação/clique de widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  100 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'widget (default)',
+     'translation' => 'widget (padrão)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  101 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget position',
+     'translation' => 'Posição do widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  102 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget position placement.',
+     'translation' => 'Posicionamento do widget.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  103 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bottom right',
+     'translation' => 'Inferior esquerdo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  104 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Middle right',
+     'translation' => 'Meio à direita',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  105 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Middle left',
+     'translation' => 'Meio à esquerda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  106 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bottom right, full height',
+     'translation' => 'Inferior direito, altura total',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  107 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bottom left, full height',
+     'translation' => 'Inferior esquerdo, altura total',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  108 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online status text',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  109 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline status text. If you lave empty we will return empty image.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  110 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sample image',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  111 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Source code with a link',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  112 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show a leave a message form when there are no online operators',
+     'translation' => 'Mostrar um formulário de deixar uma mensagem quando não houver operadores online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  113 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget status position from right or left depending on main position. E.g 10 or -10',
+     'translation' => 'Posição de status do widget da direita ou da esquerda, dependendo da posição principal. Por exemplo, 10 ou -10',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  114 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget status position from bottom. E.g 10 or -10',
+     'translation' => 'Posição de status do widget na parte inferior. Por exemplo, 10 ou -10',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  115 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'System configuration',
+     'translation' => 'Configuração do sistema',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  116 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat expired',
+     'translation' => 'Bate-papo expirado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  117 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invalid hash',
+     'translation' => 'Chave inválida',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  118 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat was removed',
+     'translation' => 'O bate-papo foi removido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

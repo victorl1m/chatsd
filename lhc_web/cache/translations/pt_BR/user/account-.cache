@@ -1,0 +1,1034 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Canned messages',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Statistic',
+     'translation' => 'Estatísticas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copy nick',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copied',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name',
+     'translation' => 'Nome',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Updated!',
+     'translation' => 'Atualizado!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Updated',
+     'translation' => 'Atualizado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'General',
+     'translation' => 'Geral',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Interface',
+     'translation' => 'Interface',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Delete',
+     'translation' => 'Apagar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide bot profile while chat is in bot mode',
+     'translation' => 'Ocultar o perfil do robô enquanto o bate-papo estiver no modo robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Start chat with hidden message box',
+     'translation' => 'Iniciar bate-papo com caixa de mensagem oculta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not count button click as a visitor message',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If translation is not found use translation service',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Explorer',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'URL Explorer',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User permissions',
+     'translation' => 'Permissões do usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Update',
+     'translation' => 'Atualizar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'What languages you speak?',
+     'translation' => 'Quais idiomas você fala?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If pending chats comes in the same language as chosen one. To you will be assigned same language chats first.',
+     'translation' => 'Caso os bate-papos pendentes virem no mesmo idioma que o definido por você, lhe será será atribuído o mesmo idioma como preferência.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Updating...',
+     'translation' => 'Atualizando...',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Logged user',
+     'translation' => 'Usuário logado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Account data',
+     'translation' => 'Dados da conta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Assigned departments',
+     'translation' => 'Departamentos atribuídos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visible lists',
+     'translation' => 'Listas visíveis',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Speech',
+     'translation' => 'Falar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Permissions',
+     'translation' => 'Permissões',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats',
+     'translation' => 'Atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not enter a password unless you want to change it',
+     'translation' => 'Não informe uma senha a não ser que você deseje alterá-la',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Username',
+     'translation' => 'Nome de usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Your username',
+     'translation' => 'Seu nome de usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Password',
+     'translation' => 'Senha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enter a new password',
+     'translation' => 'Informe uma nova senha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Repeat password',
+     'translation' => 'Repetir senha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Repeat the new password',
+     'translation' => 'Repita a nova senha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Email',
+     'translation' => 'E-mail',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Your email address',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat nickname',
+     'translation' => 'Apelido no bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Surname',
+     'translation' => 'Sobrenome',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Job title',
+     'translation' => 'Cargo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'I receive other operators permissions request',
+     'translation' => 'Eu recebo pedido de permissões de outros operadores',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Skype',
+     'translation' => 'Skype',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'XMPP username',
+     'translation' => 'Usuário XMPP',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Photo',
+     'translation' => 'Foto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Return',
+     'translation' => 'Voltar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pending chats list enabled',
+     'translation' => 'Lista de bate-papo pendentes habilitada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active chats list enabled',
+     'translation' => 'Lista de bate-papo ativos habilitada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Unread chats list enabled',
+     'translation' => 'Lista de bate-papo não lidos habilitada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Closed chats list enabled',
+     'translation' => 'Lista de bate-papo encerrados habilitada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'My pending and active chats list enabled',
+     'translation' => 'Habilitar minha lista pendente e bate-papo ativos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot chats list enabled',
+     'translation' => 'Lista de bate-papo robô ativada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'I can see all pending chats, not only assigned to me',
+     'translation' => 'Eu posso ver todos os bate-papos pendentes, não apenas os encaminhados para mim',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Automatically accept assigned chats',
+     'translation' => 'Aceitar automaticamente bate-papo atribuídos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Auto join private chats',
+     'translation' => 'Ingressar Automático em Conversa Privada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not scroll to the bottom on chat open',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Remove my closed chats from opened chat list on page refresh',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Include not only my chats',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Other operators chats also will be closed on page refresh',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'How much time has to be passed after chat close before chat is removed. Time in minutes.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude me from auto assign workflow',
+     'translation' => 'Excluir-me do fluxo de trabalho de atribuição automática',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Auto preload previous visitor chat messages',
+     'translation' => 'Carregar automaticamente as conversas anteriores do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Auto uppercase sentences',
+     'translation' => 'Frases em maiúsculas automáticas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default number of rows for chat text area',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Number of rows',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Maximum active chats',
+     'translation' => 'Máximo de conversas ativas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show permissions',
+     'translation' => 'Exibir permissões',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Account updated',
+     'translation' => 'Cadastro atualizado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Account update failed! Please try again!',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'All departments',
+     'translation' => 'Departamentos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Individual departments',
+     'translation' => 'Departamentos individuais',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Assign as operator',
+     'translation' => 'Atribuir como operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude from auto assignment workflow',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  72 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Read only',
+     'translation' => 'Somente leitura',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  73 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Assign in read only mode',
+     'translation' => 'Atribuir no modo somente leitura',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  74 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show archived departments',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  75 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You have permission to edit departments group, but do not have permission to read them. Missing one of these permissions',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  76 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Changes will not be saved!',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  77 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'For account page',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  78 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'For user edit page',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  79 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Departments groups',
+     'translation' => 'Grupos de departamentos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  80 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline',
+     'translation' => 'Offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  81 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat status will not change upon pending chat opening',
+     'translation' => 'O Status do bate-papo não vai mudar durante a abertura de um bate-papo pendente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  82 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notifications',
+     'translation' => 'Notificações',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  83 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User receives other operators permissions request',
+     'translation' => 'Usuário recebe pedido permissões de outros operadores',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  84 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User can see all pending chats, not only assigned to him',
+     'translation' => 'O usuário pode ver todos os chates pendentes, não apenas os encaminhados para ele',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  85 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Exclude from auto assign workflow',
+     'translation' => 'Excluir do fluxo de trabalho de atribuição automática',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  86 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'In order to change operator permissions you have to edit',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  87 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'roles',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  88 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Created',
+     'translation' => 'Criado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  89 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Personal auto responder',
+     'translation' => 'Resposta automática pessoal',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  90 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Personal canned messages',
+     'translation' => 'Mensagens predefinidas pessoais',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  91 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide quick notifications',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  92 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Avatar builder',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  93 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enter any string to generate an avatar',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  94 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Click to set avatar',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  95 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Main',
+     'translation' => 'Principal',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  96 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Add translation',
+     'translation' => 'Adicionar tradução',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  97 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New password was set, copy it or',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  98 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'click to show',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  99 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Copy',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  100 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Password was reset. Please login now.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  101 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Password was updated. Now you can go to back office.',
+     'translation' => 'A senha foi atualizada,  você já pode voltar para a área ADMIN do bate-papo.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  102 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Load previous message on scroll',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

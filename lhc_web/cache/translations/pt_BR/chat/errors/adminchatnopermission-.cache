@@ -1,0 +1,14 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You do not have permission to access the current chat or chat was merged/deleted!',
+     'translation' => 'Desculpe, você não possui autorização para acessar o atendimento indicado, ou o mesmo foi excluído.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

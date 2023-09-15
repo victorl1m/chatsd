@@ -1,0 +1,1374 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'GEO detection configuration',
+     'translation' => 'Configuração de geolocalização',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Map location',
+     'translation' => 'Mapa de localização',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'GEO Enabled',
+     'translation' => 'Geolocalização ativada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use this service',
+     'translation' => 'Usar este serviço',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'API Key',
+     'translation' => 'API Key',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use mod_geoip2',
+     'translation' => 'Usar mod_geoip2',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Country code server variable',
+     'translation' => 'Variável código de país do servidor',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Country name server variable',
+     'translation' => 'Variável nome de país do servidor',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'City name server variable',
+     'translation' => 'Variável nome da cidade do servidor',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Region name server variable',
+     'translation' => 'Variável para nome da região',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Latitude variable',
+     'translation' => 'Variável latitude',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Longitude variable',
+     'translation' => 'Variável longitude',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use http://ip-api.com',
+     'translation' => 'Use http://ip-api.com',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use https://www.abstractapi.com/ip-geolocation-api',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use MaxMind, does not depend on any third party remote service',
+     'translation' => 'Usar MaxMind, não depende de qualquer serviço remoto de terceiros',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can download city/country database from.',
+     'translation' => 'Você pode baixar banco de dados de cidade/país.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'bcmath php extension detected',
+     'translation' => 'extensão php bcmath detectada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Location of city database. Make sure you uploaded file in this location.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User country based detection, faster',
+     'translation' => 'Detecção baseada país do usuário, mais rápido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'File exists',
+     'translation' => 'Arquivo já existe',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'File does not exists',
+     'translation' => 'Arquivo não existe',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User city based detection, slower',
+     'translation' => 'Detecção baseada na cidade do usuário, mais lento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use PHP-GeoIP module',
+     'translation' => 'Usar o módulo PHP-GeoIP',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Support for PHP-GeoIP detected',
+     'translation' => 'Detectado suporte para PHP-GeoIP',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Requests will be comming from',
+     'translation' => 'Requisições virão de',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Username',
+     'translation' => 'Usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'IP, if your site remote IP is different from detected one, please provide correct remote IP address',
+     'translation' => 'IP, se o IP remoto do site for diferente do detectado informe o IP correto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Save',
+     'translation' => 'Salvar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Drag a marker where you want to have map centered by default. Zoom is also saved.',
+     'translation' => 'Arraste o marcador para onde você deseja que o mapa seja centralizado por padrão. O zoom também será salvo.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Google Maps API key, saved automatically. After pasting the key, refresh the page.',
+     'translation' => 'Chave da API do Google Maps, salvo automaticamente. Depois de colar a chave, atualize a página.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Settings updated',
+     'translation' => 'Configurações atualizadas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Send message',
+     'translation' => 'Enviar mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat list',
+     'translation' => 'Lista de bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Dashboard',
+     'translation' => 'Painel de controle',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'City',
+     'translation' => 'Cidade',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Lat.',
+     'translation' => 'Lat.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Lon.',
+     'translation' => 'Lon.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Time zone',
+     'translation' => 'Fuso horário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Identifier',
+     'translation' => 'Identificador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Nick',
+     'translation' => 'Apelido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Additional information',
+     'translation' => 'Informação adicional',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Last activity',
+     'translation' => 'Última atividade',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'ago',
+     'translation' => 'atrás',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'On page',
+     'translation' => 'Na página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Yes',
+     'translation' => 'Sim',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'No',
+     'translation' => 'Não',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User does not have any message from operator',
+     'translation' => 'Usuário não recebeu nenhuma mensagem do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User have not seen message from operator, or message window still open.',
+     'translation' => 'Usuário não visualizou mensagens do operador ou a janela de mensagem permanece aberta.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User has seen message from operator.',
+     'translation' => 'Usuário viu a mensagem do operador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User is chatting',
+     'translation' => 'Usuário está em bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User is not having any chat right now',
+     'translation' => 'Usuário não está em nenhum bate-papo no momento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator',
+     'translation' => 'Analista',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'has send message to user',
+     'translation' => 'enviou mensagem para o usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'No one has send any message to user yet',
+     'translation' => 'Ninguém enviou mensagem para o usuário ainda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'First visit',
+     'translation' => 'Primeira visita',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Last visit',
+     'translation' => 'Última visita',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Total visits',
+     'translation' => 'Total de visitas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'time(s) invitation logic was applied',
+     'translation' => 'veze(s) que a lógica de convite foi aplicada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pageviews',
+     'translation' => 'Visualizações de página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Total pageviews',
+     'translation' => 'Total de visualizações de página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Time on site',
+     'translation' => 'Tempo no local',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Total time on site',
+     'translation' => 'Tempo total no site',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Current page',
+     'translation' => 'Página atual',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Came from',
+     'translation' => 'Vindo de',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Are you sure?',
+     'translation' => 'Confirma?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Clear list',
+     'translation' => 'Limpar lista',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User tracking is disabled, enable it at',
+     'translation' => 'Rastrameanto de usuário está desativado, ative-o em',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat configuration',
+     'translation' => 'Configuração do Bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online visitors list',
+     'translation' => 'Lista de visitantes online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online visitors on map',
+     'translation' => 'Visitantes que estão online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Preview chat',
+     'translation' => 'Pré-visualizar o bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visits',
+     'translation' => 'Visitas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  72 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New',
+     'translation' => 'Novo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  73 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'has sent a message to the user',
+     'translation' => 'enviou uma mensagem para o usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  74 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Seen',
+     'translation' => 'Visto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  75 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Unseen',
+     'translation' => 'Não visto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  76 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Page',
+     'translation' => 'Página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  77 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'From',
+     'translation' => 'Origem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  78 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable/Disable sound about new visitor',
+     'translation' => 'Ativar/Desativar som sobre novo visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  79 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable/Disable browser notifications about new visitor',
+     'translation' => 'Ativar/Desativar notificações do navegador sobre novo visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  80 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online visitors',
+     'translation' => 'Usuários online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  81 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User has message from operator',
+     'translation' => 'Usuário recebeu mensagem do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  82 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Marker timeout before it dissapears from map',
+     'translation' => 'Marcador de limite de tempo antes de desaparecer do mapa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  83 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'seconds',
+     'translation' => 'segundos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  84 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'minute',
+     'translation' => 'minuto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  85 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'minutes',
+     'translation' => 'minutos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  86 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'online users',
+     'translation' => 'Usuários online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  87 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show only connected',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  88 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group list by',
+     'translation' => 'Agrupar lista por',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  89 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Group by',
+     'translation' => 'Agrupar por',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  90 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User country',
+     'translation' => 'País do usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  91 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Page title',
+     'translation' => 'Título da página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  92 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Referrer',
+     'translation' => 'Encaminhador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  93 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department',
+     'translation' => 'Departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  94 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Refresh list every',
+     'translation' => 'Atualizar lista a cada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  95 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'second',
+     'translation' => 'segundo(s)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  96 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show visitors who visited site in the past',
+     'translation' => 'Mostrar visitates de retorno',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  97 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'hour',
+     'translation' => 'hora',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  98 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'day',
+     'translation' => 'dia',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  99 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'days',
+     'translation' => 'dias',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  100 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Max records to return',
+     'translation' => 'Número máximo de registros a retornar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  101 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor local time',
+     'translation' => 'Horário local do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  102 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'By user status on site',
+     'translation' => 'Status do usuário no site',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  103 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Action',
+     'translation' => 'Ação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  104 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User has not seen a message from the operator, or the message window is still open.',
+     'translation' => 'Usuário não viu uma mensagem do operador, ou a janela de mensagem ainda está em aberta.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  105 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User has seen the message from the operator.',
+     'translation' => 'Usuário visualizou a mensagem do operador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  106 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User does not have any messages from the operator',
+     'translation' => 'Usuário não recebeu nenhuma mensagem do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  107 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat',
+     'translation' => 'Atendimento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  108 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Returning',
+     'translation' => 'Retornando',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  109 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Start a chat',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  110 => 
+  ezcTranslationData::__set_state(array(
+     'original' => '+20 (More than 20 seconds spend on site) 20 (Less than 20 seconds spend on site)',
+     'translation' => '+20 (Mais de 20 segundos de gasto no site) 20 (Menos de 20 segundos de gasto no site)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  111 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Files upload for users is active',
+     'translation' => 'Envio de arquivos para usuários está ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  112 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Allow visitor to choose only one file for the upload',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  113 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Files upload for operators is active',
+     'translation' => 'Envio de arquivos para operadores está ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  114 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Remove meta information from images',
+     'translation' => 'Remova as meta informações das imagens',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  115 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Uploaded files from visitors are scanned',
+     'translation' => 'Arquivos de upload de visitantes são verificados pelo antivirus',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  116 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Voice messages for visitors is active',
+     'translation' => 'Mensagens de voz para visitantes ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  117 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Voice messages for operators is active',
+     'translation' => 'Mensagem de Voz para operadores ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  118 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you do not choose any department from below we will track all departments.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  119 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Country code variable does not exist!',
+     'translation' => 'A variável código do país não existe!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  120 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Country name variable does not exist!',
+     'translation' => 'A variável nome do país não existe!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  121 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter city variable!',
+     'translation' => 'Por gentileza, insira a variável cidade!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  122 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter latitude variable!',
+     'translation' => 'Por gentileza, insira a variável latitude!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  123 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter longitude variable!',
+     'translation' => 'Por gentileza, insira a variável longitude!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  124 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter API Key!',
+     'translation' => 'Por gentileza, digite a chave da API!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  125 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Setting service provider failed, please check that your service provider allows you to make requests to remote pages!',
+     'translation' => 'A definição do provedor de serviço falhou. Por gentileza, verifique se seu provedor de serviço permite que faça solicitações para páginas remotas!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  126 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'MaxMind city file does not exists!',
+     'translation' => 'Arquivo de cidade MaxMind não existe!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  127 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'MaxMind country file does not exists!',
+     'translation' => 'Arquivo de país MaxMind não existe!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  128 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Setting service provider failed, please check that MaxMind database files exists!',
+     'translation' => 'Configuração de provedor de serviços falhou. Por gentileza, verifique se os arquivos de banco de dados MaxMind existe!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  129 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter the API key!',
+     'translation' => 'Por gentileza, digite a chave da API!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  130 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter the API username!',
+     'translation' => 'Por gentileza, digite o usuário da API!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  131 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter IP!',
+     'translation' => 'Por gentileza, informe o IP!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  132 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Setting service provider failed, please check that your service provider allows you to make requests to remote pages and your API key and username is correct!',
+     'translation' => 'Definir provedor de serviço falhou. Por gentileza, verifique se o seu provedor de serviço permite que você faça requisições a páginas remotas e se sua chave API e o nome de usuário estão corretos!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  133 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Setting service provider failed, please check that your service provider allows you to make requests to remote pages and your API key is correct!',
+     'translation' => 'A configuração do provedor de serviços falhou! Por gentileza, verifique se o seu provedor de serviços permite que você faça requisições a páginas remotas e se sua chave API está correta!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  134 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Setting service provider failed, please check that you have installed php-GeoIP module and GeoIPCity.dat file is available!',
+     'translation' => 'Provedor de serviços de configuração falhou. Por gentileza, verifique se você instalou módulo php-GeoIP e se o arquivo GeoIPCity.dat está disponível!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  135 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please choose a service provider!',
+     'translation' => 'Por gentileza, escolha um provedor do serviço!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  136 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online users',
+     'translation' => 'Usuários online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

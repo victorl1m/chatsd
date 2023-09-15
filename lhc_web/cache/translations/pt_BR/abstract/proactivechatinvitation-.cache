@@ -1,0 +1,1514 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If department is online and visitor starts a chat and is waiting for some to accept chat. This will be initial message he will get.',
+     'translation' => 'Se o departamento estiver online, o visitante iniciar um bate-papo e estiver aguardando que alguém aceite o chat. Esta será a mensagem inicial que ele receberá.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If department is offline and visitor starts a chat this message will be send instaed of default welcome message. If this message is empty - welcome message will be send.',
+     'translation' => 'Se o departamento estiver desconectado e o visitante iniciar um chat, esta mensagem será enviada com uma mensagem de boas-vindas padrão. Se esta mensagem estiver vazia - será enviada uma mensagem de boas-vindas.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Internal conversion parameters. Internal conversion is used to track covnersion where final step is done by user executing specific action and letting website to know us it happened.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sample javascript to finish conversion',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can also use 5 images using keywords as {proactive_img_1}, {proactive_img_2}, {proactive_img_3}, {proactive_img_4}, {proactive_img_5}. You can use these events. These events should be used on onclick event.',
+     'translation' => 'Você pode utilizar 5 imagens usando palavras chaves como: {proactive_img_1}, {proactive_img_2}, {proactive_img_3}, {proactive_img_4}, {proactive_img_5}. Estes eventos devem ser utilizados no evento onclick.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Main wrapper element should have id of',
+     'translation' => 'O elemento principal do wrapper deve ter a ID de',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New widget options',
+     'translation' => 'Opções de novos widgets',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Old widget options',
+     'translation' => 'Opções de widgets antigos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If chat was accepted by the same language speaking operator you can send visitor a custom message on chat accept event.',
+     'translation' => 'Se o chat foi aceito pelo operador que fala o mesmo idioma, você pode enviar ao visitante uma mensagem personalizada no evento de aceitação do chat.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'What languages should be ignored. If chat language is one of the selected, message will not be send.',
+     'translation' => 'Quais idiomas devem ser ignorados. Se o idioma do bate-papo for um dos selecionados, a mensagem não será enviada.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you leave empty - message we will be send only if translated message is found.',
+     'translation' => 'Se você deixar em branco - a mensagem será só será enviada se for encontrada a mensagem traduzida.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you want pro active chat invitation to work it has to be enabled in',
+     'translation' => 'Se quiser convite de bate-papo proativo isso tem que estar habilitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'chat configuration',
+     'translation' => 'Configuração do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'also online users tracking has to be',
+     'translation' => 'também deve ter definido o rastreamento de usuários online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'enabled',
+     'translation' => 'habilitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Object ID',
+     'translation' => 'ID do objeto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Category',
+     'translation' => 'Categoria',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message',
+     'translation' => 'Mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'File',
+     'translation' => 'Arquivo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If same identifier used for two columns, both values will be represented in single column.',
+     'translation' => 'Se for o mesmo identificador sendo usado para duas colunas, ambos os valores serão representados em uma coluna única.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Line',
+     'translation' => 'Linha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Severity',
+     'translation' => 'Importância',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Source',
+     'translation' => 'Origem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Time',
+     'translation' => 'Tempo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Language, leave empty for all. E.g lit, rus, ger etc...',
+     'translation' => 'Linguagem, deixe em branco para todos. Exp: por, esp, ger etc ...',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name',
+     'translation' => 'Nome',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator. Visitor will see this operator nick.',
+     'translation' => 'Analista.  O visitante visualizará esse nick do operador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Position',
+     'translation' => 'Posição',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department',
+     'translation' => 'Departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'User',
+     'translation' => 'Usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Wait message. Visible when users starts chat and is waiting for someone to accept a chat.',
+     'translation' => 'Mensagem de espera. Visível quando os usuários iniciam um bate-papo e aguardam alguém aceitar o mesmo.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Wait timeout.',
+     'translation' => 'Tempo limite de espera.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show visitor this message when wait timeout passes',
+     'translation' => 'Mostrar ao visitante esta mensagem quando o tempo limite for atingido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'How many times repeat message? Applied only to first message.',
+     'translation' => 'Repetir a mensagem quantas vezes? Aplicar somente na primeira mensagem.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Redirect visitor to survey if visitor does not responds within N seconds',
+     'translation' => 'Encaminhar o visitante para a pesquisa se o visitante não responder dentro de N segundos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Survey',
+     'translation' => 'Pesquisa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Timeout. [1]',
+     'translation' => 'Tempo limite. [1]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default on hold message',
+     'translation' => 'Mensagem padrão de espera',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message for timeout [1]',
+     'translation' => 'Mensagem para tempo limite [1]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message for timeout [2]',
+     'translation' => 'Mensagem para tempo limite [2]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message for timeout [3]',
+     'translation' => 'Mensagem para tempo limite [3]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message for timeout [4]',
+     'translation' => 'Mensagem para tempo limite [4]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message for timeout [5]',
+     'translation' => 'Mensagem para tempo limite [5]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Timeout. [2]',
+     'translation' => 'Tempo limite. [2]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Timeout. [3]',
+     'translation' => 'Tempo limite. [3]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Timeout. [4]',
+     'translation' => 'Tempo limite. [4]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Timeout. [5]',
+     'translation' => 'Tempo limite. [5]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message to visitor on chat close',
+     'translation' => 'Mensagem para visitante com a conversa encerrada.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message to visitor if department is offline',
+     'translation' => 'Mensagem para o visitante se o departamento estiver desconectado.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message to visitor if operator speaks same language as visitor.',
+     'translation' => 'Mensagem para o visitante se o operador falar o mesmo idioma que o visitante.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Icon name',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Icon identifier',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'it should have same value you enter in alert icon trigger',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Column name',
+     'translation' => 'Nome da coluna',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Column identifier',
+     'translation' => 'Identificador da coluna',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Column icon, material icons text',
+     'translation' => 'Icone da coluna, texto do material icons',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Variable name',
+     'translation' => 'Nome da variável',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enabled',
+     'translation' => 'Habilitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Icon mode',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visible in chat list',
+     'translation' => 'Visível na lista de bate-papos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Has popup information',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sort enabled, you can define custom column also.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Sort column from lh_chat table, or JSON syntax',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visible in online visitors list',
+     'translation' => 'Visível na lista de visitantes on-line',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Department rule to apply',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'To what department transfer chat',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Expected variable value',
+     'translation' => 'E necessário definir um valor para  a variável',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Set chat priority to',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Rule priority',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Javascript variable value',
+     'translation' => 'Valor da variável JavaScript',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Variable identifier',
+     'translation' => 'Identificador da variável',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Old way passed variable name',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  72 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Variable changed from [b]{old_val}[/b] to [b]{new_val}[/b]',
+     'translation' => 'Variável alterada de [b]{old_val}[/b] para [b]{new_val}[/b]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  73 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Log message for for variable. Variables you can use {old_val}, {new_val}',
+     'translation' => 'Mensagem de log para a variável. Variáveis que você pode usar {old_val}, {new_val}',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  74 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Variable type',
+     'translation' => 'Tipo da variável',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  75 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default message',
+     'translation' => 'Mensagem padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  76 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor ID',
+     'translation' => 'ID do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  77 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Event ID',
+     'translation' => 'ID do evento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  78 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Timestamp',
+     'translation' => 'Data e hora',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  79 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Value',
+     'translation' => 'Valor',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  80 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name for personal purposes',
+     'translation' => 'Nome para uso pessoal',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  81 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator name',
+     'translation' => 'Nome do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  82 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Time on site in seconds',
+     'translation' => 'Tempo no site em segundos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  83 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Delay invitation widget show for N seconds if invitation was already matched.',
+     'translation' => 'Atraso na exibição do widget de convite por N segundos, se o convite já tiver sido correspondido.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  84 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Delay invitation widget show for N seconds if trigger is matched for first time.',
+     'translation' => 'Atraso no widget de convite de apresentação por N segundos se o gatilho for correspondido pela primeira vez.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  85 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If dynamic invitation was matched on page refresh show instantly. Otherwise dynamic conditions will have to be matched again.',
+     'translation' => 'Se o convite dinâmico corresponder na atualização da página, mostre instantaneamente. Caso contrário as condições dinâmicas terão que ser correspondidas novamente.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  86 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Inject only HTML, widget state will not be changed. Matched invitation is executed on each page load.',
+     'translation' => 'Injetar apenas HTML, o estado do widget não será alterado. O convite correspondente é executado em cada carregamento da página.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  87 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pageviews',
+     'translation' => 'Visualizações de página',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  88 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Referrer domain without www, E.g google keyword will match any of google domain',
+     'translation' => 'Domínio de referência sem www, por exemplo, a palavra-chave do Google corresponderá a qualquer domínio do Google.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  89 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'How many times user show invitation, 0 - untill users closes it, > 0 limits.',
+     'translation' => 'Quantas vezes mostrar o convite ao usuário, 0 - Até o usuário fechar, > 0 limites.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  90 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Requires e-mail',
+     'translation' => 'E-mail requerido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  91 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Requires name',
+     'translation' => 'Nome requerido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  92 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show on these devices only',
+     'translation' => 'Mostrar apenas nestes dispositivos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  93 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Assign to shown operator',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  94 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show everytime it is matched',
+     'translation' => 'Mostrar sempre que for correspondente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  95 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show invitation next time even if a customer started a chat',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  96 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Requires phone',
+     'translation' => 'Telefone requerido',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  97 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show random operator profile',
+     'translation' => 'Ver perfil do operador aleatório',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  98 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enter operators IDs from whom random operator should be shown, separated by comma',
+     'translation' => 'Digite os IDs dos operadores dos quais o operador aleatório deve ser exibido, separado por vírgula',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  99 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Identifier, for what identifier this message should be shown, leave empty for all',
+     'translation' => 'Identificar para qual identificador está mensagem deve ser mostrada, para todos deixe em branco',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  100 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Tag',
+     'translation' => 'Tag',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  101 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Auto responder to apply',
+     'translation' => 'Ativar o atendedor automático',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  102 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Parent invitation',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  103 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Campaign',
+     'translation' => 'Campanha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  104 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot',
+     'translation' => 'Robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  105 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Trigger to execute',
+     'translation' => 'Gatilho para executar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  106 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Execute bot only if there is no online operators',
+     'translation' => 'Executar robô apenas se não houver operadores online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  107 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Matched times',
+     'translation' => 'Horários correspondentes',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  108 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message to user',
+     'translation' => 'Mensagem para o usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  109 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message to returning user',
+     'translation' => 'Mensagem para o usuário que retorna',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  110 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Nick which will be used if we cannot determine returning user name',
+     'translation' => 'Apelido que será usado se não for possível determinar o nome de usuário retornado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  111 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'This is dynamic invitation',
+     'translation' => 'Este é um convite dinâmico',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  112 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose a dynamic event',
+     'translation' => 'Escolha um evento dinâmico',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  113 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show invitation if visitor is idle for n seconds',
+     'translation' => 'Mostrar convite se o visitante ficar ocioso por n segundos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  114 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disabled',
+     'translation' => 'Desativado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  115 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Apply HTML invitation only to mobile devices',
+     'translation' => 'Aplicar convite HTML apenas a dispositivos móveis',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  116 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Inject HTML everytime dynamic event occurs',
+     'translation' => 'Injetar HTML sempre que ocorrer um evento dinâmico',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  117 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not show widget automatically',
+     'translation' => 'Não mostrar widget automaticamente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  118 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show widget on invitation to chat. Applies only to desktop devices.',
+     'translation' => 'Mostrar widget no convite para o chat. Aplicável apenas a dispositivos de desktop.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  119 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Close button above invitation',
+     'translation' => 'Botão Fechar acima do convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  120 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show profile photo on the left',
+     'translation' => 'Mostrar Foto de Perfil à Esquerda.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  121 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide operator name in invitation widget',
+     'translation' => 'Ocultar o nome do operador no widget de convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  122 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide operator profile image',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  123 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide content on click',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  124 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show default header on proactive widget open event',
+     'translation' => 'Mostrar cabeçalho padrão no evento de abertura de widget proativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  125 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Play sound',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  126 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Skip bot and set chat status directly to pending state',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  127 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Append trigger content in full widget',
+     'translation' => 'Anexar conteúdo da trigger no widget completo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  128 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Keep invitation body after widget close. No further invitations will be processed.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  129 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Append trigger content in intro message',
+     'translation' => 'Anexar conteúdo da trigger na mensagem de introdução',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  130 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Identifier',
+     'translation' => 'Identificador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  131 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not store event if from last event has passed less than x seconds.',
+     'translation' => 'Não armazene evento se o último evento tiver passado menos de x segundos.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  132 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Filter by value',
+     'translation' => 'Filtrar por valor',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  133 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Audit log',
+     'translation' => 'Log de auditoria',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  134 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Auto responder',
+     'translation' => 'Atendedor automático',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  135 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat alert icons',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  136 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat columns',
+     'translation' => 'Colunas do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  137 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat priority',
+     'translation' => 'Prioridade do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  138 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'String (case sensitive)',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  139 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'String (case insensitive)',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  140 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Integer',
+     'translation' => 'Integer',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  141 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Decimal',
+     'translation' => 'Decimal',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  142 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Encrypted',
+     'translation' => 'Criptografado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  143 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat variables',
+     'translation' => 'Variáveis do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  144 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pro active chat campaigns',
+     'translation' => 'Campanhas de bate-papo proativas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  145 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pro active chat events',
+     'translation' => 'Eventos de bate-papo ativos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  146 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Mouse leaves a browser window',
+     'translation' => 'Mouse deixou uma janela do navegador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  147 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor idle N seconds on site',
+     'translation' => 'Visitante ocioso N segundos no site',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  148 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pro active chat invitations',
+     'translation' => 'Convites de bate-papo proativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  149 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pro active chat variables',
+     'translation' => 'Variáveis de bate-papo ativo pro',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  150 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Subject',
+     'translation' => 'Assunto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

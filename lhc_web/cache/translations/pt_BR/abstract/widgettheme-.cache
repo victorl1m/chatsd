@@ -1,0 +1,3174 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Welcome message',
+     'translation' => 'Mensagem de boas vindas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline message',
+     'translation' => 'Mensagem desconectado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pending chat messaging',
+     'translation' => 'Bate-papo pendente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor not replying messaging',
+     'translation' => 'O visitante não está respondendo às mensagens',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator not replying messaging',
+     'translation' => 'O operador não está respondendo às mensagens',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'On-hold chat messaging',
+     'translation' => 'Bate-papo em espera',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Close messaging',
+     'translation' => 'Mensagem de encerramento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Survey',
+     'translation' => 'Pesquisa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Multi-language chat',
+     'translation' => 'Chat multi-idioma',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Add translation',
+     'translation' => 'Adicionar tradução',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation is active if any of these are true.',
+     'translation' => 'O convite está ativo se algum destes for verdadeiro.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If operator has 3 max chats, and you enter here 2. Means proactive invitation will be active only if operator has less than 5 chats assigned to him.',
+     'translation' => 'Se o operador tiver no máximo 3 chats, e você inserir aqui 2. Significa que o convite proativo estará ativo somente se o operador tiver menos de 5 chats atribuídos a ele.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Other conditions',
+     'translation' => 'Outras condições',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If visitor arrived to website today, and he was on website yesterday. This value holds last time visitor was seen on website yesterday.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Attributes conditions conditions',
+     'translation' => 'Condições das condições de atributos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'You can filter by `online_attr_system` attribute key and it\'s value. Multiple values can be separated by ||',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Attribute key',
+     'translation' => 'Chave de atributo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Comparison operator',
+     'translation' => 'Operador de comparação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Attribute value',
+     'translation' => 'Valor do atributo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'For trigger being executed on chat start also it has to have `Can be passed as argument` option enabled.',
+     'translation' => 'Para o gatilho ser executado no início do chat, ele também deve ter a opção `Pode ser passado como argumento` habilitado.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Search for language. Enter * to see all.',
+     'translation' => 'Buscar por idioma. Informe * para ver todos.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'See all variations',
+     'translation' => 'Ver todas as variações',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation',
+     'translation' => 'Convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Activity conditions',
+     'translation' => 'Condições de atividade',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bot',
+     'translation' => 'Robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Dynamic',
+     'translation' => 'Dinâmico',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Events',
+     'translation' => 'Eventos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Design',
+     'translation' => 'Design',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Inject HTML',
+     'translation' => 'Injetar HTML',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Conversion',
+     'translation' => 'Conversão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose what bot trigger element append after auto responder message',
+     'translation' => 'Escolha qual o gatilho deve ser acionado após a mensagem de resposta automática',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Preview',
+     'translation' => 'Visualizar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Download theme',
+     'translation' => 'Baixar tema',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Status widget style',
+     'translation' => 'Estilo do widget de status',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget container',
+     'translation' => 'Contêiner do widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Messages style',
+     'translation' => 'Estilo de mensagens',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help widget',
+     'translation' => 'Widget de oferta de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat widget',
+     'translation' => 'Bate-papo Widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom content',
+     'translation' => 'Conteúdo customizado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom CSS',
+     'translation' => 'CSS personalizado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom bot style',
+     'translation' => 'Customizar estilo do robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notification',
+     'translation' => 'Notificação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Reactions',
+     'translation' => 'Reações',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you enter alias make sure you pass this string as argument for a theme. Otherwise argument will be ignored.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online status options',
+     'translation' => 'Opções para status Online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline status options',
+     'translation' => 'Opções para status Offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Images',
+     'translation' => 'Imagens',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Live preview',
+     'translation' => 'Pré-visualização ao vivo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor messages style',
+     'translation' => 'Estilo de mensagens dos visitantes',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator messages style',
+     'translation' => 'Estilo das mensagens dos operadores',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New message separator style',
+     'translation' => 'Novo estilo de separador de mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Scroll to the bottom style',
+     'translation' => 'Role até o estilo inferior',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Other',
+     'translation' => 'Outro',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Override embed code settings',
+     'translation' => 'Substituir as configurações de código de incorporação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Build your own need help widget layout',
+     'translation' => 'Crie seu próprio layout de widget de ajuda.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Set default HTML',
+     'translation' => 'Definir HTML padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If you want to get nerdy you can build your own eye catcher using default template as starting point. You can adjust need help widget dimensions above. Also see what placeholders we support.',
+     'translation' => 'Se você quiser ficar nerd, você pode criar seu próprio olho mágico usando o template padrão como ponto de partida. Você pode ajustar as dimensões do widget de ajuda acima. Veja também quais marcadores de posição são suportados.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'General settings',
+     'translation' => 'Configurações gerais',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text changes',
+     'translation' => 'Alterações no texto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text content before user fields',
+     'translation' => 'Conteúdo do texto antes dos campos do usuário',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose manually bot ant trigger',
+     'translation' => 'Escolher manualmente o gatilho do bot',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'For it to work, trigger has to have checked',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Can be passed as argument',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default',
+     'translation' => 'Padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Requires - `Can be passed as argument` option to be checked.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Other Operator messages style',
+     'translation' => 'Outro estilo de mensagens do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'System assistant messages style',
+     'translation' => 'Estilo de mensagens do assistente do sistema',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'General',
+     'translation' => 'Geral',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bubble background color',
+     'translation' => 'Cor de Fundo da Bolha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Title color',
+     'translation' => 'Cor do título',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text color',
+     'translation' => 'Cor do texto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'My messages bubble background color',
+     'translation' => 'Cor de fundo da bolha das minhas mensagens',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  72 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Other operator bubble background color',
+     'translation' => 'Outra cor de fundo da bolha do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  73 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat background color',
+     'translation' => 'Cor do plano de fundo do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  74 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New message separator color',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  75 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Time text color',
+     'translation' => 'Cor do texto da hora',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  76 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Title text color',
+     'translation' => 'Cor do texto do título',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  77 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Message text color',
+     'translation' => 'Cor do texto da mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  78 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Main background color',
+     'translation' => 'Cor principal do plano de fundo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  79 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Link default text color',
+     'translation' => 'Cor de texto padrão do link',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  80 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Default text color',
+     'translation' => 'Cor de texto padrão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  81 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Dropdown background color',
+     'translation' => 'Cor do plano de fundo das Dropdown',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  82 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Navigation bar icons text color',
+     'translation' => 'Cor dos textos e dos ícones na barra de navegação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  83 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Navigation bar icons hover text color',
+     'translation' => 'Cor dos textos e dos ícones na barra de navegação ao passar o mouse',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  84 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Tab border color',
+     'translation' => 'Cor da borda da guia',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  85 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button text color',
+     'translation' => 'Cor do texto do botão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  86 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button background color',
+     'translation' => 'Cor de fundo do botão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  87 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button border color',
+     'translation' => 'Cor da borda do botão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  88 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button active text color',
+     'translation' => 'Cor do texto do botão ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  89 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button active background color',
+     'translation' => 'Cor de fundo do botão ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  90 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button active border color',
+     'translation' => 'Cor da borda do botão ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  91 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Dropdown hover background color',
+     'translation' => 'Cor de fundo da dropdown hover',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  92 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Dropdown border color',
+     'translation' => 'Cor da borda da dropdown',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  93 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online background color',
+     'translation' => 'Cor de fundo do botão ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  94 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Panel header background color',
+     'translation' => 'Cor de fundo do cabeçalho do painel',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  95 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Panel header border color',
+     'translation' => 'Cor da borda do cabeçalho do painel',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  96 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header background color',
+     'translation' => 'Cor de fundo do cabeçalho',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  97 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Panel background color',
+     'translation' => 'Cor de fundo do painel',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  98 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active tab background color',
+     'translation' => 'Cor de fundo da aba ativa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  99 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Breadcrumb background color',
+     'translation' => 'Cor de fundo do breadcrumb',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  100 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Breadcrumb border color',
+     'translation' => 'Cor da borda do breadcrumb',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  101 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Menu active background color',
+     'translation' => 'Cor de fundo do menu ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  102 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Menu text color',
+     'translation' => 'Cor do texto do menu',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  103 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Tab text color',
+     'translation' => 'Cor do texto da aba',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  104 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Table border color',
+     'translation' => 'Cor da borda da tabela',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  105 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Navbar toggle background color',
+     'translation' => 'Alterar a cor de fundo da barra de navegação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  106 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Navbar toggle border color',
+     'translation' => 'Alterar a cor da borda da barra de navegação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  107 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Tab active text color',
+     'translation' => 'Cor do texto ativo da aba',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  108 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header border color',
+     'translation' => 'Cor da borda do cabeçalho do painel',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  109 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button border radius',
+     'translation' => 'Cor da borda do botão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  110 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose a bot',
+     'translation' => 'Escolha um robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  111 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose a trigger',
+     'translation' => 'Escolha um gatilho',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  112 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Minimum time in second how long sync has to be stopped before allowing reset auto responder',
+     'translation' => 'Tempo mínimo em segundos para quanto tempo a sincronização precisa ser interrompida antes de redefinir a resposta automática',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  113 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Maximum time in seconds how long sync has to be stopped before we do not reset auto responder',
+     'translation' => 'Tempo máximo em segundos para quanto tempo a sincronização precisa ser interrompida antes de redefinir o respondedor automático',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  114 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable reset auto responder if visitor was redirected to survey',
+     'translation' => 'Desativar a resposta automática se o visitante for redirecionado para a pesquisa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  115 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not send messages to pending chat if chat is assigned to operator.',
+     'translation' => 'Não enviar mensagens para bate-papo pendente se o bate-papo pendente está atribuído a um operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  116 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'This auto responder applies only to proactive invitations.',
+     'translation' => 'Esta resposta automática aplica-se somente para convites antecipados.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  117 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If variable is not passed should we keep previously recorded value?',
+     'translation' => 'Se a variável não for aprovada, devemos manter o valor registrado anteriormente?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  118 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'This variable is invisible for operator and will be stored in chat_variables attribute',
+     'translation' => 'Esta variável é invisível para o operador e será armazenada no atributo chat_variables',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  119 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Event id to receive from website for conversion to finish.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  120 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'E.g ordered',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  121 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Conversion has to happen within this period of time after invitation was send/clicked.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  122 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation expire time, after that period of time invitation will be hidden',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  123 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Any of these operators are online. Enter operator id separated by comma. Your user id is',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  124 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator maximum chats limit can be exceeded by this number of chats.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  125 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Last time seen on website ago.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  126 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Last time had chat n minutes ago.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  127 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'After this invitation expires or was closed, any next invitation can be shown after defined amount of time.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  128 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation message width',
+     'translation' => 'Largura da mensagem de convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  129 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation message placement from bottom',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  130 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Invitation message placement from right',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  131 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Mobile HTML',
+     'translation' => 'Versão móvel em HTML',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  132 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom on click event',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  133 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom CSS, applies also to invitation bubble',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  134 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom image 1',
+     'translation' => 'Imagem personalizada 1',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  135 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom image 2',
+     'translation' => 'Imagem personalizada 2',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  136 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom image 3',
+     'translation' => 'Imagem personalizada 3',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  137 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom image 4',
+     'translation' => 'Imagem personalizada 4',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  138 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom image 5',
+     'translation' => 'Imagem personalizada 5',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  139 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disabled',
+     'translation' => 'Desativado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  140 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Survey title',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  141 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please complete this short evaluation survey',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  142 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable chat preview',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  143 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable chat download',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  144 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Required only if stars less or equal to 1 - n',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  145 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Stars field Nr. (1-5)',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  146 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If more than one theme is passed, randomly chosen theme is fixed for selected period of time.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  147 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name',
+     'translation' => 'Nome',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  148 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Alias for argument. No spaces or slashes.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  149 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Name of the company',
+     'translation' => 'Nome da empresa',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  150 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat status if customer is chatting with a bot',
+     'translation' => 'Status do bate-papo se o cliente estiver conversando com um robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  151 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header icons order. _print is optional and indicates we should also print a text after an icon',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  152 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help header text',
+     'translation' => 'Texto do cabeçalho de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  153 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help tooltip timeout, after how many hours show again tooltip?',
+     'translation' => 'Precisa de ajuda com a dica de tempo, após quantas horas mostrar novamente dica de ferramenta?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  154 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'After how many seconds after page load show need help tooltip?',
+     'translation' => 'Após quantos segundos depois da página ser carregada será exibido o tooltip de ajuda?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  155 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'After how many seconds after page load show status widget',
+     'translation' => 'Após quantos segundos depois da página ser carregada será exibido o status do widget?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  156 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help widget width',
+     'translation' => 'Largura do widget de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  157 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help widget height',
+     'translation' => 'Altura do widget de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  158 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Position from right',
+     'translation' => 'Posição da direita',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  159 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Position from bottom',
+     'translation' => 'Posição de baixo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  160 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show need help tooltip?',
+     'translation' => 'Mostrar lembrete de "preciso de ajuda"?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  161 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide need help widget for mobile devices.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  162 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Always visible. Usefull if you make custom HTML and want that need help would be always visible.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  163 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide close button',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  164 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide message time from visitor',
+     'translation' => 'Ocultar o tempo da mensagem do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  165 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use modern look. It is used only in older widget.',
+     'translation' => 'Use uma aparência moderna. Ele é usado apenas em widgets mais antigos.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  166 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use a new widget look for old embed code. If you can not change easily old embed codes you can force system to load new widget still.',
+     'translation' => 'Use um novo visual de widget para código de incorporação antigo. Se você não pode alterar facilmente códigos de incorporação antigos, você ainda pode forçar o sistema a carregar um novo widget.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  167 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help standard text',
+     'translation' => 'Texto padrão da oferta de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  168 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget border width (px)',
+     'translation' => 'Largura da borda do widget (px)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  169 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online status text [old widget]',
+     'translation' => 'Texto de status online [widget antigo]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  170 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline status text [old widget]',
+     'translation' => 'Texto de status offline [widget antigo]',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  171 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator intro text',
+     'translation' => 'Texto de introdução do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  172 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Have a question? Ask us!',
+     'translation' => 'Você tem uma pergunta? Pergunte-nos!',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  173 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Background color',
+     'translation' => 'Cor do fundo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  174 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Status widget border color',
+     'translation' => 'Cor da borda do widget de status',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  175 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text/Icon color',
+     'translation' => 'Cor do Texto/Ícone',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  176 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator image in chat widget',
+     'translation' => 'Imagem do operador no widget do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  177 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Logo image, visible in popup',
+     'translation' => 'Logomarca visível no popup',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  178 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Logo image, visible in widget left corner, 16x16',
+     'translation' => 'Imagem do logotipo, visível no canto esquerdo do widget, 16x16',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  179 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show copyright widget logo in left corner',
+     'translation' => 'Mostrar o logotipo de copyright no canto esquerdo da widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  180 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide widget close button',
+     'translation' => 'Esconder o widget no botão de fechar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  181 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide popup option',
+     'translation' => 'Esconder opção popup',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  182 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable sound for the visitor by default',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  183 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Terminate script if parent window already has live help script',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  184 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Terminate script in parent window if any child iframe has already live helper script',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  185 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'If visitor opens a popup keep chat in the widget also',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  186 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header height (px)',
+     'translation' => 'Altura do cabeçalho (px)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  187 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget response layout width trigger (px)',
+     'translation' => 'Largura do widget (px)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  188 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header padding (px)',
+     'translation' => 'Preenchimento do cabeçalho (px)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  189 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Site URL',
+     'translation' => 'URL do site',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  190 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text above start chat form fields',
+     'translation' => 'Texto acima dos campos de formulário no início do bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  191 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html before start chat form fields, popup',
+     'translation' => 'HTML personalizado antes de iniciar os campos do formulário de bate-papo, pop-up',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  192 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Inject HTML on widget open',
+     'translation' => 'Adicionar HTML no widget aberto.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  193 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header HTML. Here you can paste custom head HTML.',
+     'translation' => 'Cabeçalho do HTML. Aqui você pode colar o cabeçalho do HTML personalizado.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  194 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html before start chat form fields, widget',
+     'translation' => 'HTML personalizado antes de iniciar campos de formulário de bate-papo na pop-up',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  195 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom page CSS (new widget only)',
+     'translation' => 'Página CSS customizada (somente novo widget)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  196 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html before start chat form fields, popup (bot mode)',
+     'translation' => 'HTML personalizado antes de iniciar campos de formulário de bate-papo na pop-up (modo robô).',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  197 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html before start chat form fields, widget (bot mode)',
+     'translation' => 'HTML personalizado antes de iniciar campos de formulário de bate-papo na widget (modo robô).',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  198 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html before standard widget header',
+     'translation' => 'HTML personalizado antes de iniciar campos de formulário de bate-papo na widget.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  199 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator intro message. You can wrap custom HTML with [html][/html] bbcode',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  200 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator intro message in HTML',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  201 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html above status/profile body in online mode',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  202 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html above status/profile body in offline mode',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  203 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html inside standard widget header',
+     'translation' => 'HTML personalizado dentro do cabeçalho do widget padrão.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  204 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom html before standard widget status header',
+     'translation' => 'HTML personalizado antes do cabeçalho do status do widget padrão.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  205 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Start chat button text, standard chat',
+     'translation' => 'Iniciar texto no botão de bate-papo no bate-papo padrão.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  206 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'TOS text',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  207 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Title of the minimize icon',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  208 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Title of the popup icon',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  209 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Title of the end chat icon',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  210 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Start chat button text, bot chat',
+     'translation' => 'Iniciar texto no botão de bate-papo no bate-papo via robô',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  211 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Leave a message button text',
+     'translation' => 'Colocar uma mensagem de texto no botão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  212 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Online image',
+     'translation' => 'Imagem online',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  213 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notification icon',
+     'translation' => 'Ícone de notificação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  214 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline image',
+     'translation' => 'Imagem offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  215 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget header background color',
+     'translation' => 'Cor do fundo do cabeçalho do widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  216 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget border color',
+     'translation' => 'Cor da borda do widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  217 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom need help HTML',
+     'translation' => 'HTML personalizado para preciso de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  218 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help background color',
+     'translation' => 'Cor do fundo da oferta de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  219 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help hover background color',
+     'translation' => 'Cor do fundo da oferta de ajuda em foco',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  220 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help text color',
+     'translation' => 'Cor do texto de oferta de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  221 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text when user starts chat based on proactive invitation',
+     'translation' => 'Texto para quando o usuário iniciar o bate-papo por um convite proativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  222 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text when operator closes a chat',
+     'translation' => 'Texto para quando o operador fechar um bate-papo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  223 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text when user starts a chat and is waiting for operator to join a chat. Only if queue is 1 or if less than a minute wait time.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  224 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text when user starts a chat and is waiting for operator to join a chat. Only if queue is > 1. {number}, {avg_wait_time}, {avg_wait_time_live}, {avg_wait_time_live__string if more than one minute live wait time}, {avg_wait_time__string if more than one minute wait time}',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  225 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Text when user starts a chat but department is offline',
+     'translation' => 'Texto para quando o usuário inicia um bate-papo mas o departamento está offline',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  226 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Leave a message form text',
+     'translation' => 'Deixe um texto para o formulário da mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  227 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Thank you for your feedback text',
+     'translation' => 'Obrigado pela sua opinião.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  228 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Blocked visitor message',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  229 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help border color',
+     'translation' => 'Cor da borda da oferta da ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  230 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help close background color',
+     'translation' => 'Cor do fundo de fechar oferta de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  231 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help close hover background color',
+     'translation' => 'Cor do fundo de fechar oferta de ajuda em foco',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  232 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help operator image',
+     'translation' => 'Imagem do operador na oferta de ajuda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  233 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Status widget additional CSS, takes effect after save',
+     'translation' => 'CSS adicional do widget de status, tem efeito após salvar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  234 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom CSS only for popup',
+     'translation' => 'CSS personalizado apenas para popup',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  235 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget container additional CSS, takes effect after save',
+     'translation' => 'CSS adicional do widget container, tem efeito após salvar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  236 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget body additional CSS, takes effect after save',
+     'translation' => 'CSS adicional do widget de corpo, tem efeito após salvar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  237 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Minimize image',
+     'translation' => 'Minimizar imagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  238 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Restore image',
+     'translation' => 'Restaurar imagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  239 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Close image',
+     'translation' => 'Fechar imagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  240 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Popup image',
+     'translation' => 'Imagem popup',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  241 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor bubble background color',
+     'translation' => 'Cor de fundo do balão do visitante.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  242 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor title color',
+     'translation' => 'Cor do título do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  243 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Visitor text color',
+     'translation' => 'Cor do texto do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  244 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator bubble background color',
+     'translation' => 'Cor de fundo do balão do operador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  245 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator title color',
+     'translation' => 'Cor do título do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  246 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator text color',
+     'translation' => 'Cor do texto do operador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  247 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show voting thumbs?',
+     'translation' => 'Mostrar ícones de votação?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  248 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use different title for the name field',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  249 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use different title for the e-mail field',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  250 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use different title for the file field',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  251 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use different title for the phone field',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  252 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use different title for the question field',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  253 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use different title for department? E.g Location',
+     'translation' => 'Usar um título diferente para o departamento? Exp.: localização.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  254 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Location',
+     'translation' => 'Localização',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  255 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Additional option before department selection',
+     'translation' => 'Opção adicional antes da seleção do departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  256 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Choose department',
+     'translation' => 'Escolha um departamento',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  257 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button background hover color',
+     'translation' => 'Cor de fundo do botão ativo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  258 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button top and bottom',
+     'translation' => 'Botão superior e inferior',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  259 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button padding right and left',
+     'translation' => 'Botão pendente da direita para a esquerda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  260 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Button font size',
+     'translation' => 'Tamanho da fonte do botão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  261 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget height (px)',
+     'translation' => 'Altura do widget (px)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  262 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget width (px)',
+     'translation' => 'Largura do widget (px)',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  263 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Operator avatar',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  264 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help avatar',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  265 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget position from right to append',
+     'translation' => 'Posição do widget da direita para anexar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  266 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget position from bottom to append',
+     'translation' => 'Posição do widget de baixo para anexar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  267 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget position from right to append in invitation',
+     'translation' => 'Posição do widget da direita para anexar no convite',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  268 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'After how many user messages show switch to human button. empty - never, 0 - always',
+     'translation' => 'Depois de quantas mensagens de usuário exibidas, alternar para o botão humano. vazio - nunca, 0 - sempre',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  269 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Placeholder for message text',
+     'translation' => 'Espaço reservado para o texto da mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  270 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Main operator title, {nick}, {name}, {surname}',
+     'translation' => 'Título do operador principal, {usuário}, {nome}, {sobrenome}',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  271 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chat is unavailable and offline form is disabled.',
+     'translation' => 'O bate-papo não está disponível e o formulário off-line está desabilitado.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  272 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not allow visitor to edit previous message by pressing up arrow',
+     'translation' => 'Bloquear que visitante altere sua última mensagem ao pressionar o botão para cima',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  273 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Before closing chat ask user does he really want to to close chat',
+     'translation' => 'Antes de fechar o chat, pergunte ao usuário se ele realmente deseja fechar o chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  274 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show start chat form instantly after operator closes a chat.',
+     'translation' => 'Mostra o formulário de início do chat imediatamente após o operador encerrar a conversa.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  275 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show previous chat messages in chat widget.',
+     'translation' => 'Mostrar mensagens de chat anteriores no widget de chat.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  276 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom HTML has priority over invitation content in opened widget',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  277 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show invitation content once visitor started to type',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  278 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide job title',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  279 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Close chat if page is refreshed. Usefull if you have embed code in popup.',
+     'translation' => 'Feche o bate-papo se a página for atualizada. Útil se você incorporou código no pop-up.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  280 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not prefill offline message with chat messages.',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  281 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide BB Code button',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  282 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show new messages snippet widget',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  283 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Allow visitor to change font size',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  284 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show go to survey button on chat close',
+     'translation' => 'Mostrar botão ir para a pesquisa no encerramento do chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  285 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable reactions for visitor',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  286 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Only one reaction can be chosen per message',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  287 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Selected reactions should be always visible under a message',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  288 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Always visible reactions',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  289 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom toolbar icons',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  290 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Custom modal window icons',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  291 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Try to expand widget to full screen in page embed mode',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  292 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Automatically determine intro message by bot default message',
+     'translation' => 'Determinar automaticamente a mensagem de introdução como mensagem padrão do bot',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  293 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Try to detect language from browser headers',
+     'translation' => 'Tentar detectar o idioma do navegador',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  294 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Bubble style messages',
+     'translation' => 'Estilo das mensagens no balão',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  295 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide chat status block',
+     'translation' => 'Esconder bloco de status do chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  296 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use expanding message area',
+     'translation' => 'Utilize a área de expansão da mensagem',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  297 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide visitor profile',
+     'translation' => 'Ocultar perfil do visitante',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  298 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notifications enabled',
+     'translation' => 'Notificações habilitadas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  299 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notification title',
+     'translation' => 'Título da notificação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  300 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Notification domain',
+     'translation' => 'Domínio de notificação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  301 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Header icons color',
+     'translation' => 'Cor dos ícones do cabeçalho',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  302 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline widget background color',
+     'translation' => 'Cor de fundo do widget desconectado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  303 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline widget border color',
+     'translation' => 'Cor da borda do widget desconectado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  304 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Offline text/icon color',
+     'translation' => 'Cor do Texto/Ícone desconectado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  305 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show close widget button in status widget',
+     'translation' => 'Mostrar o botão de fechar widget no widget de status',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  306 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show operator profile in a new row',
+     'translation' => 'Mostrar perfil do operador em uma nova linha',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  307 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable embed code override',
+     'translation' => 'Habilitar substituição de código de incorporação',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  308 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New messages text. 1 message case',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  309 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New messages text. 2 or more new messages',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  310 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Scroll to the bottom',
+     'translation' => '↓ Rolar para baixo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  311 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Scroll to the bottom background color',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  312 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Close button position in embed mode',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  313 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New message text',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  314 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New message text color',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  315 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'New message background color',
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  316 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Widget themes',
+     'translation' => 'Temas de widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>
