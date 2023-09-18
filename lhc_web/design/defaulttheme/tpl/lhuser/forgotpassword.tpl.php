@@ -8,7 +8,7 @@
 
 <div class="form-floating mb-3 mt-3">
     <input id="email" type="text" autofocus="autofocus" class="startchat-input form-control form-control-sm" name="Email" aria-required="true" aria-label="Informe seu e-mail" />
-    <label for="email">E-mail</label>
+    <label for="email" class="floating-label">E-mail</label>
 </div>
 
 <?php include(erLhcoreClassDesign::designtpl('lhkernel/csfr_token.tpl.php'));?>

@@ -59,7 +59,7 @@
 		<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['name_hidden_bot']) && $start_data_fields['name_hidden_bot'] == true)) : ?>
 		<div class="form-floating mb-3 mt-3">
 			<input id="name" maxlength="100" autofocus="autofocus" <?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" class="startchat-input form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="text" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>" />
-		    <label for="name" ><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Nome');?><?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
+		    <label for="name" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Nome');?><?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>
 	<?php endif; ?>
@@ -74,7 +74,7 @@
 		<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['email_hidden_bot']) && $start_data_fields['email_hidden_bot'] == true)) : ?>
 		<div class="form-floating mb-3 mt-3">
 			<input id="email" autofocus="autofocus" <?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" class="form-control form-control-sm<?php if (isset($errors['email'])) : ?> is-invalid<?php endif;?>" type="text" name="Email" value="<?php echo htmlspecialchars($input_data->email);?>" />
-			<label for="email"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','E-mail');?><?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
+			<label for="email" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','E-mail');?><?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>
 	<?php endif; ?>
@@ -90,7 +90,7 @@
 		<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['phone_hidden_bot']) && $start_data_fields['phone_hidden_bot'] == true)) : ?>
 		<div class="form-floating mb-3 mt-3">
 			<input id="phone" autofocus="autofocus" <?php if (isset($start_data_fields['phone_require_option']) && $start_data_fields['phone_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your phone')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your phone')?>" class="form-control<?php if (isset($errors['phone'])) : ?> is-invalid<?php endif;?>" type="text" name="Phone" value="<?php echo htmlspecialchars($input_data->phone);?>" />
-			<label for="phone"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Telefone');?><?php if (isset($start_data_fields['phone_require_option']) && $start_data_fields['phone_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
+			<label for="phone" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Telefone');?><?php if (isset($start_data_fields['phone_require_option']) && $start_data_fields['phone_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>
 <?php endif; ?>

@@ -22,12 +22,12 @@
 
 <div class="form-floating">
     <input id="username" style="margin-bottom: 0.5rem;" placeholder="E=mail" class="form-control" type="text" name="Username" value="" />
-    <label for="username"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Usuário');?><a class="anchor-required">*</a></label>
+    <label for="username" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Usuário');?><a class="anchor-required">*</a></label>
 </div>
 
 <div class="form-floating">
     <input id="password" style="margin-bottom: 1rem;" placeholder="Senha" type="password" class="form-control" name="Password" value="" />
-    <label for="password"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Senha');?><a class="anchor-required">*</a></label>
+    <label for="password" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Senha');?><a class="anchor-required">*</a></label>
 </div>
 
 <div class="login-actions">

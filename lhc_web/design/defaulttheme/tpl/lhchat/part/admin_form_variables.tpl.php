@@ -26,7 +26,7 @@ if (is_array($customAdminfields)) : ?>
                             <option <?php isset($input_data->value_items_admin[$key]) && $option == $input_data->value_items_admin[$key] ? print 'selected="selected"' : ''?> value="<?php echo htmlspecialchars($option)?>"><?php echo htmlspecialchars($option)?></option>
                             <?php endforeach; ?>
                         </select>
-                        <label for="startchat" class="form-label" id="label-<?php echo htmlspecialchars('additional_admin_'.$key)?>"><?php echo htmlspecialchars($adminField['fieldname'])?>&nbsp;<?php $adminField['isrequired'] == 'true' ? print '<a class="anchor-required">*</a>' : ''?></label>
+                        <label for="startchat" class="floating-label" id="label-<?php echo htmlspecialchars('additional_admin_'.$key)?>"><?php echo htmlspecialchars($adminField['fieldname'])?>&nbsp;<?php $adminField['isrequired'] == 'true' ? print '<a class="anchor-required">*</a>' : ''?></label>
                 </div>
             </div>
             <?php endif; ?>
