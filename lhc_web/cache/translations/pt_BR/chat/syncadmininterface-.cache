@@ -503,7 +503,7 @@ return array (
   50 => 
   ezcTranslationData::__set_state(array(
      'original' => 'Active chats',
-     'translation' => 'Atendimentos',
+     'translation' => 'Atendimentos ativos',
      'comment' => false,
      'status' => 0,
      'filename' => false,

@@ -123,9 +123,9 @@ return array (
   12 => 
   ezcTranslationData::__set_state(array(
      'original' => 'Chat was closed by cron!',
-     'translation' => false,
+     'translation' => 'Atendimento encerrado automaticamente',
      'comment' => false,
-     'status' => 1,
+     'status' => 0,
      'filename' => false,
      'line' => false,
      'column' => NULL,
@@ -133,9 +133,9 @@ return array (
   13 => 
   ezcTranslationData::__set_state(array(
      'original' => 'Chat was closed by cron because of inactivity!',
-     'translation' => false,
+     'translation' => 'Atendimento encerrado pela ausência do solicitante',
      'comment' => false,
-     'status' => 1,
+     'status' => 0,
      'filename' => false,
      'line' => false,
      'column' => NULL,
@@ -143,9 +143,9 @@ return array (
   14 => 
   ezcTranslationData::__set_state(array(
      'original' => 'Chat was closed by cron because visitor left the pending chat!',
-     'translation' => false,
+     'translation' => 'Atendimento encerrado pelo abandono do solicitante',
      'comment' => false,
-     'status' => 1,
+     'status' => 0,
      'filename' => false,
      'line' => false,
      'column' => NULL,

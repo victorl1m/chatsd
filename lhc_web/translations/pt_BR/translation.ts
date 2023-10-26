@@ -8295,7 +8295,7 @@
     </message>
     <message>
       <source>Active chats</source>
-      <translation>Atendimentos</translation>
+      <translation>Atendimentos ativos</translation>
     </message>
     <message>
       <source>Sort by active chats number</source>
@@ -9488,15 +9488,15 @@
     </message>
     <message>
       <source>Chat was closed by cron!</source>
-      <translation type="unfinished"/>
+      <translation>Atendimento encerrado automaticamente</translation>
     </message>
     <message>
       <source>Chat was closed by cron because of inactivity!</source>
-      <translation type="unfinished"/>
+      <translation>Atendimento encerrado pela ausência do solicitante</translation>
     </message>
     <message>
       <source>Chat was closed by cron because visitor left the pending chat!</source>
-      <translation type="unfinished"/>
+      <translation>Atendimento encerrado pelo abandono do solicitante</translation>
     </message>
     <message>
       <source>Support has closed the chat window, but You can leave messages, and the administrator will read them later.</source>
@@ -11117,7 +11117,7 @@ dashboard,online_map,online_users,pending_chats,online_map,active_chats,unread_c
     </message>
     <message>
       <source>Active chats</source>
-      <translation>Atendimentos</translation>
+      <translation>Atendimentos ativos</translation>
     </message>
     <message>
       <source>Closed chats</source>

@@ -10,17 +10,17 @@
 
     <div class="form-group">
         <label>Tenant ID</label>
-        <input class="form-control form-control-sm" type="text" name="ms_tenant_id" value="<?php (isset($ms_options['ms_tenant_id'])) ? print htmlspecialchars($ms_options['ms_tenant_id']) : print ''?>" />
+        <input class="form-control form-control-sm" type="text" name="ms_tenant_id" value="" />
     </div>
 
     <div class="form-group">
         <label>Client ID</label>
-        <input class="form-control form-control-sm" type="text" name="ms_client_id" value="<?php (isset($ms_options['ms_client_id'])) ? print htmlspecialchars($ms_options['ms_client_id']) : print ''?>" />
+        <input class="form-control form-control-sm" type="text" name="ms_client_id" value="" />
     </div>
 
     <div class="form-group">
         <label>Client Secret</label>
-        <input class="form-control form-control-sm" type="text" name="ms_secret" value="<?php (isset($ms_options['ms_secret'])) ? print htmlspecialchars($ms_options['ms_secret']) : print ''?>" />
+        <input class="form-control form-control-sm" type="text" name="ms_secret" value="" />
     </div>
 
     <div class="form-group">

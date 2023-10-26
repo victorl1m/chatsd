@@ -1,4 +1,471 @@
-Jul 19 15:15:11 [Warning] [default] [default] Error Object
+Jul 19 18:16:51 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
+#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitLog
+                            [1] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
+#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#10 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 308
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => getSession
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 1
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => user_language
+                            [1] => pt_BR
+                            [2] => 
+                            [3] => 1
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Jul 19 15:16:52 [Warning] [default] [default] Error Object
 (
     [message:protected] => Call to a member function rollback() on null
     [string:Error:private] => Error: Call to a member function rollback() on null in /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php:156
@@ -49,941 +516,7 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 19 18:15:15 [Warning] [default] [default] Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
-#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
-#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
-#7 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 92
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
-                    [line] => 243
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitLog
-                            [1] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 64
-                    [function] => getInstance
-                    [class] => ezcLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 78
-                    [function] => write
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
-#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
-#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
-#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
-#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
-#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#10 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 308
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 319
-                    [function] => getSession
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 64
-                    [function] => getUserData
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                            [0] => 1
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 9
-                    [function] => __construct
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
-                    [line] => 67
-                    [function] => instance
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [7] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
-                    [line] => 61
-                    [function] => getSetting
-                    [class] => erLhcoreClassModelUserSetting
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => user_language
-                            [1] => pt_BR
-                            [2] => 
-                            [3] => 1
-                        )
-
-                )
-
-            [8] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 631
-                    [function] => getInstance
-                    [class] => erLhcoreClassURL
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [9] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-Jul 19 18:15:15 [Warning] [default] [default] Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
-#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
-#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
-#7 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 92
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
-                    [line] => 243
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitLog
-                            [1] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 64
-                    [function] => getInstance
-                    [class] => ezcLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 78
-                    [function] => write
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
-#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
-#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
-#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
-#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
-#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#10 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 308
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 319
-                    [function] => getSession
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 64
-                    [function] => getUserData
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                            [0] => 1
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 9
-                    [function] => __construct
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
-                    [line] => 67
-                    [function] => instance
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [7] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
-                    [line] => 61
-                    [function] => getSetting
-                    [class] => erLhcoreClassModelUserSetting
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => user_language
-                            [1] => pt_BR
-                            [2] => 
-                            [3] => 1
-                        )
-
-                )
-
-            [8] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 631
-                    [function] => getInstance
-                    [class] => erLhcoreClassURL
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [9] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-Jul 19 15:15:16 [Warning] [default] [default] Error Object
+Jul 19 15:16:55 [Warning] [default] [default] Error Object
 (
     [message:protected] => Call to a member function rollback() on null
     [string:Error:private] => Error: Call to a member function rollback() on null in /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php:156
@@ -1034,7 +567,941 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 19 15:15:20 [Warning] [default] [default] Error Object
+Jul 19 18:16:57 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
+#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitLog
+                            [1] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
+#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#10 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 308
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => getSession
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 1
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => user_language
+                            [1] => pt_BR
+                            [2] => 
+                            [3] => 1
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Jul 19 18:16:57 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
+#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitLog
+                            [1] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
+#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#10 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 308
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => getSession
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 1
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => user_language
+                            [1] => pt_BR
+                            [2] => 
+                            [3] => 1
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Jul 19 15:17:00 [Warning] [default] [default] Error Object
 (
     [message:protected] => Call to a member function rollback() on null
     [string:Error:private] => Error: Call to a member function rollback() on null in /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php:156
@@ -1085,7 +1552,7 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 19 18:15:21 [Warning] [default] [default] Exception Object
+Jul 19 18:17:00 [Warning] [default] [default] Exception Object
 (
     [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
     [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
@@ -1552,7 +2019,7 @@ Stack trace:
 
     [previous:Exception:private] => 
 )
-Jul 19 18:15:21 [Warning] [default] [default] Exception Object
+Jul 19 18:17:03 [Warning] [default] [default] Exception Object
 (
     [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
     [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
@@ -2019,7 +2486,474 @@ Stack trace:
 
     [previous:Exception:private] => 
 )
-Jul 19 15:15:24 [Warning] [default] [default] Error Object
+Jul 19 18:17:03 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
+#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
+#7 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitLog
+                            [1] => ezcLog Object
+                                (
+                                    [properties:ezcLog:private] => Array
+                                        (
+                                            [source] => default
+                                            [category] => default
+                                        )
+
+                                    [writers:protected] => ezcLogFilterSet Object
+                                        (
+                                            [rules:ezcLogFilterSet:private] => Array
+                                                (
+                                                    [0] => ezcLogFilterRule Object
+                                                        (
+                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
+                                                                (
+                                                                    [severity] => 249
+                                                                    [source] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                    [category] => Array
+                                                                        (
+                                                                            [0] => *
+                                                                        )
+
+                                                                )
+
+                                                            [continueProcessing:ezcLogFilterRule:private] => 1
+                                                            [container:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [0] => ezcLogUnixFileWriter Object
+                                                                        (
+                                                                            [openFiles:protected] => Array
+                                                                                (
+                                                                                    [cache/default.log] => Resource id #3
+                                                                                )
+
+                                                                            [fileMap:protected] => ezcLogFilterSet Object
+                                                                                (
+                                                                                    [rules:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [cache:ezcLogFilterSet:private] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                )
+
+                                                                            [logDirectory:protected] => cache
+                                                                            [maxSize:protected] => 204800
+                                                                            [maxFiles:protected] => 5
+                                                                            [defaultGroup:protected] => 
+                                                                            [defaultUser:protected] => 
+                                                                            [defaultFile] => default.log
+                                                                        )
+
+                                                                )
+
+                                                            [severityStar:ezcLogFilterRule:private] => 
+                                                            [sourceStar:ezcLogFilterRule:private] => 1
+                                                            [categoryStar:ezcLogFilterRule:private] => 1
+                                                            [structure:ezcLogFilterRule:private] => Array
+                                                                (
+                                                                    [1_*_*] => 1
+                                                                    [8_*_*] => 1
+                                                                    [16_*_*] => 1
+                                                                    [32_*_*] => 1
+                                                                    [64_*_*] => 1
+                                                                    [128_*_*] => 1
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                            [cache:ezcLogFilterSet:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [context:protected] => ezcLogContext Object
+                                        (
+                                            [severityMap:protected] => 
+                                            [sourceMap:protected] => 
+                                        )
+
+                                    [throwWriterExceptions:ezcLog:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 78
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => Exception Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
+    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
+#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#10 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => ezcInitDatabaseInstance
+                            [1] => 
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 308
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => getSession
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 1
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                    [args] => Array
+                        (
+                            [0] => user_language
+                            [1] => pt_BR
+                            [2] => 
+                            [3] => 1
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+Jul 19 15:17:03 [Warning] [default] [default] Error Object
 (
     [message:protected] => Call to a member function rollback() on null
     [string:Error:private] => Error: Call to a member function rollback() on null in /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php:156
@@ -2070,941 +3004,7 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 19 18:15:27 [Warning] [default] [default] Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
-#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
-#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
-#7 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 92
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
-                    [line] => 243
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitLog
-                            [1] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 64
-                    [function] => getInstance
-                    [class] => ezcLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 78
-                    [function] => write
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
-#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
-#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
-#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
-#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
-#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#10 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 308
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 319
-                    [function] => getSession
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 64
-                    [function] => getUserData
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                            [0] => 1
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 9
-                    [function] => __construct
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
-                    [line] => 67
-                    [function] => instance
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [7] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
-                    [line] => 61
-                    [function] => getSetting
-                    [class] => erLhcoreClassModelUserSetting
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => user_language
-                            [1] => pt_BR
-                            [2] => 
-                            [3] => 1
-                        )
-
-                )
-
-            [8] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 631
-                    [function] => getInstance
-                    [class] => erLhcoreClassURL
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [9] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-Jul 19 18:15:27 [Warning] [default] [default] Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
-#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
-#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
-#7 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 92
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
-                    [line] => 243
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitLog
-                            [1] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 64
-                    [function] => getInstance
-                    [class] => ezcLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 78
-                    [function] => write
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
-#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
-#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
-#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
-#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
-#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#10 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 308
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 319
-                    [function] => getSession
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 64
-                    [function] => getUserData
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                            [0] => 1
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 9
-                    [function] => __construct
-                    [class] => erLhcoreClassUser
-                    [type] => ->
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
-                    [line] => 67
-                    [function] => instance
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [7] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
-                    [line] => 61
-                    [function] => getSetting
-                    [class] => erLhcoreClassModelUserSetting
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => user_language
-                            [1] => pt_BR
-                            [2] => 
-                            [3] => 1
-                        )
-
-                )
-
-            [8] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 631
-                    [function] => getInstance
-                    [class] => erLhcoreClassURL
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [9] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-Jul 19 15:15:28 [Warning] [default] [default] Error Object
+Jul 19 15:17:08 [Warning] [default] [default] Error Object
 (
     [message:protected] => Call to a member function rollback() on null
     [string:Error:private] => Error: Call to a member function rollback() on null in /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php:156
@@ -3055,58 +3055,7 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 19 15:15:32 [Warning] [default] [default] Error Object
-(
-    [message:protected] => Call to a member function rollback() on null
-    [string:Error:private] => Error: Call to a member function rollback() on null in /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php:156
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include()
-#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#2 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#3 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php
-    [line:protected] => 156
-    [trace:Error:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 108
-                    [function] => include
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 658
-                    [function] => runModule
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 50
-                    [function] => moduleInit
-                    [class] => erLhcoreClassModule
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-        )
-
-    [previous:Error:private] => 
-)
-Jul 19 18:15:33 [Warning] [default] [default] Exception Object
+Jul 19 18:17:09 [Warning] [default] [default] Exception Object
 (
     [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
     [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
@@ -3573,7 +3522,7 @@ Stack trace:
 
     [previous:Exception:private] => 
 )
-Jul 19 18:15:33 [Warning] [default] [default] Exception Object
+Jul 19 18:17:09 [Warning] [default] [default] Exception Object
 (
     [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
     [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
@@ -4040,7 +3989,7 @@ Stack trace:
 
     [previous:Exception:private] => 
 )
-Jul 19 15:15:35 [Warning] [default] [default] Error Object
+Jul 19 15:17:11 [Warning] [default] [default] Error Object
 (
     [message:protected] => Call to a member function rollback() on null
     [string:Error:private] => Error: Call to a member function rollback() on null in /var/www/html/chatsd/lhc_web/modules/lhchat/checkchatstatus.php:156
@@ -4091,7 +4040,7 @@ Stack trace:
 
     [previous:Error:private] => 
 )
-Jul 19 18:15:39 [Warning] [default] [default] Exception Object
+Jul 19 18:17:15 [Warning] [default] [default] Exception Object
 (
     [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES)
     [string:Exception:private] => Exception: SQLSTATE[HY000] [1045] Access denied for user 'livehelper'@'localhost' (using password: YES) in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65

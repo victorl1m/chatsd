@@ -1,455 +1,103 @@
-Aug 12 11:45:40 [Warning] [default] [default] Exception Object
+Oct 23 15:02:58 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
 (
-    [message:protected] => SQLSTATE[HY000] [2002] Connection refused
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject(Object(ezcLog))
-#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig('ezcInitLog', Object(ezcLog))
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
-#6 /var/www/html/chatsd/lhc_web/index.php(78): erLhcoreClassLog::write('Exception Objec...')
-#7 {main}
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
     [trace:Exception:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
                 )
 
             [1] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
                 )
 
             [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 92
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [4] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
-                    [line] => 243
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitLog
-                            [1] => ezcLog Object
-                                (
-                                    [properties:ezcLog:private] => Array
-                                        (
-                                            [source] => default
-                                            [category] => default
-                                        )
-
-                                    [writers:protected] => ezcLogFilterSet Object
-                                        (
-                                            [rules:ezcLogFilterSet:private] => Array
-                                                (
-                                                    [0] => ezcLogFilterRule Object
-                                                        (
-                                                            [filter:ezcLogFilterRule:private] => ezcLogFilter Object
-                                                                (
-                                                                    [severity] => 249
-                                                                    [source] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                    [category] => Array
-                                                                        (
-                                                                            [0] => *
-                                                                        )
-
-                                                                )
-
-                                                            [continueProcessing:ezcLogFilterRule:private] => 1
-                                                            [container:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [0] => ezcLogUnixFileWriter Object
-                                                                        (
-                                                                            [openFiles:protected] => Array
-                                                                                (
-                                                                                    [cache/default.log] => Resource id #3
-                                                                                )
-
-                                                                            [fileMap:protected] => ezcLogFilterSet Object
-                                                                                (
-                                                                                    [rules:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                    [cache:ezcLogFilterSet:private] => Array
-                                                                                        (
-                                                                                        )
-
-                                                                                )
-
-                                                                            [logDirectory:protected] => cache
-                                                                            [maxSize:protected] => 204800
-                                                                            [maxFiles:protected] => 5
-                                                                            [defaultGroup:protected] => 
-                                                                            [defaultUser:protected] => 
-                                                                            [defaultFile] => default.log
-                                                                        )
-
-                                                                )
-
-                                                            [severityStar:ezcLogFilterRule:private] => 
-                                                            [sourceStar:ezcLogFilterRule:private] => 1
-                                                            [categoryStar:ezcLogFilterRule:private] => 1
-                                                            [structure:ezcLogFilterRule:private] => Array
-                                                                (
-                                                                    [1_*_*] => 1
-                                                                    [8_*_*] => 1
-                                                                    [16_*_*] => 1
-                                                                    [32_*_*] => 1
-                                                                    [64_*_*] => 1
-                                                                    [128_*_*] => 1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                            [cache:ezcLogFilterSet:private] => Array
-                                                (
-                                                )
-
-                                        )
-
-                                    [context:protected] => ezcLogContext Object
-                                        (
-                                            [severityMap:protected] => 
-                                            [sourceMap:protected] => 
-                                        )
-
-                                    [throwWriterExceptions:ezcLog:private] => 1
-                                )
-
-                        )
-
-                )
-
-            [5] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
-                    [line] => 64
-                    [function] => getInstance
-                    [class] => ezcLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [6] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/index.php
-                    [line] => 78
-                    [function] => write
-                    [class] => erLhcoreClassLog
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => Exception Object
-(
-    [message:protected] => SQLSTATE[HY000] [2002] Connection refused
-    [string:Exception:private] => Exception: SQLSTATE[HY000] [2002] Connection refused in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
-Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject(false)
-#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig('ezcInitDatabase...', false)
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(308): ezcDbInstance::get()
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): erLhcoreClassUser::getSession()
-#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData(true)
-#5 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
-#6 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
-#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting('user_language', 'pt_BR', false, true)
-#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
-#9 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#10 {main}
-    [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
-    [line:protected] => 65
-    [trace:Exception:private] => Array
-        (
-            [0] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
-                    [line] => 120
-                    [function] => configureObject
-                    [class] => erLhcoreClassLazyDatabaseConfiguration
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => 
-                        )
-
-                )
-
-            [1] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
-                    [line] => 96
-                    [function] => fetchConfig
-                    [class] => ezcBaseInit
-                    [type] => ::
-                    [args] => Array
-                        (
-                            [0] => ezcInitDatabaseInstance
-                            [1] => 
-                        )
-
-                )
-
-            [2] => Array
-                (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
-                    [line] => 308
-                    [function] => get
-                    [class] => ezcDbInstance
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
-                )
-
-            [3] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
                     [line] => 319
-                    [function] => getSession
-                    [class] => erLhcoreClassUser
-                    [type] => ::
-                    [args] => Array
-                        (
-                        )
-
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
                 )
 
-            [4] => Array
+            [3] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
                     [line] => 64
                     [function] => getUserData
                     [class] => erLhcoreClassUser
                     [type] => ->
-                    [args] => Array
-                        (
-                            [0] => 1
-                        )
-
                 )
 
-            [5] => Array
+            [4] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
                     [line] => 9
                     [function] => __construct
                     [class] => erLhcoreClassUser
                     [type] => ->
-                    [args] => Array
-                        (
-                        )
-
                 )
 
-            [6] => Array
+            [5] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
                     [line] => 67
                     [function] => instance
                     [class] => erLhcoreClassUser
                     [type] => ::
-                    [args] => Array
-                        (
-                        )
-
                 )
 
-            [7] => Array
+            [6] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
                     [line] => 61
                     [function] => getSetting
                     [class] => erLhcoreClassModelUserSetting
                     [type] => ::
-                    [args] => Array
-                        (
-                            [0] => user_language
-                            [1] => pt_BR
-                            [2] => 
-                            [3] => 1
-                        )
-
                 )
 
-            [8] => Array
+            [7] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 631
                     [function] => getInstance
                     [class] => erLhcoreClassURL
                     [type] => ::
-                    [args] => Array
-                        (
-                        )
-
                 )
 
-            [9] => Array
+            [8] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
                     [function] => moduleInit
                     [class] => erLhcoreClassModule
                     [type] => ::
-                    [args] => Array
-                        (
-                        )
-
                 )
 
         )
@@ -457,59 +105,3199 @@ Stack trace:
     [previous:Exception:private] => 
 )
 
-                        )
-
-                )
-
-        )
-
-    [previous:Exception:private] => 
-)
-Sep 15 09:02:50 [Warning] [default] [default] ezcBaseFileNotFoundException Object
+Oct 23 15:03:02 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
 (
-    [originalMessage] => The directory file 'cache/cacheconfig' could not be found.
-    [message:protected] => The directory file 'cache/cacheconfig' could not be found.
-    [string:Exception:private] => ezcBaseFileNotFoundException: The directory file 'cache/cacheconfig' could not be found. in /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php:117
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
 Stack trace:
-#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php(233): ezcBaseFile::walkRecursive()
-#1 /var/www/html/chatsd/lhc_web/lib/core/lhconfig/lhcacheconfig.php(111): ezcBaseFile::findRecursive()
-#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(138): erConfigClassLhCacheConfig->expireCache()
-#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
-#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
-#5 {main}
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
     [code:protected] => 0
-    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php
-    [line:protected] => 117
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
     [trace:Exception:private] => Array
         (
             [0] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/file.php
-                    [line] => 233
-                    [function] => walkRecursive
-                    [class] => ezcBaseFile
-                    [type] => ::
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
                 )
 
             [1] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhconfig/lhcacheconfig.php
-                    [line] => 111
-                    [function] => findRecursive
-                    [class] => ezcBaseFile
-                    [type] => ::
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
                 )
 
             [2] => Array
                 (
-                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
-                    [line] => 138
-                    [function] => expireCache
-                    [class] => erConfigClassLhCacheConfig
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
                     [type] => ->
                 )
 
             [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:06 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:10 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:14 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:18 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:22 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:26 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:30 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:34 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:38 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:42 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:46 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:49 [Warning] [default] [default] Unexpected error, the message was : include_once(modules/lhcron/workflow.php): failed to open stream: No such file or directory in /var/www/html/chatsd/lhc_web/cron.php on line 167
+Oct 23 15:03:49 [Warning] [default] [default] Unexpected error, the message was : include_once(): Failed opening 'modules/lhcron/workflow.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/chatsd/lhc_web/cron.php on line 167
+Oct 23 15:03:50 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:54 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:03:58 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:02 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:06 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:10 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:14 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:18 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:22 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:26 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:30 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:34 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:38 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:42 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:46 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:50 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:04:54 [Warning] [default] [default] ezcPersistentDefinitionNotFoundException Object
+(
+    [originalMessage] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [message:protected] => Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'.
+    [string:Exception:private] => ezcPersistentDefinitionNotFoundException: Could not fetch the persistent object definition for the class 'erLhcoreClassModelUser'. Searched for '/erlhcoreclassmodeluser.php'. in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php:85
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(38): ezcPersistentCodeManager->fetchDefinition()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(69): ezcPersistentLoadHandler->load()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(319): ezcPersistentSession->load()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(64): erLhcoreClassUser->getUserData()
+#4 /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php(9): erLhcoreClassUser->__construct()
+#5 /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php(67): erLhcoreClassUser::instance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php(61): erLhcoreClassModelUserSetting::getSetting()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(631): erLhcoreClassURL::getInstance()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/managers/code_manager.php
+    [line:protected] => 85
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 38
+                    [function] => fetchDefinition
+                    [class] => ezcPersistentCodeManager
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 69
+                    [function] => load
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 319
+                    [function] => load
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 64
+                    [function] => getUserData
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhuser/lhuser.php
+                    [line] => 9
+                    [function] => __construct
+                    [class] => erLhcoreClassUser
+                    [type] => ->
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/models/lhuser/erlhcoreclassmodelusersetting.php
+                    [line] => 67
+                    [function] => instance
+                    [class] => erLhcoreClassUser
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhurl.php
+                    [line] => 61
+                    [function] => getSetting
+                    [class] => erLhcoreClassModelUserSetting
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 631
+                    [function] => getInstance
+                    [class] => erLhcoreClassURL
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 23 15:06:55 [Warning] [default] [default] ezcPersistentQueryException Object
+(
+    [originalMessage] => A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechatdb.lhc_ms_auth' doesn't exist Query: 'SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`txtSessionKey` = :ezcValue1 ORDER BY lhc_ms_auth.id DESC LIMIT 1 OFFSET 0'
+    [message:protected] => A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechatdb.lhc_ms_auth' doesn't exist Query: 'SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`txtSessionKey` = :ezcValue1 ORDER BY lhc_ms_auth.id DESC LIMIT 1 OFFSET 0'
+    [string:Exception:private] => ezcPersistentQueryException: A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechatdb.lhc_ms_auth' doesn't exist Query: 'SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`txtSessionKey` = :ezcValue1 ORDER BY lhc_ms_auth.id DESC LIMIT 1 OFFSET 0' in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php:833
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(269): ezcPersistentSession->performQuery()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(194): ezcPersistentLoadHandler->find()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php(344): ezcPersistentSession->find()
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php(223): erLhcoreClassModelMSAuth::getList()
+#4 /var/www/html/chatsd/lhc_web/extension/lhcmsauth/providers/MSOAuth/modAuth.php(50): erLhcoreClassModelMSAuth::findOne()
+#5 /var/www/html/chatsd/lhc_web/extension/lhcmsauth/modules/lhmsoauth/login.php(4): LiveHelperChatExtension\lhcmsauth\providers\MSOAuth\modAuth->loginAction()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+    [line:protected] => 833
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 269
+                    [function] => performQuery
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 194
+                    [function] => find
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php
+                    [line] => 344
+                    [function] => find
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php
+                    [line] => 223
+                    [function] => getList
+                    [class] => erLhcoreClassModelMSAuth
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/extension/lhcmsauth/providers/MSOAuth/modAuth.php
+                    [line] => 50
+                    [function] => findOne
+                    [class] => erLhcoreClassModelMSAuth
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/extension/lhcmsauth/modules/lhmsoauth/login.php
+                    [line] => 4
+                    [function] => loginAction
+                    [class] => LiveHelperChatExtension\lhcmsauth\providers\MSOAuth\modAuth
+                    [type] => ->
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/extension/lhcmsauth/modules/lhmsoauth/login.php
+                        )
+
+                    [function] => include
+                )
+
+            [7] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
                     [line] => 658
@@ -518,7 +3306,7 @@ Stack trace:
                     [type] => ::
                 )
 
-            [4] => Array
+            [8] => Array
                 (
                     [file] => /var/www/html/chatsd/lhc_web/index.php
                     [line] => 50
@@ -532,114 +3320,63 @@ Stack trace:
     [previous:Exception:private] => 
 )
 
-Sep 15 09:03:16 [Warning] [default] [default] {
-    "message": "The directory file 'cache\/cacheconfig' could not be found.",
-    "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
-    "line": 117,
-    "trace": [
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
-            "line": 233,
-            "function": "walkRecursive",
-            "class": "ezcBaseFile",
-            "type": "::"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php",
-            "line": 111,
-            "function": "findRecursive",
-            "class": "ezcBaseFile",
-            "type": "::"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php",
-            "line": 6,
-            "function": "expireCache",
-            "class": "erConfigClassLhCacheConfig",
-            "type": "->"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/cron.php",
-            "line": 167,
-            "args": [
-                "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php"
-            ],
-            "function": "include_once"
-        }
-    ],
-    "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/cacheconfig' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(111): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
-}
-Sep 15 09:03:44 [Warning] [default] [default] {
-    "message": "The directory file 'cache\/compiledtemplates' could not be found.",
-    "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
-    "line": 117,
-    "trace": [
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
-            "line": 233,
-            "function": "walkRecursive",
-            "class": "ezcBaseFile",
-            "type": "::"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php",
-            "line": 119,
-            "function": "findRecursive",
-            "class": "ezcBaseFile",
-            "type": "::"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php",
-            "line": 6,
-            "function": "expireCache",
-            "class": "erConfigClassLhCacheConfig",
-            "type": "->"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/cron.php",
-            "line": 167,
-            "args": [
-                "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php"
-            ],
-            "function": "include_once"
-        }
-    ],
-    "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/compiledtemplates' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(119): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
-}
-Sep 15 09:03:56 [Warning] [default] [default] {
-    "message": "The directory file 'cache\/compiledtemplates' could not be found.",
-    "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
-    "line": 117,
-    "trace": [
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
-            "line": 233,
-            "function": "walkRecursive",
-            "class": "ezcBaseFile",
-            "type": "::"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php",
-            "line": 119,
-            "function": "findRecursive",
-            "class": "ezcBaseFile",
-            "type": "::"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php",
-            "line": 6,
-            "function": "expireCache",
-            "class": "erConfigClassLhCacheConfig",
-            "type": "->"
-        },
-        {
-            "file": "\/var\/www\/html\/chatsd\/lhc_web\/cron.php",
-            "line": 167,
-            "args": [
-                "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php"
-            ],
-            "function": "include_once"
-        }
-    ],
-    "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/compiledtemplates' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(119): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
-}
+Oct 25 11:10:49 [Warning] [default] [default] ezcQueryVariableParameterException Object
+(
+    [originalMessage] => The method 'where' expected at least 1 parameter but only one was provided.
+    [message:protected] => The method 'where' expected at least 1 parameter but only one was provided.
+    [string:Exception:private] => ezcQueryVariableParameterException: The method 'where' expected at least 1 parameter but only one was provided. in /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php:142
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/modules/lhuser/userlist.php(57): ezcQueryUpdate->where()
+#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#4 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/sqlabstraction/query_update.php
+    [line:protected] => 142
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhuser/userlist.php
+                    [line] => 57
+                    [function] => where
+                    [class] => ezcQueryUpdate
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhuser/userlist.php
+                        )
+
+                    [function] => include
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+

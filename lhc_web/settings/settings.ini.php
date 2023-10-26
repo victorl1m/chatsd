@@ -24,17 +24,18 @@
       'date_format' => 'd/m/Y',
       'date_hour_format' => 'H:i:s',
       'date_date_hour_format' => 'd/m/Y H:i:s',
-      'default_site_access' => 'eng',
+      'default_site_access' => 'por',
       'maps_api_key' => false,
       'default_group' => '',
       'default_user' => '',
-      'site_address' => 'https://sdchat.callink.com.br',
+      'site_address' => 'http://10.33.4.234/',
       'trusted_host_patterns' => 
       array (
         0 => '^.+\\.callink\\.com\\.br$',
       ),
       'extensions' => 
       array (
+        'lhcmsauth'
       ),
       'available_site_access' => 
       array (
@@ -85,7 +86,7 @@
     ),
     'chat' => 
     array (
-      'online_timeout' => 300,
+      'online_timeout' => 600,
       'back_office_sinterval' => 10,
       'chat_message_sinterval' => 3.5,
       'check_for_operator_msg' => 10,

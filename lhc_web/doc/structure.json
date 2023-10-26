@@ -1,0 +1,80 @@
+{
+    "tables": {        
+        "lhc_ms_auth": [
+            {
+                "field": "id",
+                "type": "bigint(20) unsigned",
+                "null": "NO",
+                "key": "PRI",
+                "default": null,
+                "extra": ""
+            },
+            {
+              "field": "txtSessionKey",
+              "type": "varchar(255)",
+              "null": "NO",
+              "key": "",
+              "default": null,
+              "extra": ""
+            },
+            {
+              "field": "txtCodeVerifier",
+              "type": "varchar(255)",
+              "null": "NO",
+              "key": "",
+              "default": null,
+              "extra": ""
+            },
+            {
+              "field": "dtExpires",
+              "type": "datetime",
+              "null": "NO",
+              "key": "",
+              "default": null,
+              "extra": ""
+            },
+            {
+              "field": "txtRefreshToken",
+              "type": "text",
+              "null": "NO",
+              "key": "",
+              "default": null,
+              "extra": ""
+            },
+            {
+              "field": "txtToken",
+              "type": "text",
+              "null": "NO",
+              "key": "",
+              "default": null,
+              "extra": ""
+            },
+            {
+              "field": "txtIDToken",
+              "type": "text",
+              "null": "NO",
+              "key": "",
+              "default": null,
+              "extra": ""
+            },
+            {
+              "field": "completed",
+              "type": "tinyint(1) unsigned",
+              "null": "NO",
+              "key": "",
+              "default": null,
+              "extra": ""
+            }
+        ]
+    },
+    "tables_collation" : {
+        "lhc_google_auth" : "utf8mb4_general_ci"
+    },
+    "tables_data": {    },
+    "tables_data_identifier": {    },
+    "tables_indexes" : {
+    },
+    "tables_create": {
+        "lhc_ms_auth" : "CREATE TABLE `lhc_ms_auth` (\n   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,\n   `user_id` bigint(20) unsigned NOT NULL,\n   `oauth_uid` varchar(50) NOT NULL,\n   `name` varchar(200) NOT NULL,\n   `email` varchar(200) NOT NULL,\n   `surname` varchar(200) NOT NULL,\n   `display_name` varchar(200) NOT NULL,\n   `txtSessionKey` varchar(255) NOT NULL,\n   `txtCodeVerifier` varchar(255) NOT NULL,\n   `dtExpires` datetime NOT NULL,\n   `txtRefreshToken` text NOT NULL,\n   `txtToken` text NOT NULL,\n   `txtIDToken` text NOT NULL,\n   `completed` tinyint(1) unsigned NOT NULL,\n   PRIMARY KEY (`id`),\n   KEY `oauth_uid` (`oauth_uid`),\n   KEY `user_id_completed` (`user_id`,`completed`)\n) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;;"
+    }
+}
