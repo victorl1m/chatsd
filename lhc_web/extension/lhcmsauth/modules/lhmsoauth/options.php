@@ -44,7 +44,10 @@ if ( isset($_POST['StoreOptions']) ) {
     }
 
     if ( $form->hasValidData( 'ms_secret' )) {
-        $data['ms_secret'] = $form->ms_secret;
+        $encryptionKey = erConfigClassLhConfig::getInstance()->getSetting( 'site', 'encryption_key' );
+        $encryptedMsSecret = lhSecurity::encrypt($form->ms_secret, $encryptionKey);
+
+        $data['ms_secret'] = $encryptedMsSecret;
     } else {
         $data['ms_secret'] = '';
     }
