@@ -1,8 +1,10 @@
-<h1><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth','MS Auth');?></h1>
+<h1>EntraID</h1>
 
 <ul>
-    <li><a href="<?php echo erLhcoreClassDesign::baseurl('msoauth/options')?>"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth','Options');?></a></li>
+    <li><a href="<?php echo erLhcoreClassDesign::baseurl('msoauth/options')?>">Configurações</a></li>
 </ul>
 
-<p><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth','Callback URL in MS Project has to be set to this:');?></p>
-<input type="text" class="form-control form-control-sm" value="<?php echo erLhcoreClassXMP::getBaseHost() . $_SERVER['HTTP_HOST']?><?php echo erLhcoreClassDesign::baseurl('msoauth/oauth') ?>">
+<div class="form-floating mb-3 mt-3">
+	<input id="redirecturi" maxlength="100" autofocus="autofocus" class="startchat-input form-control form-control-sm" type="text" name="redirecturi" value="<?php echo erLhcoreClassXMP::getBaseHost() . $_SERVER['HTTP_HOST']?><?php echo erLhcoreClassDesign::baseurl('msoauth/oauth') ?>" />
+	<label for="redirecturi" class="floating-label">Redirecionamento da aplicação EntraID <a class="anchor-required">(Redirect URI)</a></label>
+</div>

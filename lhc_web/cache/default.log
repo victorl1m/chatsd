@@ -3380,3 +3380,439 @@ Stack trace:
     [previous:Exception:private] => 
 )
 
+Oct 26 22:03:23 [Warning] [default] [default] Exception Object
+(
+    [message:protected] => could not find driver
+    [string:Exception:private] => Exception: could not find driver in /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php:65
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLazyDatabaseConfiguration::configureObject()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php(96): ezcBaseInit::fetchConfig()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(92): ezcDbInstance::get()
+#3 /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php(120): erLhcoreClassLog::configureObject()
+#4 /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php(243): ezcBaseInit::fetchConfig()
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php(64): ezcLog::getInstance()
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(162): erLhcoreClassLog::write()
+#7 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#8 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#9 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdb.php
+    [line:protected] => 65
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLazyDatabaseConfiguration
+                    [type] => ::
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Database/src/instance.php
+                    [line] => 96
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 92
+                    [function] => get
+                    [class] => ezcDbInstance
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/Base/src/init.php
+                    [line] => 120
+                    [function] => configureObject
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/EventLog/src/log.php
+                    [line] => 243
+                    [function] => fetchConfig
+                    [class] => ezcBaseInit
+                    [type] => ::
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhlog.php
+                    [line] => 64
+                    [function] => getInstance
+                    [class] => ezcLog
+                    [type] => ::
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 162
+                    [function] => write
+                    [class] => erLhcoreClassLog
+                    [type] => ::
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+)
+
+Oct 26 22:56:15 [Warning] [default] [default] ezcPersistentQueryException Object
+(
+    [message:protected] => A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;livechatdb.lhc_ms_auth&#039; doesn&#039;t exist Query: &#039;SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`completed` = :ezcValue1 AND `lhc_ms_auth`.`user_id` = :ezcValue2 ORDER BY lhc_ms_auth.id DESC LIMIT 500 OFFSET 0&#039;
+    [string:Exception:private] => ezcPersistentQueryException: A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;livechatdb.lhc_ms_auth&#039; doesn&#039;t exist Query: &#039;SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`completed` = :ezcValue1 AND `lhc_ms_auth`.`user_id` = :ezcValue2 ORDER BY lhc_ms_auth.id DESC LIMIT 500 OFFSET 0&#039; in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php:833
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(269): ezcPersistentSession->performQuery()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(194): ezcPersistentLoadHandler->find()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php(344): ezcPersistentSession->find()
+#3 /var/www/html/chatsd/lhc_web/cache/compiledtemplates/fd0e2d3db659efa3e2e2b9ee41bf2345.php(3): erLhcoreClassModelMSAuth::getList()
+#4 /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhuser/new.tpl.php(281): include('...')
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php(572): include('...')
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php(545): erLhcoreClassTemplate->fetchExecute()
+#7 /var/www/html/chatsd/lhc_web/modules/lhuser/new.php(132): erLhcoreClassTemplate->fetch()
+#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('...')
+#9 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#10 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#11 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+    [line:protected] => 833
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 269
+                    [function] => performQuery
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 194
+                    [function] => find
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php
+                    [line] => 344
+                    [function] => find
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/cache/compiledtemplates/fd0e2d3db659efa3e2e2b9ee41bf2345.php
+                    [line] => 3
+                    [function] => getList
+                    [class] => erLhcoreClassModelMSAuth
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhuser/new.tpl.php
+                    [line] => 281
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/cache/compiledtemplates/fd0e2d3db659efa3e2e2b9ee41bf2345.php
+                        )
+
+                    [function] => include
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php
+                    [line] => 572
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhuser/new.tpl.php
+                        )
+
+                    [function] => include
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php
+                    [line] => 545
+                    [function] => fetchExecute
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhuser/new.php
+                    [line] => 132
+                    [function] => fetch
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhuser/new.php
+                        )
+
+                    [function] => include
+                )
+
+            [9] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [10] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [originalMessage] => A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechatdb.lhc_ms_auth' doesn't exist Query: 'SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`completed` = :ezcValue1 AND `lhc_ms_auth`.`user_id` = :ezcValue2 ORDER BY lhc_ms_auth.id DESC LIMIT 500 OFFSET 0'
+)
+
+Oct 26 22:56:16 [Warning] [default] [default] ezcPersistentQueryException Object
+(
+    [message:protected] => A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;livechatdb.lhc_ms_auth&#039; doesn&#039;t exist Query: &#039;SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`completed` = :ezcValue1 AND `lhc_ms_auth`.`user_id` = :ezcValue2 ORDER BY lhc_ms_auth.id DESC LIMIT 500 OFFSET 0&#039;
+    [string:Exception:private] => ezcPersistentQueryException: A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table &#039;livechatdb.lhc_ms_auth&#039; doesn&#039;t exist Query: &#039;SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`completed` = :ezcValue1 AND `lhc_ms_auth`.`user_id` = :ezcValue2 ORDER BY lhc_ms_auth.id DESC LIMIT 500 OFFSET 0&#039; in /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php:833
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php(269): ezcPersistentSession->performQuery()
+#1 /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php(194): ezcPersistentLoadHandler->find()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php(344): ezcPersistentSession->find()
+#3 /var/www/html/chatsd/lhc_web/cache/compiledtemplates/fd0e2d3db659efa3e2e2b9ee41bf2345.php(3): erLhcoreClassModelMSAuth::getList()
+#4 /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhuser/new.tpl.php(281): include('...')
+#5 /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php(572): include('...')
+#6 /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php(545): erLhcoreClassTemplate->fetchExecute()
+#7 /var/www/html/chatsd/lhc_web/modules/lhuser/new.php(132): erLhcoreClassTemplate->fetch()
+#8 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('...')
+#9 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#10 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#11 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+    [line:protected] => 833
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/handlers/load_handler.php
+                    [line] => 269
+                    [function] => performQuery
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/ezcomponents/PersistentObject/src/persistent_session.php
+                    [line] => 194
+                    [function] => find
+                    [class] => ezcPersistentLoadHandler
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhdbtrait.php
+                    [line] => 344
+                    [function] => find
+                    [class] => ezcPersistentSession
+                    [type] => ->
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/cache/compiledtemplates/fd0e2d3db659efa3e2e2b9ee41bf2345.php
+                    [line] => 3
+                    [function] => getList
+                    [class] => erLhcoreClassModelMSAuth
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhuser/new.tpl.php
+                    [line] => 281
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/cache/compiledtemplates/fd0e2d3db659efa3e2e2b9ee41bf2345.php
+                        )
+
+                    [function] => include
+                )
+
+            [5] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php
+                    [line] => 572
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhuser/new.tpl.php
+                        )
+
+                    [function] => include
+                )
+
+            [6] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php
+                    [line] => 545
+                    [function] => fetchExecute
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [7] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhuser/new.php
+                    [line] => 132
+                    [function] => fetch
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [8] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhuser/new.php
+                        )
+
+                    [function] => include
+                )
+
+            [9] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [10] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [originalMessage] => A query failed internally in Persistent Object: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'livechatdb.lhc_ms_auth' doesn't exist Query: 'SELECT `lhc_ms_auth`.`id`, `lhc_ms_auth`.`oauth_uid`, `lhc_ms_auth`.`name`, `lhc_ms_auth`.`display_name`, `lhc_ms_auth`.`surname`, `lhc_ms_auth`.`email`, `lhc_ms_auth`.`txtSessionKey`, `lhc_ms_auth`.`txtCodeVerifier`, `lhc_ms_auth`.`dtExpires`, `lhc_ms_auth`.`txtRefreshToken`, `lhc_ms_auth`.`txtToken`, `lhc_ms_auth`.`txtIDToken`, `lhc_ms_auth`.`user_id`, `lhc_ms_auth`.`completed` FROM `lhc_ms_auth` WHERE `lhc_ms_auth`.`completed` = :ezcValue1 AND `lhc_ms_auth`.`user_id` = :ezcValue2 ORDER BY lhc_ms_auth.id DESC LIMIT 500 OFFSET 0'
+)
+
+Oct 26 23:20:22 [Warning] [default] [default] Error Object
+(
+    [message:protected] => Call to undefined function LiveHelperChatExtension\lhcmsauth\providers\MSOAuth\curl_init()
+    [string:Error:private] => Error: Call to undefined function LiveHelperChatExtension\lhcmsauth\providers\MSOAuth\curl_init() in /var/www/html/chatsd/lhc_web/extension/lhcmsauth/providers/MSOAuth/modOAuth.php:48
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/extension/lhcmsauth/modules/lhmsoauth/oauth.php(29): LiveHelperChatExtension\lhcmsauth\providers\MSOAuth\modOAuth->postRequest()
+#1 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('...')
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#3 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#4 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/extension/lhcmsauth/providers/MSOAuth/modOAuth.php
+    [line:protected] => 48
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/extension/lhcmsauth/modules/lhmsoauth/oauth.php
+                    [line] => 29
+                    [function] => postRequest
+                    [class] => LiveHelperChatExtension\lhcmsauth\providers\MSOAuth\modOAuth
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/extension/lhcmsauth/modules/lhmsoauth/oauth.php
+                        )
+
+                    [function] => include
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Error:private] => 
+)

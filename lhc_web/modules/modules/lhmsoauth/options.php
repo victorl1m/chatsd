@@ -69,7 +69,7 @@ $Result['path'] = array(
         'title' => erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth', 'EntraID')
     ),
     array(
-        'title' => erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth', 'Configurações')
+        'title' => erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth', 'Options')
     )
 );
 

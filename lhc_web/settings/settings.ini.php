@@ -28,10 +28,9 @@
       'maps_api_key' => false,
       'default_group' => '',
       'default_user' => '',
-      'site_address' => 'http://10.33.4.234/',
+      'site_address' => 'http://localhost/',
       'trusted_host_patterns' => 
       array (
-        0 => '^.+\\.callink\\.com\\.br$',
       ),
       'extensions' => 
       array (

@@ -1,6 +1,6 @@
 <?php
 
-$Module = array( "name" => "MS Auth",
+$Module = array( "name" => "EntraID",
          'variable_params' => true );
 
 $ViewList = array();

@@ -1,1 +1,1 @@
-<li role="presentation" class="nav-item"><a class="nav-link" href="#msoauth" aria-controls="msoauth" role="tab" data-bs-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth','MS Auth');?></a></li>
+<li role="presentation" class="nav-item"><a class="nav-link" href="#msoauth" aria-controls="msoauth" role="tab" data-bs-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth','EntraID');?></a></li>

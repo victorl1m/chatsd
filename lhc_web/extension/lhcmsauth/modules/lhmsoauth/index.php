@@ -6,7 +6,7 @@ $Result['content'] = $tpl->fetch();
 $Result['path'] = array(
     array(
         'url' => erLhcoreClassDesign::baseurl('msoauth/index'),
-        'title' => erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth', 'MS Auth')
+        'title' => erTranslationClassLhTranslation::getInstance()->getTranslation('module/msauth', 'EntraID')
     )
 );
 

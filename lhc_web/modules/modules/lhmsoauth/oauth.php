@@ -51,7 +51,7 @@ if ($sessionData) {
     // Fetch user information
     $Graph = new \LiveHelperChatExtension\lhcmsauth\providers\MSOAuth\modGraph($sessionData->txtToken);
 
-    $photo = $Graph->getPhoto();
+    // $photo = $Graph->getPhoto();
     $profile = $Graph->getProfile();
 
     $presentSession = erLhcoreClassModelMSAuth::findOne(['filtergt' => ['user_id' => 0], 'filter' => ['completed' => 1,'oauth_uid' => (string)$profile->id]]);
