@@ -1,6 +1,10 @@
 <?php
 
-namespace LiveHelperChatExtension\lhcmsauth\providers\MSOAuth;
+$sourceFolder = '/chatsd/lhc_web';
+
+include_once($sourceFolder . '/lib/core/lhconfig/lhconfig.php');
+
+$cfgSite = erConfigClassLhConfig::getInstance(); // Use the instance created in lhconfig.php
 
 /* oauth.php Azure AD oAuth class
  *
@@ -12,6 +16,8 @@ namespace LiveHelperChatExtension\lhcmsauth\providers\MSOAuth;
  *
  */
 
+
+
 class modOAuth
 {
     private $settings = null;
@@ -20,6 +26,18 @@ class modOAuth
     {
         $tOptions = \erLhcoreClassModelChatConfig::fetch('msauth_options');
         $this->settings = (array)$tOptions->data;
+    }
+
+
+    function decrypt(string $data, string $key) : string
+    {
+        $method = 'AES-256-CBC'; // Define your encryption method
+        $data = base64_decode($data);
+        $ivSize = openssl_cipher_iv_length($method); // Use $method instead of $this->method
+        $iv = substr($data, 0, $ivSize);
+        $data = openssl_decrypt(substr($data, $ivSize), $method, $key, OPENSSL_RAW_DATA, $iv); // Use $method instead of $this->method
+
+        return $data;
     }
 
     function errorMessage($message)
@@ -39,8 +57,10 @@ class modOAuth
 
     function generateRequest($data)
     {
-        // Use the client secret instead
-        return $data . '&client_secret=' . urlencode($this->settings['ms_secret']);
+        $encryptionKey = $cfgSite->getSetting('site', 'encryption_key');
+        $decryptedMsSecret = $this->decrypt($this->settings['ms_secret'], $encryptionKey);
+
+        return $data . '&client_secret=' . urlencode($decryptedMsSecret);
     }
 
     function postRequest($endpoint, $data)
