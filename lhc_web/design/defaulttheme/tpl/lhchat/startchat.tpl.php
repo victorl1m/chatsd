@@ -50,15 +50,99 @@
 
 <input type="hidden" name="onlyBotOnline" value="<?php echo $onlyBotOnline == true ? 1 : 0?>">
 
+<?php
+$clientID = "176d38e4-a4dc-4075-a6af-705faac6c784";
+$tenantID = "3fe7c148-e3a6-43a6-8592-c7833737c3f4";
+$secret = "eVj8Q~5Tn9gaEoytDLCMMn7kf~UQ0xUxrY-GRc49";
+$login_url ="https://login.microsoftonline.com/".$tenantID."/oauth2/v2.0/authorize";
+
+$_SESSION['state']=session_id();
+
+if ($_GET['action'] == 'login'){
+   $params = array (
+    'client_id' =>$clientID,
+    'redirect_uri' =>'https://localhost/chatsd/lhc_web/index.php/site_admin/chat/startchat',
+    'response_type' =>'token',
+    'response_mode' =>'form_post',
+    'scope' =>'https://graph.microsoft.com/User.Read',
+    'state' =>$_SESSION['state']);
+
+   header ('Location: '.$login_url.'?'.http_build_query ($params));
+}
+
+if (array_key_exists ('access_token', $_POST)){
+   $_SESSION['token'] = $_POST['access_token'];
+   $accessToken = $_SESSION['token'];
+
+   $curl = curl_init ();
+   curl_setopt ($curl, CURLOPT_HTTPHEADER, array ('Authorization: Bearer '.$accessToken, 'Content-type: application/json'));
+
+   curl_setopt ($curl, CURLOPT_URL, "https://graph.microsoft.com/v1.0/me/");
+   curl_setopt ($curl, CURLOPT_RETURNTRANSFER, 1);
+
+   $response = json_decode (curl_exec ($curl), 1);
+
+   if (array_key_exists ('error', $response)){  
+      var_dump ($response['error']);    
+      die();
+    }
+}
+
+if (!isset($_SESSION['token']) && !isset($_SESSION['redirected_to_login'])) {
+    $_SESSION['redirected_to_login'] = true;
+
+    header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
+    exit;
+}
+
+foreach ($response as $info => $value) {
+    switch ($info) {
+        case 'displayName':
+            $displayName = $value;
+            break;
+        case 'mail':
+            $mail = $value;
+            break;
+        case 'mobilePhone':
+            $mobilePhone = $value;
+            break;
+        case 'userPrincipalName':
+            $userPrincipalName = $value;
+            break;
+        case 'id':
+            $id = $value;
+            break;
+        default:
+        break;
+    }
+}
+
+if (isset($displayName)) {
+    setcookie('displayName', $displayName, time() + 3600, '/'); // Adjust the expiration time as needed
+}
+if (isset($mail)) {
+    setcookie('mail', $mail, time() + 3600, '/'); // Adjust the expiration time as needed
+}
+if (isset($mobilePhone)) {
+    setcookie('mobilePhone', $mobilePhone, time() + 3600, '/'); // Adjust the expiration time as needed
+}
+if (isset($userPrincipalName)) {
+    setcookie('userPrincipalName', $userPrincipalName, time() + 3600, '/'); // Adjust the expiration time as needed
+}
+if (isset($id)) {
+    setcookie('id', $id, time() + 3600, '/'); // Adjust the expiration time as needed
+}
+
+?>
 <?php if (isset($start_data_fields['name_visible_in_popup']) && $start_data_fields['name_visible_in_popup'] == true) : ?>
 	<?php if (isset($start_data_fields['name_hidden']) && $start_data_fields['name_hidden'] == true) : ?>
-	<input type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>" />
+	<input type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>"/>
 	<?php else : ?>
 		<?php if (in_array('username', $input_data->hattr)) : ?>
 			<input class="form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>" />
-		<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['name_hidden_bot']) && $start_data_fields['name_hidden_bot'] == true)) : ?>
+				<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['name_hidden_bot']) && $start_data_fields['name_hidden_bot'] == true)) : ?>
 		<div class="form-floating mb-3 mt-3">
-			<input id="name" maxlength="100" autofocus="autofocus" <?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" class="startchat-input form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="text" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>" />
+			<input id="name" maxlength="100" autofocus="autofocus" <?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" class="startchat-input form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="text" name="Username" value="<?php echo $displayName?>" />
 		    <label for="name" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Nome');?><?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>
@@ -73,7 +157,7 @@
 			<input class="form-control" type="hidden" name="Email" value="<?php echo htmlspecialchars($input_data->email);?>" />
 		<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['email_hidden_bot']) && $start_data_fields['email_hidden_bot'] == true)) : ?>
 		<div class="form-floating mb-3 mt-3">
-			<input id="email" autofocus="autofocus" <?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" class="form-control form-control-sm<?php if (isset($errors['email'])) : ?> is-invalid<?php endif;?>" type="text" name="Email" value="<?php echo htmlspecialchars($input_data->email);?>" />
+			<input id="email" autofocus="autofocus" <?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" class="form-control form-control-sm<?php if (isset($errors['email'])) : ?> is-invalid<?php endif;?>" type="text" name="Email" value="<?php echo htmlspecialchars($userPrincipalName);?>" />
 			<label for="email" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','E-mail');?><?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>
@@ -89,7 +173,7 @@
 			<input class="form-control" type="hidden" name="Phone" value="<?php echo htmlspecialchars($input_data->phone);?>" />
 		<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['phone_hidden_bot']) && $start_data_fields['phone_hidden_bot'] == true)) : ?>
 		<div class="form-floating mb-3 mt-3">
-			<input id="phone" autofocus="autofocus" <?php if (isset($start_data_fields['phone_require_option']) && $start_data_fields['phone_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your phone')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your phone')?>" class="form-control<?php if (isset($errors['phone'])) : ?> is-invalid<?php endif;?>" type="text" name="Phone" value="<?php echo htmlspecialchars($input_data->phone);?>" />
+			<input id="phone" autofocus="autofocus" <?php if (isset($start_data_fields['phone_require_option']) && $start_data_fields['phone_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your phone')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your phone')?>" class="form-control<?php if (isset($errors['phone'])) : ?> is-invalid<?php endif;?>" type="text" name="Phone" value="<?php echo $mobilePhone;?>" />
 			<label for="phone" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Telefone');?><?php if (isset($start_data_fields['phone_require_option']) && $start_data_fields['phone_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>
