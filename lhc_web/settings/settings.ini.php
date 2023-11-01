@@ -10,6 +10,7 @@
       'theme' => 'defaulttheme',
       'installed' => true,
       'secrethash' => '1922AE810D613248DE9AAB3FC24C07C49C4FF87E6CB010FEF8D2A23FA28D4197',
+      'encryption_key' => 'db8dffbc8043c92b343cfe7497e0087d1afae9d923beef55ae8a6e3a6a87c8a7',
       'debug_output' => false,
       'log_slow_request' => false,
       'templatecache' => false,
@@ -28,10 +29,9 @@
       'maps_api_key' => false,
       'default_group' => '',
       'default_user' => '',
-      'site_address' => 'http://10.33.4.234/',
+      'site_address' => 'http://localhost/',
       'trusted_host_patterns' => 
       array (
-        0 => '^.+\\.callink\\.com\\.br$',
       ),
       'extensions' => 
       array (
