@@ -51,13 +51,12 @@
 <input type="hidden" name="onlyBotOnline" value="<?php echo $onlyBotOnline == true ? 1 : 0?>">
 
 <?php
-session_start();
 $clientID = "176d38e4-a4dc-4075-a6af-705faac6c784";
 $tenantID = "3fe7c148-e3a6-43a6-8592-c7833737c3f4";
 $secret = "eVj8Q~5Tn9gaEoytDLCMMn7kf~UQ0xUxrY-GRc49";
 $login_url ="https://login.microsoftonline.com/".$tenantID."/oauth2/v2.0/authorize";
 
-$_SESSION['state']=session_id();
+$_SESSION['state'] = bin2hex (random_bytes (8));
 
 if ($_GET['action'] == 'login'){
    $params = array (
@@ -90,7 +89,7 @@ if (array_key_exists ('access_token', $_POST)){
 }
 
 unset($_SESSION['token']);
-unset($_SESSION['state']);
+unset($_SESSION['lhc_csfr_token']);
 
 // Check if the endpoint of the URL is "/startchat"
 $currentUrl = $_SERVER['REQUEST_URI'];
