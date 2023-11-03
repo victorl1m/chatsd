@@ -52,18 +52,15 @@
 
 <?php
 // Initialize variables
-$clientID = "176d38e4-a4dc-4075-a6af-705faac6c784";
+$clientID = "6e37a640-75f9-456c-80fc-10a2cba5f66d";
 $tenantID = "3fe7c148-e3a6-43a6-8592-c7833737c3f4";
-$secret = "eVj8Q~5Tn9gaEoytDLCMMn7kf~UQ0xUxrY-GRc49";
+$secret = "rLn8Q~3uy12a.7mTZ__vZxrYaKukS37bCaTdyaTM";
 $login_url ="https://login.microsoftonline.com/".$tenantID."/oauth2/v2.0/authorize";
 $displayName = $mail = $mobilePhone = $userPrincipalName = $id = null;
 
-// Initialize session
-session_start();
-
 // Clear previous token and state of session
-unset($_SESSION['token']);
-unset($_SESSION['lhc_csfr_token']);
+// unset($_SESSION['token']);
+// unset($_SESSION['lhc_csfr_token']);
 
 // Get user info User.Read scope
 if ($_GET['action'] == 'login') {
@@ -76,7 +73,7 @@ if ($_GET['action'] == 'login') {
         'scope' => 'https://graph.microsoft.com/User.Read',
         'state' => $_SESSION['state']
     );
-    header ('Location: '.$login_url.'?'.http_build_query($params));
+    header('Location: ' . $login_url . '?msafed=0&' . http_build_query($params));
     exit;
 }
 
@@ -88,7 +85,7 @@ if (array_key_exists('access_token', $_POST)) {
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_HTTPHEADER, array('Authorization: Bearer '.$accessToken, 'Content-type: application/json'));
 
-    curl_setopt($curl, CURLOPT_URL, "https://graph.microsoft.com/v1.0/me/");
+    curl_setopt($curl, CURLOPT_URL, "https://graph.microsoft.com/v1.0/me");
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 
     $response = json_decode(curl_exec($curl), true);
