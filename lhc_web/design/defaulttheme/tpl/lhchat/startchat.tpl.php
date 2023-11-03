@@ -51,50 +51,61 @@
 <input type="hidden" name="onlyBotOnline" value="<?php echo $onlyBotOnline == true ? 1 : 0?>">
 
 <?php
+// Initialize variables
 $clientID = "176d38e4-a4dc-4075-a6af-705faac6c784";
 $tenantID = "3fe7c148-e3a6-43a6-8592-c7833737c3f4";
 $secret = "eVj8Q~5Tn9gaEoytDLCMMn7kf~UQ0xUxrY-GRc49";
 $login_url ="https://login.microsoftonline.com/".$tenantID."/oauth2/v2.0/authorize";
+$displayName = $mail = $mobilePhone = $userPrincipalName = $id = null;
 
-$_SESSION['state']=session_id();
+// Initialize session
+session_start();
 
-if ($_GET['action'] == 'login'){
-   $params = array (
-    'client_id' =>$clientID,
-    'redirect_uri' =>'https://localhost/chatsd/lhc_web/index.php/site_admin/chat/startchat',
-    'response_type' =>'token',
-    'response_mode' =>'form_post',
-    'scope' =>'https://graph.microsoft.com/User.Read',
-    'state' =>$_SESSION['state']);
+// Clear previous token and state of session
+unset($_SESSION['token']);
+unset($_SESSION['lhc_csfr_token']);
 
-   header ('Location: '.$login_url.'?'.http_build_query ($params));
-}
-
-if (array_key_exists ('access_token', $_POST)){
-   $_SESSION['token'] = $_POST['access_token'];
-   $accessToken = $_SESSION['token'];
-
-   $curl = curl_init ();
-   curl_setopt ($curl, CURLOPT_HTTPHEADER, array ('Authorization: Bearer '.$accessToken, 'Content-type: application/json'));
-
-   curl_setopt ($curl, CURLOPT_URL, "https://graph.microsoft.com/v1.0/me/");
-   curl_setopt ($curl, CURLOPT_RETURNTRANSFER, 1);
-
-   $response = json_decode (curl_exec ($curl), 1);
-
-   if (array_key_exists ('error', $response)){  
-      var_dump ($response['error']);    
-      die();
-    }
-}
-
-if (!isset($_SESSION['token']) && !isset($_SESSION['redirected_to_login'])) {
-    $_SESSION['redirected_to_login'] = true;
-
-    header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
+// Get user info User.Read scope
+if ($_GET['action'] == 'login') {
+    $_SESSION['state'] = session_id();
+    $params = array (
+        'client_id' => $clientID,
+        'redirect_uri' => 'https://sdchathml.callink.com.br/index.php/site_admin/chat/startchat',
+        'response_type' => 'token',
+        'response_mode' => 'form_post',
+        'scope' => 'https://graph.microsoft.com/User.Read',
+        'state' => $_SESSION['state']
+    );
+    header ('Location: '.$login_url.'?'.http_build_query($params));
     exit;
 }
 
+// Checks to see if user has a token and output data (User.Read scope) to response
+if (array_key_exists('access_token', $_POST)) {
+    $_SESSION['token'] = $_POST['access_token'];
+    $accessToken = $_SESSION['token'];
+
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_HTTPHEADER, array('Authorization: Bearer '.$accessToken, 'Content-type: application/json'));
+
+    curl_setopt($curl, CURLOPT_URL, "https://graph.microsoft.com/v1.0/me/");
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+
+    $response = json_decode(curl_exec($curl), true);
+
+    if (array_key_exists('error', $response)) {
+        var_dump($response['error']);
+        die();
+    }
+}
+
+// Check if the user is logged in, if not redirect to login
+if (empty($_SESSION['token']) || empty($displayName)) {
+    header('Location: ' . $_SERVER['PHP_SELF'] . '?action=login');
+    exit;
+}
+
+// Make foreach to get the data from response
 foreach ($response as $info => $value) {
     switch ($info) {
         case 'displayName':
@@ -113,27 +124,14 @@ foreach ($response as $info => $value) {
             $id = $value;
             break;
         default:
-        break;
+            break;
     }
 }
 
-if (isset($displayName)) {
-    setcookie('displayName', $displayName, time() + 3600, '/'); // Adjust the expiration time as needed
-}
-if (isset($mail)) {
-    setcookie('mail', $mail, time() + 3600, '/'); // Adjust the expiration time as needed
-}
-if (isset($mobilePhone)) {
-    setcookie('mobilePhone', $mobilePhone, time() + 3600, '/'); // Adjust the expiration time as needed
-}
-if (isset($userPrincipalName)) {
-    setcookie('userPrincipalName', $userPrincipalName, time() + 3600, '/'); // Adjust the expiration time as needed
-}
-if (isset($id)) {
-    setcookie('id', $id, time() + 3600, '/'); // Adjust the expiration time as needed
-}
-
+print_r($_SESSION);
 ?>
+
+
 <?php if (isset($start_data_fields['name_visible_in_popup']) && $start_data_fields['name_visible_in_popup'] == true) : ?>
 	<?php if (isset($start_data_fields['name_hidden']) && $start_data_fields['name_hidden'] == true) : ?>
 	<input type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>"/>
