@@ -51,12 +51,11 @@
 <input type="hidden" name="onlyBotOnline" value="<?php echo $onlyBotOnline == true ? 1 : 0?>">
 
 <?php
-$clientID = "176d38e4-a4dc-4075-a6af-705faac6c784";
-$tenantID = "3fe7c148-e3a6-43a6-8592-c7833737c3f4";
-$secret = "eVj8Q~5Tn9gaEoytDLCMMn7kf~UQ0xUxrY-GRc49";
+$clientID = "668236bd-1b11-4c08-af0c-de005441899c";
+$tenantID = "934c73c1-88e9-4450-ad79-c68867456f9b";
+$secret = "qiV8Q~vUHFzZosFI3T.-9o96qctdNIu1ttuipddt";
 $login_url ="https://login.microsoftonline.com/".$tenantID."/oauth2/v2.0/authorize";
 
-$_SESSION['state'] = bin2hex (random_bytes (8));
 
 if ($_GET['action'] == 'login'){
    $params = array (
@@ -88,21 +87,22 @@ if (array_key_exists ('access_token', $_POST)){
     }
 }
 
+unset($_SESSION['action']);
 unset($_SESSION['token']);
 unset($_SESSION['lhc_csfr_token']);
 
 // Check if the endpoint of the URL is "/startchat"
 $currentUrl = $_SERVER['REQUEST_URI'];
 $endpoint = "/startchat";
-if (strpos($currentUrl, $endpoint) === false) {
-    if (empty($_SESSION['token']) && !isset($_SESSION['redirected_to_login'])) {
-        $_SESSION['redirected_to_login'] = true;
-        header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
-        exit;
-    } else {
-        unset($_SESSION['redirected_to_login']);
-    }
-}
+ if (strpos($currentUrl, $endpoint) === false) {
+     if (empty($_SESSION['token']) && !isset($_SESSION['redirected_to_login'])) {
+         $_SESSION['redirected_to_login'] = true;
+         header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
+         exit;
+     } else {
+         unset($_SESSION['redirected_to_login']);
+     }
+ }
 
 $displayName = $mail = $mobilePhone = $userPrincipalName = $id = null;
 
@@ -128,11 +128,11 @@ foreach ($response as $info => $value) {
     }
 }
 
-if (empty($displayName) && !isset($_SESSION['redirected_to_login'])) {
-    $_SESSION['redirected_to_login'] = true;
-    header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
-    exit;
-}
+ if (empty($displayName) && !isset($_SESSION['redirected_to_login'])) {
+     $_SESSION['redirected_to_login'] = true;
+     header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
+     exit;
+ }
 
 print_r($_SESSION)
 ?>
