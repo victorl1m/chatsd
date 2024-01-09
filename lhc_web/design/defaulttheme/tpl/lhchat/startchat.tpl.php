@@ -133,8 +133,6 @@ foreach ($response as $info => $value) {
      header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
      exit;
  }
-
-print_r($_SESSION)
 ?>
 
 <?php if (isset($start_data_fields['name_visible_in_popup']) && $start_data_fields['name_visible_in_popup'] == true) : ?>
