@@ -1,0 +1,16 @@
+mkdir cache
+mkdir var
+mkdir settings
+mkdir var/storage
+mkdir var/userphoto
+mkdir var/storageform
+mkdir var/storageadmintheme
+mkdir var/botphoto
+mkdir var/bottrphoto
+mkdir var/storageinvitation
+mkdir var/storagedocshare
+mkdir var/storagetheme
+mkdir var/tmpfiles
+mkdir cache/cacheconfig
+mkdir cache/compiledtemplates
+mkdir cache/translations

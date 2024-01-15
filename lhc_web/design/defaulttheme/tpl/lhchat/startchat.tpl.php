@@ -56,8 +56,16 @@ $tenantID = "934c73c1-88e9-4450-ad79-c68867456f9b";
 $secret = "qiV8Q~vUHFzZosFI3T.-9o96qctdNIu1ttuipddt";
 $login_url ="https://login.microsoftonline.com/".$tenantID."/oauth2/v2.0/authorize";
 
+$currentUrl = $_SERVER['REQUEST_URI'];
+$endpoint = "/startchat";
+$displayName = $mail = $mobilePhone = $userPrincipalName = $id = null;
+
+unset($_SESSION['redirected_to_login']);
+unset($_SESSION['token']);
+unset($_SESSION['state']);
 
 if ($_GET['action'] == 'login'){
+	$_SESSION['redirected_to_login'] = true;
    $params = array (
     'client_id' =>$clientID,
     'redirect_uri' =>'https://sdchathml.callink.com.br/index.php/site_admin/chat/startchat',
@@ -87,13 +95,6 @@ if (array_key_exists ('access_token', $_POST)){
     }
 }
 
-unset($_SESSION['action']);
-unset($_SESSION['token']);
-unset($_SESSION['lhc_csfr_token']);
-
-// Check if the endpoint of the URL is "/startchat"
-$currentUrl = $_SERVER['REQUEST_URI'];
-$endpoint = "/startchat";
  if (strpos($currentUrl, $endpoint) === false) {
      if (empty($_SESSION['token']) && !isset($_SESSION['redirected_to_login'])) {
          $_SESSION['redirected_to_login'] = true;
@@ -104,7 +105,6 @@ $endpoint = "/startchat";
      }
  }
 
-$displayName = $mail = $mobilePhone = $userPrincipalName = $id = null;
 
 foreach ($response as $info => $value) {
     switch ($info) {
@@ -135,15 +135,16 @@ foreach ($response as $info => $value) {
  }
 ?>
 
-<?php if (isset($start_data_fields['name_visible_in_popup']) && $start_data_fields['name_visible_in_popup'] == true) : ?>
-	<?php if (isset($start_data_fields['name_hidden']) && $start_data_fields['name_hidden'] == true) : ?>
-	<input type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>"/>
-	<?php else : ?>
-		<?php if (in_array('username', $input_data->hattr)) : ?>
-			<input class="form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>" />
-				<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['name_hidden_bot']) && $start_data_fields['name_hidden_bot'] == true)) : ?>
-		<div class="form-floating mb-3 mt-3">
-			<input id="name" maxlength="100" autofocus="autofocus" <?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" class="startchat-input form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="text" name="Username" value="<?php echo $displayName?>" />
+<div class="d-none">
+    <?php if (isset($start_data_fields['name_visible_in_popup']) && $start_data_fields['name_visible_in_popup'] == true) : ?>
+        <?php if (isset($start_data_fields['name_hidden']) && $start_data_fields['name_hidden'] == true) : ?>
+            <input type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>"/>
+            <?php else : ?>
+                <?php if (in_array('username', $input_data->hattr)) : ?>
+                    <input class="form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="hidden" name="Username" value="<?php echo htmlspecialchars($input_data->username);?>" />
+                        <?php elseif (!($onlyBotOnline == true && isset($start_data_fields['name_hidden_bot']) && $start_data_fields['name_hidden_bot'] == true)) : ?>
+                            <div class="form-floating mb-3 mt-3">
+                                <input id="name" maxlength="100" autofocus="autofocus" <?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your name');?>" class="startchat-input form-control form-control-sm<?php if (isset($errors['nick'])) : ?> is-invalid<?php endif;?>" type="text" name="Username" value="<?php echo $displayName?>" />
 		    <label for="name" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Nome');?><?php if (isset($start_data_fields['name_require_option']) && $start_data_fields['name_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>
@@ -164,6 +165,7 @@ foreach ($response as $info => $value) {
 		<?php endif; ?>
 	<?php endif; ?>
 <?php endif; ?>
+</div>
 
 <?php if (isset($start_data_fields['phone_visible_in_popup']) && $start_data_fields['phone_visible_in_popup'] == true) : ?>
 

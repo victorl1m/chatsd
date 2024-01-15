@@ -6,7 +6,7 @@
     array (
       'translationfile' => 0,
       'accessfile' => 0,
-      'translationfile_pt_BR' => 1698364662,
+      'translationfile_pt_BR' => 1704823362,
       'translationfile_lt_LT' => 0,
       'translationfile_sk_SK' => 0,
       'translationfile_hr_HR' => 0,

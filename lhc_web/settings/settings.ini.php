@@ -29,7 +29,7 @@
       'maps_api_key' => false,
       'default_group' => '',
       'default_user' => '',
-      'site_address' => 'http://localhost/',
+      'site_address' => 'https://sdchat.callink.com.br',
       'trusted_host_patterns' => 
       array (
       ),

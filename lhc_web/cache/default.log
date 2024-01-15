@@ -2548,3 +2548,40 @@ Stack trace:
 
     [previous:Error:private] => 
 )
+Jan 09 15:15:28 [Warning] [default] [default] {
+    "message": "The directory file 'cache\/compiledtemplates' could not be found.",
+    "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+    "line": 117,
+    "trace": [
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php",
+            "line": 233,
+            "function": "walkRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php",
+            "line": 119,
+            "function": "findRecursive",
+            "class": "ezcBaseFile",
+            "type": "::"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php",
+            "line": 6,
+            "function": "expireCache",
+            "class": "erConfigClassLhCacheConfig",
+            "type": "->"
+        },
+        {
+            "file": "\/var\/www\/html\/chatsd\/lhc_web\/cron.php",
+            "line": 167,
+            "args": [
+                "\/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php"
+            ],
+            "function": "include_once"
+        }
+    ],
+    "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/compiledtemplates' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(119): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
+}
