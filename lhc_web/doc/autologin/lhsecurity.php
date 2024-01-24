@@ -1,7 +1,6 @@
 <?php
 
 class lhSecurity {
-
     public static $method = 'AES-256-CBC';
 
     public static function encrypt(string $data, string $key) : string
@@ -27,7 +26,6 @@ class lhSecurity {
         return $data;
     }
 }
-
 ?>
 
 <script type="text/javascript">

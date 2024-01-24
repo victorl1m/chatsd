@@ -51,32 +51,45 @@
 <input type="hidden" name="onlyBotOnline" value="<?php echo $onlyBotOnline == true ? 1 : 0?>">
 
 <?php
-$clientID = "668236bd-1b11-4c08-af0c-de005441899c";
-$tenantID = "934c73c1-88e9-4450-ad79-c68867456f9b";
-$secret = "qiV8Q~vUHFzZosFI3T.-9o96qctdNIu1ttuipddt";
+// Initialize settings.ini.php from settings/
+$cfgSite = erConfigClassLhConfig::getInstance();
+
+// Initialization of variables
+$clientID = $cfgSite->getSetting( 'site', 'msauth_client' );
+$tenantID = $cfgSite->getSetting( 'site', 'msauth_tenant' );
+$secret = $cfgSite->getSetting( 'site', 'msauth_secret' );
+$redirectURI = $cfgSite->getSetting( 'site', 'msauth_redirect' );
+$scope = $cfgSite->getSetting( 'site', 'msauth_scope' );
 $login_url ="https://login.microsoftonline.com/".$tenantID."/oauth2/v2.0/authorize";
 
+// Get current url and the endpoint to redirect
 $currentUrl = $_SERVER['REQUEST_URI'];
 $endpoint = "/startchat";
+
+// Initialize user info with null values
 $displayName = $mail = $mobilePhone = $userPrincipalName = $id = null;
 
+
+// Reset session variables
 unset($_SESSION['redirected_to_login']);
 unset($_SESSION['token']);
 unset($_SESSION['state']);
 
+// Create action in http url to redirect to login page
 if ($_GET['action'] == 'login'){
 	$_SESSION['redirected_to_login'] = true;
    $params = array (
     'client_id' =>$clientID,
-    'redirect_uri' =>'https://sdchathml.callink.com.br/index.php/site_admin/chat/startchat',
+    'redirect_uri' =>$redirectURI,
     'response_type' =>'token',
     'response_mode' =>'form_post',
-    'scope' =>'https://graph.microsoft.com/User.Read',
+    'scope' =>$scope,
     'state' =>$_SESSION['state']);
 
    header ('Location: '.$login_url.'?'.http_build_query ($params));
 }
 
+// Check if user is logged in, if not, redirect
 if (array_key_exists ('access_token', $_POST)){
    $_SESSION['token'] = $_POST['access_token'];
    $accessToken = $_SESSION['token'];
@@ -89,12 +102,15 @@ if (array_key_exists ('access_token', $_POST)){
 
    $response = json_decode (curl_exec ($curl), 1);
 
+   // Dump errors
    if (array_key_exists ('error', $response)){  
       var_dump ($response['error']);    
       die();
     }
 }
 
+// Only redirect if is in /startchat endpoint
+// Check the url of the user, to redirect one time only, when access token is not set (fix of too_many_redirects)
  if (strpos($currentUrl, $endpoint) === false) {
      if (empty($_SESSION['token']) && !isset($_SESSION['redirected_to_login'])) {
          $_SESSION['redirected_to_login'] = true;
@@ -105,7 +121,7 @@ if (array_key_exists ('access_token', $_POST)){
      }
  }
 
-
+ // Get info from object response and separate in variables
 foreach ($response as $info => $value) {
     switch ($info) {
         case 'displayName':
@@ -128,6 +144,7 @@ foreach ($response as $info => $value) {
     }
 }
 
+// If the important info is null or empty redirect to login page to get updated info
  if (empty($displayName) && !isset($_SESSION['redirected_to_login'])) {
      $_SESSION['redirected_to_login'] = true;
      header('Location: '.$_SERVER['PHP_SELF'].'?action=login');
@@ -159,7 +176,7 @@ foreach ($response as $info => $value) {
 			<input class="form-control" type="hidden" name="Email" value="<?php echo htmlspecialchars($input_data->email);?>" />
 		<?php elseif (!($onlyBotOnline == true && isset($start_data_fields['email_hidden_bot']) && $start_data_fields['email_hidden_bot'] == true)) : ?>
 		<div class="form-floating mb-3 mt-3">
-			<input id="email" autofocus="autofocus" <?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" class="form-control form-control-sm<?php if (isset($errors['email'])) : ?> is-invalid<?php endif;?>" type="text" name="Email" value="<?php echo htmlspecialchars($userPrincipalName);?>" />
+			<input id="email" autofocus="autofocus" <?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?>aria-required="true" required<?php endif;?> aria-label="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" placeholder="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','Enter your email address')?>" class="form-control form-control-sm<?php if (isset($errors['email'])) : ?> is-invalid<?php endif;?>" type="text" name="Email" value="<?php echo htmlspecialchars($mail);?>" />
 			<label for="email" class="floating-label"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/startchat','E-mail');?><?php if (isset($start_data_fields['email_require_option']) && $start_data_fields['email_require_option'] == 'required') : ?><a class="anchor-required">*</a><?php endif;?></label>
 		</div>
 		<?php endif; ?>

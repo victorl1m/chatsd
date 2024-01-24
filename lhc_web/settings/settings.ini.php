@@ -11,6 +11,11 @@
       'installed' => true,
       'secrethash' => '1922AE810D613248DE9AAB3FC24C07C49C4FF87E6CB010FEF8D2A23FA28D4197',
       'encryption_key' => 'db8dffbc8043c92b343cfe7497e0087d1afae9d923beef55ae8a6e3a6a87c8a7',
+      'msauth_client' => '668236bd-1b11-4c08-af0c-de005441899c',
+      'msauth_tenant' => '934c73c1-88e9-4450-ad79-c68867456f9b',
+      'msauth_secret' => 'qiV8Q~vUHFzZosFI3T.-9o96qctdNIu1ttuipddt',
+      'msauth_scope' => 'https://graph.microsoft.com/User.Read',
+      'msauth_redirect' => 'https://sdchathml.callink.com.br/index.php/site_admin/chat/startchat',
       'debug_output' => false,
       'log_slow_request' => false,
       'templatecache' => false,
@@ -29,8 +34,10 @@
       'maps_api_key' => false,
       'default_group' => '',
       'default_user' => '',
-      'site_address' => 'https://sdchat.callink.com.br',
-      'trusted_host_patterns' => 
+      'site_address' => 'https://sdchathml.callink.com.br',
+      'trusted_host_patterns' => [
+        '^.+\.callink\.com\.br$',
+      ],
       array (
       ),
       'extensions' => 

@@ -189,7 +189,6 @@ $UserData = $currentUser->getUserData(true);
                 </div>
 
                 <script>
-
                     function profileDropdown() {
                         document.querySelector('.profile-dropdown').classList.toggle('active');
 
@@ -208,8 +207,6 @@ $UserData = $currentUser->getUserData(true);
                             document.querySelector('.blur-bg').classList.remove('active');
                         })
                     }
-
-
                 </script>
 
                 <!-- logout -->

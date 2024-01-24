@@ -2585,3 +2585,71 @@ Jan 09 15:15:28 [Warning] [default] [default] {
     ],
     "raw": "ezcBaseFileNotFoundException: The directory file 'cache\/compiledtemplates' could not be found. in \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php:117\nStack trace:\n#0 \/var\/www\/html\/chatsd\/lhc_web\/ezcomponents\/Base\/src\/file.php(233): ezcBaseFile::walkRecursive()\n#1 \/var\/www\/html\/chatsd\/lhc_web\/lib\/core\/lhconfig\/lhcacheconfig.php(119): ezcBaseFile::findRecursive()\n#2 \/var\/www\/html\/chatsd\/lhc_web\/modules\/lhcron\/util\/clear_cache.php(6): erConfigClassLhCacheConfig->expireCache()\n#3 \/var\/www\/html\/chatsd\/lhc_web\/cron.php(167): include_once('\/var\/www\/html\/c...')\n#4 {main}"
 }
+Jan 15 11:57:47 [Warning] [default] [default] ParseError Object
+(
+    [message:protected] => syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+    [string:Error:private] => ParseError: syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhchat/startchat.tpl.php:146
+Stack trace:
+#0 /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php(545): erLhcoreClassTemplate->fetchExecute()
+#1 /var/www/html/chatsd/lhc_web/modules/lhchat/startchat.php(684): erLhcoreClassTemplate->fetch()
+#2 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(108): include('/var/www/html/c...')
+#3 /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php(658): erLhcoreClassModule::runModule()
+#4 /var/www/html/chatsd/lhc_web/index.php(50): erLhcoreClassModule::moduleInit()
+#5 {main}
+    [code:protected] => 0
+    [file:protected] => /var/www/html/chatsd/lhc_web/design/defaulttheme/tpl/lhchat/startchat.tpl.php
+    [line:protected] => 146
+    [trace:Error:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhtpl/tpl.php
+                    [line] => 545
+                    [function] => fetchExecute
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [1] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/modules/lhchat/startchat.php
+                    [line] => 684
+                    [function] => fetch
+                    [class] => erLhcoreClassTemplate
+                    [type] => ->
+                )
+
+            [2] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 108
+                    [args] => Array
+                        (
+                            [0] => /var/www/html/chatsd/lhc_web/modules/lhchat/startchat.php
+                        )
+
+                    [function] => include
+                )
+
+            [3] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/lib/core/lhcore/lhmodule.php
+                    [line] => 658
+                    [function] => runModule
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+            [4] => Array
+                (
+                    [file] => /var/www/html/chatsd/lhc_web/index.php
+                    [line] => 50
+                    [function] => moduleInit
+                    [class] => erLhcoreClassModule
+                    [type] => ::
+                )
+
+        )
+
+    [previous:Error:private] => 
+)
